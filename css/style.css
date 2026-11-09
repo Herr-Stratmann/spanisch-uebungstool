@@ -76,6 +76,9 @@ h2 { font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
 .knopf[aria-checked="true"] { background: var(--primaer); color: var(--primaer-text); }
 .knopfreihe { display: flex; flex-wrap: wrap; gap: .6rem; margin: .75rem 0; }
 .knopfreihe.pruefen .knopf, .knopfreihe.selbst .knopf { flex: 1 1 12rem; }
+.knopf.leise { border-color: var(--linie); color: var(--text-leise); font-weight: 600; }
+.knopfreihe.hilfe { margin-top: .25rem; }
+.option.ausgeschlossen { opacity: .45; text-decoration: line-through; }
 .link { font: inherit; background: none; border: 0; color: var(--primaer); text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0; }
 
 /* Startseite */

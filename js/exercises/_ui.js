@@ -2,7 +2,7 @@
 // gestuftes Feedback (§6.3), Beamer-Variante (§9).
 
 import { h, leere, anfuegen } from '../dom.js';
-import { normalisiere } from '../check.js';
+import { normalisiere, tipp } from '../check.js';
 import { findeTeil } from '../text.js';
 import { pruefeAntwort } from '../check.js';
 import { ergebnisAusVersuchen } from '../ablauf.js';
@@ -69,6 +69,16 @@ export function weiterKnopf(beimKlick, text = 'Weiter →') {
   return k;
 }
 
+/** „💡 Tipp“ und „Weiß ich nicht“: Hilfe ohne vorherige Eingabe. */
+function hilfeKnoepfe({ beimTipp, beimAufgeben }) {
+  const tippKnopf = h('button', { type: 'button', class: 'knopf klein leise', onclick: () => beimTipp() }, '💡 Tipp');
+  const aufgebenKnopf = h('button', { type: 'button', class: 'knopf klein leise', onclick: () => beimAufgeben() }, 'Weiß ich nicht');
+  return {
+    el: h('div', { class: 'knopfreihe hilfe' }, tippKnopf, aufgebenKnopf),
+    ohneTipp() { tippKnopf.remove(); }
+  };
+}
+
 function hinweisSicher() {
   return h('p', { class: 'sicher-falsch' },
     '⚠ Du warst dir sicher – genau solche Fehler lohnen sich. Schau dir die Lösung in Ruhe an.');
@@ -98,9 +108,17 @@ export function eingabeAufgabe(container, cfg, ctx) {
 
   let versuch = 1;
   const knoepfe = pruefButtons(pruefe);
+  const hilfe = hilfeKnoepfe({ beimTipp: zeigeTipp, beimAufgeben: () => zeigeLoesung(cfg.akzeptiert[0], false) });
   knoepfe.aktiv(false);
-  unten.append(knoepfe.el);
+  unten.append(knoepfe.el, hilfe.el);
   feld.addEventListener('input', () => knoepfe.aktiv(feld.value.trim() !== ''));
+
+  function zeigeTipp() {
+    leere(bereich).append(rueckmeldung('hinweis', cfg.tipp ?? tipp(cfg.akzeptiert[0]), { titel: 'Tipp' }));
+    versuch = 2;
+    hilfe.ohneTipp();
+    feld.focus();
+  }
   feld.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !cfg.mehrzeilig) { e.preventDefault(); feld.blur(); } });
   setTimeout(() => feld.focus(), 50);
 
@@ -116,11 +134,18 @@ export function eingabeAufgabe(container, cfg, ctx) {
     if (r.zweiterVersuch) {
       bereich.append(rueckmeldung('hinweis', r.hinweis, { betont: r.hervorheben }));
       versuch = 2;
+      hilfe.ohneTipp();
       feld.focus();
       feld.select();
       return;
     }
+    zeigeLoesung(r.loesung, r.hervorheben, sicher);
+  }
+
+  function zeigeLoesung(loesung, hervorheben, sicher = false) {
     feld.readOnly = true;
+    leere(bereich);
+    const r = { loesung, hervorheben };
     const abtippen = eingabe({ beschriftung: 'Lösung abtippen (freiwillig)' });
     abtippen.feld.placeholder = 'Lösung einmal abtippen (freiwillig)';
     const abtippenOk = h('p', { class: 'abtippen-ok', role: 'status' });
@@ -167,8 +192,28 @@ export function auswahlAufgabe(container, cfg, ctx) {
     }, 'Lösung zeigen'));
     return;
   }
+  const hilfe = hilfeKnoepfe({ beimTipp: zeigeTipp, beimAufgeben: aufgeben });
   knoepfe.aktiv(false);
-  unten.append(knoepfe.el);
+  unten.append(knoepfe.el, hilfe.el);
+
+  function zeigeTipp() {
+    // Eine falsche Option ausschließen und den Beispielsatz als Kontext zeigen.
+    const falsch = cfg.optionen.find((o) => !o.richtig && !o.el.disabled);
+    if (falsch) { falsch.el.disabled = true; falsch.el.classList.add('ausgeschlossen'); falsch.el.setAttribute('aria-checked', 'false'); }
+    if (gewaehlt === falsch) { gewaehlt = null; knoepfe.aktiv(false); }
+    leere(bereich).append(rueckmeldung('hinweis', 'Eine falsche Antwort ist ausgeblendet.', { titel: 'Tipp', extra: [cfg.hinweis] }));
+    versuch = 2;
+    hilfe.ohneTipp();
+  }
+
+  function aufgeben() {
+    leere(bereich);
+    optionen.forEach((x) => { x.disabled = true; });
+    const richtig = cfg.optionen.find((o) => o.richtig);
+    richtig.el.classList.add('ist-richtig');
+    bereich.append(rueckmeldung('falsch', null, { titel: `Lösung: ${richtig.text}`, extra: [cfg.loesungsInfo] }));
+    leere(unten).append(weiterKnopf(() => ctx.fertig('falsch', { sicher: false })));
+  }
 
   function waehle(o, b) {
     if (b.disabled) return;
@@ -192,6 +237,7 @@ export function auswahlAufgabe(container, cfg, ctx) {
     if (versuch === 1) {
       versuch = 2;
       gewaehlt = null;
+      hilfe.ohneTipp();
       knoepfe.aktiv(false);
       bereich.append(rueckmeldung('hinweis', null, { betont: sicher, extra: [cfg.hinweis] }));
       return;

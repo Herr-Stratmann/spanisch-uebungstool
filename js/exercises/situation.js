@@ -42,8 +42,18 @@ export function render(container, item, ctx) {
   const { feld, el } = eingabe({ mehrzeilig: true, beschriftung: 'Dein Satz' });
   const fertigKnopf = h('button', { type: 'button', class: 'knopf primaer', disabled: true, onclick: vergleiche }, 'Fertig – vergleichen');
   feld.addEventListener('input', () => { fertigKnopf.disabled = feld.value.trim() === ''; });
+  const aufgeben = h('button', {
+    type: 'button', class: 'knopf klein leise', onclick: () => {
+      feld.readOnly = true;
+      leere(unten);
+      bereich.append(
+        rueckmeldung('info', 'Lies die Musterlösung laut und versuch es beim nächsten Mal selbst.', { titel: 'Kein Problem' }),
+        muster(item));
+      unten.append(weiter(() => ctx.fertig('nochNicht')));
+    }
+  }, 'Weiß ich nicht – Muster zeigen');
   container.append(kopf, el, bereich, unten);
-  unten.append(fertigKnopf);
+  unten.append(fertigKnopf, h('div', { class: 'knopfreihe hilfe' }, aufgeben));
   setTimeout(() => feld.focus(), 50);
 
   async function vergleiche() {

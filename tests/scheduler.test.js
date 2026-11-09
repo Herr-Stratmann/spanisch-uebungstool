@@ -362,6 +362,15 @@ describe('stelleSitzungZusammen (§5 Sitzung)', () => {
     assert.ok(neue.every((a) => a.stufe === 2 && a.erstkontakt === 'diagnose'));
   });
 
+  test('Wiederholen über alle Unidades: noch nicht geübte Wörter kommen aus dem ganzen Bereich', () => {
+    const items = vieleItems(40, [1, 2, 3, 4, 5, 6, 7, 8]);
+    for (const seed of [1, 2, 3]) {
+      const s = stelleSitzungZusammen({ items, fortschritt: {}, heute: HEUTE, max: 15, erstkontakt: 'diagnose', rng: seeded(seed) });
+      const unidades = new Set(s.map((a) => a.unidad));
+      assert.ok(unidades.size >= 5, `Seed ${seed}: nur Unidades ${[...unidades]}`);
+    }
+  });
+
   test('Wiederholen ignoriert nicht_zusammen_mit (alles schon einmal gelernt)', () => {
     const items = [item('lunes', 4, { nicht_zusammen_mit: ['martes'] }), item('martes', 4)];
     const s = stelleSitzungZusammen({ items, fortschritt: {}, heute: HEUTE, erstkontakt: 'diagnose', rng: seeded() });

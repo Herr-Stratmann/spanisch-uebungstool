@@ -203,7 +203,8 @@ export function stelleSitzungZusammen({
   if (erstkontakt === 'diagnose') {
     // Wiederholen von bereits Gelerntem: erst Fälliges, dann Unbekanntes direkt abfragen.
     wiederholungen = faellige.slice(0, max);
-    neue = unbekannt.slice(0, Math.min(neueAnzahl ?? max, max - wiederholungen.length));
+    // Zufällig aus dem ganzen Bereich – sonst kämen bei „alle Unidades“ fast nur die ersten dran.
+    neue = mische(unbekannt, rng).slice(0, Math.min(neueAnzahl ?? max, max - wiederholungen.length));
   } else {
     // Neu lernen: ca. 70 % Wiederholungen, Rest neue Wörter (Prämisse 5 beachten).
     const plaetze = Math.min(neueAnzahl ?? neueMax, max - Math.min(faellige.length, Math.round(max * (1 - ANTEIL_NEU))));

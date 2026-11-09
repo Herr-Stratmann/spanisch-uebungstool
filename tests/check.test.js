@@ -1,6 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { normalisiere, ohneAkzente, levenshtein, pruefeAntwort } from '../js/check.js';
+import { normalisiere, ohneAkzente, levenshtein, pruefeAntwort, tipp } from '../js/check.js';
 
 describe('normalisiere (§6.1)', () => {
   test('trimmt, macht klein, fasst Leerzeichen zusammen', () => {
@@ -148,5 +148,14 @@ describe('pruefeAntwort – Versuche (§6.3)', () => {
   test('richtige Antwort bei „sicher“ wird nicht hervorgehoben', () => {
     const r = pruefeAntwort('el gato', { akzeptiert: ['el gato'] }, { sicher: true });
     assert.equal(r.hervorheben, false);
+  });
+});
+
+describe('tipp (Hilfe ohne vorherige Eingabe)', () => {
+  test('nennt Anfangsbuchstabe und Länge', () => {
+    assert.equal(tipp('el gato'), 'Die Lösung beginnt mit „e“ und hat 7 Zeichen.');
+  });
+  test('lässt ¡ und ¿ beim Anfangsbuchstaben weg', () => {
+    assert.match(tipp('¡Hola!'), /„H“/);
   });
 });

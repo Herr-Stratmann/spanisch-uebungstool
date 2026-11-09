@@ -62,12 +62,16 @@ function hinweisFuer(klasse, loesung) {
     case 'enye': return 'Achte auf das ñ – es ist ein eigener Buchstabe (año ≠ ano).';
     case 'artikel': return 'Der Artikel fehlt. Lerne Substantive immer mit el, la, los oder las.';
     case 'tippfehler': return 'Fast! Prüf die Schreibung.';
-    case 'falsch': {
-      const zeichen = [...loesung];
-      return `Die Lösung beginnt mit „${zeichen[0]}“ und hat ${zeichen.length} Zeichen.`;
-    }
+    case 'falsch': return tipp(loesung);
     default: return '';
   }
+}
+
+/** Hilfe ohne vorherige Eingabe: Anfangsbuchstabe und Länge (¡ ¿ zählen nicht als Anfang). */
+export function tipp(loesung) {
+  const zeichen = [...loesung];
+  const erster = zeichen.find((z) => !'¡¿'.includes(z)) ?? zeichen[0];
+  return `Die Lösung beginnt mit „${erster}“ und hat ${zeichen.length} Zeichen.`;
 }
 
 /**
