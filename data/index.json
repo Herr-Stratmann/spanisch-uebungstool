@@ -18,6 +18,12 @@
       "nr": 3,
       "titel": "Unidad 3",
       "vocab": "vocab/unidad-03.json"
+    },
+    {
+      "band": 1,
+      "nr": 4,
+      "titel": "Unidad 4",
+      "vocab": "vocab/unidad-04.json"
     }
   ],
   "grammar": [
