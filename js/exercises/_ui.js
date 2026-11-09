@@ -109,7 +109,7 @@ export function eingabeAufgabe(container, cfg, ctx) {
     if (r.richtig) {
       feld.readOnly = true;
       bereich.append(rueckmeldung('richtig', r.klasse === 'akzent' ? r.hinweis : null, { extra: [cfg.loesungsInfo] }));
-      leere(unten).append(weiterKnopf(() => ctx.fertig(ergebnisAusVersuchen(versuch, true))));
+      leere(unten).append(weiterKnopf(() => ctx.fertig(ergebnisAusVersuchen(versuch, true), { sicher })));
       return;
     }
     if (r.zweiterVersuch) {
@@ -132,7 +132,7 @@ export function eingabeAufgabe(container, cfg, ctx) {
       betont: r.hervorheben,
       extra: [r.hervorheben ? hinweisSicher() : null, cfg.loesungsInfo, abtippen.el]
     }));
-    leere(unten).append(weiterKnopf(() => ctx.fertig('falsch')));
+    leere(unten).append(weiterKnopf(() => ctx.fertig('falsch', { sicher })));
   }
 }
 
@@ -182,7 +182,7 @@ export function auswahlAufgabe(container, cfg, ctx) {
       optionen.forEach((x) => { x.disabled = true; });
       gewaehlt.el.classList.add('ist-richtig');
       bereich.append(rueckmeldung('richtig', null, { extra: [cfg.loesungsInfo] }));
-      leere(unten).append(weiterKnopf(() => ctx.fertig(ergebnisAusVersuchen(versuch, true))));
+      leere(unten).append(weiterKnopf(() => ctx.fertig(ergebnisAusVersuchen(versuch, true), { sicher })));
       return;
     }
     gewaehlt.el.classList.add('ist-falsch');
@@ -202,7 +202,7 @@ export function auswahlAufgabe(container, cfg, ctx) {
       betont: sicher,
       extra: [sicher ? hinweisSicher() : null, cfg.loesungsInfo]
     }));
-    leere(unten).append(weiterKnopf(() => ctx.fertig('falsch')));
+    leere(unten).append(weiterKnopf(() => ctx.fertig('falsch', { sicher })));
   }
 }
 

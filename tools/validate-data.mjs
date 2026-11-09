@@ -30,7 +30,9 @@ const istTextListe = (x) => Array.isArray(x) && x.length > 0 && x.every(istText)
 
 function pruefeItem(it, datei, unidadNr) {
   const ort = `${datei} › ${it.id ?? '(ohne id)'}`;
-  if (!/^u\d{2}-\d{3}$/.test(it.id ?? '')) melde(ort, 'id muss das Format u01-001 haben');
+  if (!/^(b\d-)?u\d{2}-\d{3}$/.test(it.id ?? '')) melde(ort, 'id muss das Format u01-001 (Band 1) bzw. b2-u01-001 haben');
+  if (!Number.isInteger(it.seite)) melde(ort, 'seite (Seite im Vocabulario) fehlt');
+  if (![null, 'PP', 'A', 'B', 'C'].includes(it.bloque)) melde(ort, 'bloque muss null, PP, A, B oder C sein');
   for (const f of ['es', 'de']) if (!istText(it[f])) melde(ort, `${f} fehlt`);
   for (const f of ['akzeptiert_es', 'akzeptiert_de', 'distraktoren_de']) {
     if (!istTextListe(it[f])) melde(ort, `${f} muss eine nicht leere Liste sein`);
@@ -76,7 +78,12 @@ if (index) {
     const datei = await json(u.vocab);
     if (!datei) continue;
     if (datei.unidad !== u.nr) melde(u.vocab, `unidad ${datei.unidad} ≠ index (${u.nr})`);
+    let vorherigeSeite = 0;
     for (const it of datei.items ?? []) {
+      if (Number.isInteger(it.seite)) {
+        if (it.seite < vorherigeSeite) melde(`${u.vocab} › ${it.id}`, `Seite ${it.seite} nach Seite ${vorherigeSeite}: Items müssen in Buchreihenfolge stehen`);
+        vorherigeSeite = it.seite;
+      }
       if (alleItems.has(it.id)) melde(u.vocab, `doppelte id ${it.id}`);
       alleItems.set(it.id, { it, datei: u.vocab });
       pruefeItem(it, u.vocab, u.nr);

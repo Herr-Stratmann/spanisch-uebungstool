@@ -10,7 +10,7 @@ export const passt = () => true;
 
 const GENUS = { m: 'maskulin', f: 'feminin', 'm/f': 'maskulin/feminin' };
 
-export function render(container, item, ctx) {
+export function render(container, item, ctx, { titel = 'Neues Wort', knopf = 'Verstanden – jetzt üben →' } = {}) {
   const merkmale = [
     item.genero ? h('span', { class: 'etikett' }, GENUS[item.genero]) : null,
     item.chunk ? h('span', { class: 'etikett' }, 'Wendung') : null,
@@ -18,7 +18,7 @@ export function render(container, item, ctx) {
   ];
   container.append(
     h('div', { class: 'einfuehrung' },
-      h('p', { class: 'anweisung' }, 'Neues Wort'),
+      h('p', { class: 'anweisung' }, titel),
       item.bild && !item.bild.includes('/') ? h('p', { class: 'bild', 'aria-hidden': 'true' }, item.bild) : null,
       h('p', { class: 'spanisch gross' }, h('span', { lang: 'es' }, item.es), lautsprecher(item.es)),
       h('p', { class: 'deutsch' }, item.de),
@@ -26,6 +26,6 @@ export function render(container, item, ctx) {
       beispielInfo(item),
       item.bruecke && item.bruecke !== '—' ? h('p', { class: 'bruecke' }, '🌉 ', item.bruecke) : null
     ),
-    h('div', { class: 'aktionen' }, weiterKnopf(() => ctx.fertig(null), 'Verstanden – jetzt üben →'))
+    h('div', { class: 'aktionen' }, weiterKnopf(() => ctx.fertig(null), knopf))
   );
 }

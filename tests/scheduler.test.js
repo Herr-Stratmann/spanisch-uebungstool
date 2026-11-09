@@ -162,6 +162,48 @@ describe('bewerte – Entscheidung: nicht fällige Items („Unidad üben“) z�
   });
 });
 
+describe('bewerte – Erstkontakt beim Wiederholen (Diagnose)', () => {
+  test('richtig + sicher → Start in Fach 3', () => {
+    const z = bewerte(undefined, 'richtig', HEUTE, { diagnose: true, sicher: true });
+    assert.equal(z.fach, 3);
+    assert.equal(z.faellig, addiereTage(HEUTE, 4));
+  });
+  test('richtig + unsicher → Start in Fach 2', () => {
+    const z = bewerte(undefined, 'richtig', HEUTE, { diagnose: true, sicher: false });
+    assert.equal(z.fach, 2);
+    assert.equal(z.faellig, addiereTage(HEUTE, 2));
+  });
+  test('erst nach Hinweis → Fach 2, fällig morgen', () => {
+    const z = bewerte(undefined, 'hinweis', HEUTE, { diagnose: true, sicher: true });
+    assert.equal(z.fach, 2);
+    assert.equal(z.faellig, '2026-11-10');
+  });
+  test('falsch → Fach 1', () => {
+    assert.equal(bewerte(undefined, 'falsch', HEUTE, { diagnose: true, sicher: true }).fach, 1);
+  });
+  test('Diagnose wirkt nur beim allerersten Kontakt', () => {
+    const z = bewerte({ fach: 1, faellig: HEUTE, richtig: 0, falsch: 1 }, 'richtig', HEUTE, { diagnose: true, sicher: true });
+    assert.equal(z.fach, 2);
+  });
+  test('Erstkontakt-Datum wird gespeichert und später nicht überschrieben', () => {
+    const z = bewerte(undefined, 'richtig', HEUTE);
+    assert.equal(z.erstkontakt, HEUTE);
+    assert.equal(bewerte(z, 'richtig', '2026-11-20').erstkontakt, HEUTE);
+  });
+});
+
+describe('bewerte – Lernplan: spätestens bis zum Termin wiederholen', () => {
+  test('Fälligkeit wird auf das spätestens-Datum gekappt', () => {
+    const z = bewerte({ fach: 3, faellig: HEUTE, richtig: 2, falsch: 0 }, 'richtig', HEUTE, { spaetestens: '2026-11-11' });
+    assert.equal(z.fach, 4);
+    assert.equal(z.faellig, '2026-11-11');
+  });
+  test('frühere Fälligkeit bleibt unverändert', () => {
+    const z = bewerte(undefined, 'falsch', HEUTE, { spaetestens: '2026-11-13' });
+    assert.equal(z.faellig, '2026-11-10');
+  });
+});
+
 describe('stufeFuerFach (§5 Fach → Stufe)', () => {
   test('feste Zuordnungen', () => {
     assert.equal(stufeFuerFach(0), 0);
@@ -307,6 +349,36 @@ describe('stelleSitzungZusammen (§5 Sitzung)', () => {
   test('ohne auffuellen sind alle Aufgaben fällig oder neu', () => {
     const s = stelleSitzungZusammen({ items: vieleItems(3), fortschritt: {}, heute: HEUTE, rng: seeded() });
     assert.ok(s.every((a) => a.faellig === true));
+  });
+
+  test('Wiederholen (Diagnose): erst Fälliges, dann Unbekanntes direkt in Stufe 2, keine Einführung', () => {
+    const items = vieleItems(10, [1]);
+    const fortschritt = { 'u01-001': { fach: 2, faellig: '2026-11-01' } };
+    const s = stelleSitzungZusammen({ items, fortschritt, heute: HEUTE, max: 6, erstkontakt: 'diagnose', rng: seeded() });
+    assert.equal(s.length, 6);
+    assert.ok(s.some((a) => a.id === 'u01-001' && !a.neu));
+    const neue = s.filter((a) => a.neu);
+    assert.equal(neue.length, 5);
+    assert.ok(neue.every((a) => a.stufe === 2 && a.erstkontakt === 'diagnose'));
+  });
+
+  test('Wiederholen ignoriert nicht_zusammen_mit (alles schon einmal gelernt)', () => {
+    const items = [item('lunes', 4, { nicht_zusammen_mit: ['martes'] }), item('martes', 4)];
+    const s = stelleSitzungZusammen({ items, fortschritt: {}, heute: HEUTE, erstkontakt: 'diagnose', rng: seeded() });
+    assert.equal(s.length, 2);
+  });
+
+  test('neueKandidaten (Lernplan): nur diese werden neu eingeführt, in ihrer Reihenfolge', () => {
+    const items = vieleItems(10, [1]);
+    const kandidaten = [items[7], items[3]];
+    const s = stelleSitzungZusammen({ items, fortschritt: {}, heute: HEUTE, neueKandidaten: kandidaten, neueAnzahl: 2, rng: seeded() });
+    assert.deepEqual(s.map((a) => a.id).sort(), ['u01-004', 'u01-008']);
+    assert.ok(s.every((a) => a.stufe === 0 && a.erstkontakt === 'neu'));
+  });
+
+  test('ohne neueKandidaten und neueAnzahl 0 gibt es nur Wiederholungen', () => {
+    const s = stelleSitzungZusammen({ items: vieleItems(5), fortschritt: {}, heute: HEUTE, neueAnzahl: 0, rng: seeded() });
+    assert.equal(s.length, 0);
   });
 
   test('neueMax aus den Einstellungen wird beachtet', () => {

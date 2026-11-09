@@ -33,6 +33,31 @@ export function istFaellig(zustand, heute) {
  * @param {string} heute – ISO-Datum
  */
 export function bewerte(zustand, ergebnis, heute, optionen = {}) {
+  const neu = bewerteOhneKappung(zustand, ergebnis, heute, optionen);
+  if (!zustand) neu.erstkontakt = heute;
+  // Lernplan: spätestens zum Vortag des Termins noch einmal wiederholen.
+  if (optionen.spaetestens && optionen.spaetestens > heute && neu.faellig > optionen.spaetestens) {
+    neu.faellig = optionen.spaetestens;
+  }
+  return neu;
+}
+
+// Erstkontakt beim Wiederholen: Das Ergebnis der ersten Abfrage bestimmt das Startfach (SPEC §14).
+function diagnose(ergebnis, heute, sicher) {
+  const basis = { richtig: 0, falsch: 0, falschInFolge: 0, letzte: heute };
+  if (ergebnis === 'richtig') {
+    const fach = sicher ? 3 : 2;
+    return { ...basis, fach, faellig: addiereTage(heute, INTERVALL[fach]), richtig: 1 };
+  }
+  if (ergebnis === 'hinweis') return { ...basis, fach: 2, faellig: addiereTage(heute, 1), richtig: 1 };
+  return null;
+}
+
+function bewerteOhneKappung(zustand, ergebnis, heute, optionen) {
+  if (!zustand && optionen.diagnose) {
+    const d = diagnose(ergebnis, heute, optionen.sicher === true);
+    if (d) return d;
+  }
   const alt = { fach: 0, richtig: 0, falsch: 0, falschInFolge: 0, ...zustand };
   const neu = { ...alt, letzte: heute };
   const morgen = addiereTage(heute, 1);
@@ -163,32 +188,44 @@ function waehleNeue(kandidaten, anzahl) {
  * @returns {{id, unidad, fach, stufe, neu}[]}
  */
 export function stelleSitzungZusammen({
-  items, fortschritt = {}, heute, max = 15, neueMax = 5, rng = Math.random,
-  filter = () => true, auffuellen = false
+  items, fortschritt = {}, heute, max = 15, neueMax = 5, neueAnzahl, neueKandidaten = null,
+  erstkontakt = 'neu', rng = Math.random, filter = () => true, auffuellen = false
 }) {
   const pool = items.filter(filter);
   const nachFaelligkeit = (a, b) => fortschritt[a.id].faellig.localeCompare(fortschritt[b.id].faellig);
 
   const faellige = mische(pool.filter((it) => istFaellig(fortschritt[it.id], heute)), rng).sort(nachFaelligkeit);
-  const unbekannt = pool.filter((it) => !fortschritt[it.id]); // Datenreihenfolge = Lehrbuchreihenfolge
+  // Datenreihenfolge = Lehrbuchreihenfolge
+  const unbekannt = (neueKandidaten ?? pool).filter((it) => !fortschritt[it.id]);
 
-  const neuZiel = Math.min(neueMax, Math.round(max * ANTEIL_NEU));
-  const neue = waehleNeue(unbekannt, Math.min(neuZiel, max));
-  const wiederholungen = faellige.slice(0, max - neue.length);
+  let neue;
+  let wiederholungen;
+  if (erstkontakt === 'diagnose') {
+    // Wiederholen von bereits Gelerntem: erst Fälliges, dann Unbekanntes direkt abfragen.
+    wiederholungen = faellige.slice(0, max);
+    neue = unbekannt.slice(0, Math.min(neueAnzahl ?? max, max - wiederholungen.length));
+  } else {
+    // Neu lernen: ca. 70 % Wiederholungen, Rest neue Wörter (Prämisse 5 beachten).
+    const plaetze = Math.min(neueAnzahl ?? neueMax, max - Math.min(faellige.length, Math.round(max * (1 - ANTEIL_NEU))));
+    neue = waehleNeue(unbekannt, Math.max(0, plaetze));
+    wiederholungen = faellige.slice(0, max - neue.length);
+  }
   const zusatz = auffuellen
     ? mische(pool.filter((it) => fortschritt[it.id] && !istFaellig(fortschritt[it.id], heute)), rng)
       .sort(nachFaelligkeit)
       .slice(0, Math.max(0, max - neue.length - wiederholungen.length))
     : [];
 
+  const gruppe = (it) => it.uk ?? it.unidad;
   const alsAufgabe = (it, faellig) => {
     const z = fortschritt[it.id];
-    return { id: it.id, unidad: it.unidad, fach: z.fach, stufe: stufeFuerFach(z.fach, rng, z), neu: false, faellig };
+    return { id: it.id, unidad: gruppe(it), fach: z.fach, stufe: stufeFuerFach(z.fach, rng, z), neu: false, faellig };
   };
+  const stufeNeu = erstkontakt === 'diagnose' ? 2 : 0;
   const aufgaben = [
     ...wiederholungen.map((it) => alsAufgabe(it, true)),
     ...zusatz.map((it) => alsAufgabe(it, false)),
-    ...neue.map((it) => ({ id: it.id, unidad: it.unidad, fach: 0, stufe: 0, neu: true, faellig: true }))
+    ...neue.map((it) => ({ id: it.id, unidad: gruppe(it), fach: 0, stufe: stufeNeu, neu: true, faellig: true, erstkontakt }))
   ];
   return verteileUnidades(aufgaben, rng);
 }

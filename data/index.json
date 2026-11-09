@@ -2,6 +2,7 @@
   "lehrwerk": "¡Vamos! ¡Adelante! Curso intensivo 1 (Klett) – nur Wort- und Themenliste, Beispielsätze selbst formuliert",
   "unidades": [
     {
+      "band": 1,
       "nr": 1,
       "titel": "Unidad 1",
       "vocab": "vocab/unidad-01.json"

@@ -5,7 +5,7 @@ export const SCHEMA = 1;
 // Eindeutiger Schlüssel: Unter <name>.github.io teilen sich alle Pages-Projekte einen Speicher.
 export const SCHLUESSEL = 'cjd-spanisch:fortschritt';
 
-const STANDARD_EINSTELLUNGEN = Object.freeze({ neueProSitzung: 5, audio: true });
+const STANDARD_EINSTELLUNGEN = Object.freeze({ wiederholenAnzahl: 15, audio: true });
 
 export function leererStand() {
   return {
@@ -13,6 +13,7 @@ export function leererStand() {
     items: {},
     phaenomene: {},
     saetze: [],
+    plaene: [],
     einstellungen: { ...STANDARD_EINSTELLUNGEN }
   };
 }
@@ -34,6 +35,7 @@ export function migriere(roh) {
     items: istObjekt(roh?.items) ? roh.items : basis.items,
     phaenomene: istObjekt(roh?.phaenomene) ? roh.phaenomene : basis.phaenomene,
     saetze: Array.isArray(roh?.saetze) ? roh.saetze : basis.saetze,
+    plaene: Array.isArray(roh?.plaene) ? roh.plaene : basis.plaene,
     einstellungen: { ...basis.einstellungen, ...(istObjekt(roh?.einstellungen) ? roh.einstellungen : {}) }
   };
 }

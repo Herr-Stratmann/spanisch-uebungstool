@@ -21,7 +21,8 @@ describe('leererStand', () => {
     assert.deepEqual(s.items, {});
     assert.deepEqual(s.phaenomene, {});
     assert.deepEqual(s.saetze, []);
-    assert.equal(s.einstellungen.neueProSitzung, 5);
+    assert.deepEqual(s.plaene, []);
+    assert.equal(s.einstellungen.wiederholenAnzahl, 15);
     assert.equal(s.einstellungen.audio, true);
   });
 });
@@ -61,13 +62,15 @@ describe('migriere', () => {
     const m = migriere({ items: { a: { fach: 1, faellig: '2026-11-01' } } });
     assert.equal(m.schema, SCHEMA);
     assert.deepEqual(m.saetze, []);
-    assert.equal(m.einstellungen.neueProSitzung, 5);
+    assert.deepEqual(m.plaene, []);
+    assert.equal(m.einstellungen.wiederholenAnzahl, 15);
     assert.equal(m.items.a.fach, 1);
   });
 
   test('behält vorhandene Einstellungen', () => {
-    const m = migriere({ schema: 1, einstellungen: { neueProSitzung: 3 } });
-    assert.equal(m.einstellungen.neueProSitzung, 3);
+    const m = migriere({ schema: 1, einstellungen: { wiederholenAnzahl: 20 }, plaene: [{ id: 'p1' }] });
+    assert.equal(m.einstellungen.wiederholenAnzahl, 20);
+    assert.equal(m.plaene.length, 1);
     assert.equal(m.einstellungen.audio, true);
   });
 

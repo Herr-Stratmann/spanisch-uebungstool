@@ -18,7 +18,7 @@ export function zeigeFortschritt(el, app) {
 }
 
 function unidadZeile(u, app) {
-  const items = app.daten.items.filter((it) => it.unidad === u.nr);
+  const items = app.daten.items.filter((it) => it.uk === u.uk);
   const anzahl = [0, 0, 0, 0, 0, 0];
   let gelernt = 0;
   for (const it of items) {
@@ -35,17 +35,10 @@ function unidadZeile(u, app) {
 
 function einstellungen(app) {
   const e = app.stand.einstellungen;
-  const neue = h('input', { type: 'number', min: '1', max: '10', value: String(e.neueProSitzung), inputmode: 'numeric' });
-  neue.addEventListener('change', () => {
-    e.neueProSitzung = Math.min(10, Math.max(1, Number(neue.value) || 5));
-    neue.value = String(e.neueProSitzung);
-    app.speichere();
-  });
   const audio = h('input', { type: 'checkbox', checked: e.audio });
   audio.addEventListener('change', () => { e.audio = audio.checked; setzeAudio(e.audio); app.speichere(); });
   return h('section', { class: 'einstellungen' },
     h('h2', {}, 'Einstellungen'),
-    h('label', {}, 'Neue Wörter pro Sitzung ', neue),
     h('label', {}, audio, ' Vorlesen (Lautsprecher-Buttons)'));
 }
 

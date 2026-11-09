@@ -3,6 +3,7 @@
 import { h, leere, anfuegen } from '../dom.js';
 import { Sitzung } from '../ablauf.js';
 import { bewerte } from '../scheduler.js';
+import { spaetestensFuer } from '../plan.js';
 import { waehleUebung, einfuehrung } from '../exercises/index.js';
 
 export function zeigeUeben(el, app, { titel, aufgaben }) {
@@ -61,12 +62,25 @@ export function zeigeUeben(el, app, { titel, aufgaben }) {
     }
     const { buchen } = sitzung.verbuche(ergebnis);
     if (buchen) {
-      app.stand.items[item.id] = bewerte(app.stand.items[item.id], ergebnis, app.heute(), { nurFehlerZaehlen: aufgabe.faellig === false });
+      app.stand.items[item.id] = bewerte(app.stand.items[item.id], ergebnis, app.heute(), {
+        nurFehlerZaehlen: aufgabe.faellig === false,
+        diagnose: aufgabe.erstkontakt === 'diagnose',
+        sicher: extra.sicher,
+        spaetestens: spaetestensFuer(item.id, app.stand.plaene, app.heute())
+      });
     }
     if (extra.satz) {
       app.stand.saetze.push({ item: item.id, text: extra.satz, selbst: ergebnis === 'nochNicht' ? 'noch nicht' : ergebnis, datum: app.heute() });
     }
     app.speichere();
+    // Beim Wiederholen nicht gewusst: Wort einmal in Ruhe zeigen (wie eine Einführung), dann weiter.
+    if (buchen && ergebnis === 'falsch' && aufgabe.erstkontakt === 'diagnose') {
+      leere(buehne);
+      buehne.dataset.typ = 'einfuehrung';
+      buehne.dataset.item = item.id;
+      return einfuehrung.render(buehne, item, { beamer: false, fertig: () => naechste() },
+        { titel: 'Präg dir das Wort noch einmal ein', knopf: 'Weiter →' });
+    }
     naechste();
   }
 

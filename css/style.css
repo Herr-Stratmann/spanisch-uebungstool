@@ -118,6 +118,37 @@ h2 { font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
 }
 .listeneintrag span { color: var(--text-leise); white-space: nowrap; }
 
+/* Vokabeln: Heute, Lernpläne, Bereichsauswahl */
+.karte { background: var(--karte); border: 1px solid var(--linie); border-radius: var(--radius); padding: .5rem 1.25rem 1rem; margin: 1rem 0; }
+.karte h2 { margin-top: .75rem; }
+h3 { font-size: 1.05rem; margin: 1.25rem 0 .4rem; }
+.meta { color: var(--text-leise); font-size: .9rem; margin: .3rem 0; }
+.unidad-wahl, .von-bis label { display: grid; gap: .25rem; font-weight: 600; }
+.von-bis { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .75rem; margin: .75rem 0 .25rem; }
+.von-bis[hidden] { display: none; }
+.auswahl {
+  font: inherit; font-size: 1.05rem; min-height: var(--ziel); width: 100%; padding: .4rem .75rem;
+  border-radius: var(--radius); border: 2px solid var(--linie); background: var(--karte); color: var(--text);
+}
+.segment { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+.segment-knopf {
+  font: inherit; display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; text-align: left;
+  min-height: 72px; padding: .7rem 1rem; border-radius: var(--radius); cursor: pointer;
+  border: 2px solid var(--linie); background: var(--karte); color: var(--text); touch-action: manipulation;
+}
+.segment-knopf small { color: var(--text-leise); }
+.segment-knopf[aria-checked="true"] { border-color: var(--primaer); background: var(--info-bg); box-shadow: inset 0 0 0 1px var(--primaer); }
+.segment-knopf[aria-checked="true"] strong::before { content: "✓ "; color: var(--primaer); }
+.chip[aria-checked="true"] { border-color: var(--primaer); background: var(--primaer); color: var(--primaer-text); }
+.andere-tage { display: flex; align-items: center; gap: .4rem; margin: .5rem 0; color: var(--text-leise); }
+.andere-tage input { font: inherit; width: 4.5rem; min-height: 44px; padding: .3rem .5rem; border-radius: 10px; border: 2px solid var(--linie); background: var(--karte); color: var(--text); }
+.plan-vorschau .termin { display: block; font-weight: 400; color: var(--text-leise); }
+.plan-vorschau { font-weight: 600; background: var(--info-bg); border-radius: 10px; padding: .6rem .8rem; }
+.plaene { list-style: none; padding: 0; margin: 0; }
+.plaene li { border-top: 1px solid var(--linie); padding: .75rem 0; }
+.plaene li:first-child { border-top: 0; }
+.plaene .balken { margin: .4rem 0; }
+
 /* Übung */
 .uebungskopf { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
 .uebungskopf .titel { font-weight: 700; }

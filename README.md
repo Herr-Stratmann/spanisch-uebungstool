@@ -10,6 +10,7 @@ Der Name „¡Practica!“ ist ein Platzhalter (offener Punkt §13) und steht in
 |---|---|
 | `check.js`, `scheduler.js`, `storage.js`, `ablauf.js` | fertig, mit Tests |
 | Oberfläche: Start (Vokabeln / Grammatik), Vokabeln nach Unidades oder gemischt, Fortschritt, Meine Sätze, Beamermodus | fertig |
+| Vokabeln | Bereich wählen (Unidad, von–bis nach Seite/Bloque), „Wiederholen“ (Anzahl wählbar, direkte Abfrage) oder „Neu lernen“ (Lernplan bis zum Termin) |
 | Grammatik | Themenliste (22 Themen, nach Bereichen; Lehrbuch-Abschnitte, die fürs Üben zusammengehören, sind zusammengefasst (`unidades` nennt die Quellen)) in `data/index.json`; Übungen folgen in V2. Ein Thema wird aktiv, sobald `datei` gesetzt ist. |
 | Übungstypen Stufe 1 | `mc_es_de`, `mc_bild` (offen: `mc_audio`) |
 | Übungstypen Stufe 2 | `tippen_de_es`, `luecke_hilfe` (offen: `diktat`) |
@@ -30,7 +31,7 @@ node tools/validate-data.mjs     # Inhaltsdateien prüfen
 
 ## Neue Inhalte ergänzen
 
-1. `data/vocab/unidad-02.json` nach dem Muster von Unidad 1 anlegen (§8.1).
+1. `data/vocab/unidad-02.json` nach dem Muster von Unidad 1 anlegen (§8.1), Items in Buchreihenfolge, jeweils mit `seite` und `bloque`.
 2. In `data/index.json` unter `unidades` eintragen.
 3. In `sw.js` die Datei in `DATEIEN` ergänzen und `VERSION` erhöhen (ein Test meldet vergessene Dateien).
 4. `node tools/validate-data.mjs` und `node --test` laufen lassen.
