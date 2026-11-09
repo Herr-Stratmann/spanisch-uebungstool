@@ -1,0 +1,4983 @@
+{
+  "unidad": 5,
+  "items": [
+    {
+      "id": "u05-001",
+      "es": "el día a día",
+      "de": "der Alltag",
+      "akzeptiert_es": [
+        "el día a día"
+      ],
+      "akzeptiert_de": [
+        "der Alltag"
+      ],
+      "unidad": 5,
+      "seite": 197,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": true,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi día a día es muy normal.",
+          "de": "Mein Alltag ist ganz normal.",
+          "luecke": "día a día",
+          "luecke_akzeptiert": [
+            "día a día"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Alltag mit einem Satz.",
+        "muster": [
+          "Mi día a día es tranquilo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Eintrittskarte",
+        "das Haus; die Wohnung",
+        "das Obst"
+      ]
+    },
+    {
+      "id": "u05-002",
+      "es": "el patio",
+      "de": "der Hof; der Schulhof",
+      "akzeptiert_es": [
+        "el patio"
+      ],
+      "akzeptiert_de": [
+        "der Hof",
+        "der Schulhof"
+      ],
+      "unidad": 5,
+      "seite": 197,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En el recreo estamos en el patio.",
+          "de": "In der Pause sind wir auf dem Schulhof.",
+          "luecke": "patio",
+          "luecke_akzeptiert": [
+            "patio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo ihr in der Pause seid.",
+        "muster": [
+          "En el recreo jugamos en el patio."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Reise",
+        "die (Trink)Schokolade",
+        "der Schauspieler / die Schauspielerin"
+      ]
+    },
+    {
+      "id": "u05-003",
+      "es": "el aula",
+      "de": "der Klassenraum",
+      "akzeptiert_es": [
+        "el aula"
+      ],
+      "akzeptiert_de": [
+        "der Klassenraum"
+      ],
+      "fehlantworten_es": {
+        "la aula": "Vor betontem a- steht el: el aula (das Wort bleibt aber feminin)."
+      },
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El aula es grande y moderna.",
+          "de": "Der Klassenraum ist groß und modern.",
+          "luecke": "aula",
+          "luecke_akzeptiert": [
+            "aula"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Klassenraum.",
+        "muster": [
+          "Nuestra aula es pequeña."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "Achtung: el aula ist feminin (el steht nur wegen des betonten a-).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Computer",
+        "der Tisch",
+        "die Bibliothek"
+      ]
+    },
+    {
+      "id": "u05-004",
+      "es": "el aula de informática",
+      "de": "der Computerraum",
+      "akzeptiert_es": [
+        "el aula de informática"
+      ],
+      "akzeptiert_de": [
+        "der Computerraum"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "escuela",
+      "bild": "🖥️",
+      "beispiele": [
+        {
+          "es": "El aula de informática está en el primer piso.",
+          "de": "Der Computerraum ist im ersten Stock.",
+          "luecke": "aula de informática",
+          "luecke_akzeptiert": [
+            "aula de informática"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre einem neuen Schüler, wo der Computerraum ist.",
+        "muster": [
+          "El aula de informática está al lado de la secretaría."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-005"
+      ],
+      "distraktoren_de": [
+        "die Minute",
+        "die spanische Sprache",
+        "das Fußballspiel"
+      ]
+    },
+    {
+      "id": "u05-005",
+      "es": "la informática",
+      "de": "die Informatik",
+      "akzeptiert_es": [
+        "la informática"
+      ],
+      "akzeptiert_de": [
+        "die Informatik"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Me gusta mucho la informática.",
+          "de": "Ich mag Informatik sehr.",
+          "luecke": "informática",
+          "luecke_akzeptiert": [
+            "informática"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du Informatik magst.",
+        "muster": [
+          "Me gusta la informática."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das (Fernseh)Programm; die Sendung",
+        "das Restaurant",
+        "der Vater"
+      ]
+    },
+    {
+      "id": "u05-006",
+      "es": "la secretaría",
+      "de": "das Sekretariat",
+      "akzeptiert_es": [
+        "la secretaría"
+      ],
+      "akzeptiert_de": [
+        "das Sekretariat"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La secretaría está al final del pasillo.",
+          "de": "Das Sekretariat ist am Ende des Flurs.",
+          "luecke": "secretaría",
+          "luecke_akzeptiert": [
+            "secretaría"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Ein neuer Schüler fragt nach dem Sekretariat. Antworte.",
+        "muster": [
+          "La secretaría está a la derecha."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Fernsehen",
+        "die Geschwister",
+        "der Reiseführer (Buch)"
+      ]
+    },
+    {
+      "id": "u05-007",
+      "es": "el gimnasio",
+      "de": "die Turnhalle",
+      "akzeptiert_es": [
+        "el gimnasio"
+      ],
+      "akzeptiert_de": [
+        "die Turnhalle"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Los jueves tenemos clase en el gimnasio.",
+          "de": "Donnerstags haben wir Unterricht in der Turnhalle.",
+          "luecke": "gimnasio",
+          "luecke_akzeptiert": [
+            "gimnasio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann ihr in der Turnhalle Unterricht habt.",
+        "muster": [
+          "Los lunes vamos al gimnasio."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: el gimnasio = die Turnhalle (kein Gymnasium!).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Geburtstag",
+        "der Park",
+        "das Einkaufszentrum"
+      ]
+    },
+    {
+      "id": "u05-008",
+      "es": "la mochila",
+      "de": "der Rucksack",
+      "akzeptiert_es": [
+        "la mochila"
+      ],
+      "akzeptiert_de": [
+        "der Rucksack"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "🎒",
+      "beispiele": [
+        {
+          "es": "¿Qué hay en tu mochila?",
+          "de": "Was ist in deinem Rucksack?",
+          "luecke": "mochila",
+          "luecke_akzeptiert": [
+            "mochila"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was in deinem Rucksack ist.",
+        "muster": [
+          "En mi mochila hay libros y un estuche."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Brief",
+        "die Sprache",
+        "der Palast"
+      ]
+    },
+    {
+      "id": "u05-009",
+      "es": "la carpeta",
+      "de": "der Ordner; die (Schreib)Mappe",
+      "akzeptiert_es": [
+        "la carpeta"
+      ],
+      "akzeptiert_de": [
+        "der Ordner",
+        "die (Schreib)Mappe"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "📁",
+      "beispiele": [
+        {
+          "es": "Mi carpeta de español es nueva.",
+          "de": "Mein Spanischordner ist neu.",
+          "luecke": "carpeta",
+          "luecke_akzeptiert": [
+            "carpeta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Ordner für Spanisch.",
+        "muster": [
+          "Mi carpeta es roja."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Jahr",
+        "der Samstag",
+        "die Tür; das Tor"
+      ]
+    },
+    {
+      "id": "u05-010",
+      "es": "el bolígrafo",
+      "de": "der Kugelschreiber",
+      "akzeptiert_es": [
+        "el bolígrafo"
+      ],
+      "akzeptiert_de": [
+        "der Kugelschreiber"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "🖊️",
+      "beispiele": [
+        {
+          "es": "¿Tienes un bolígrafo para mí?",
+          "de": "Hast du einen Kuli für mich?",
+          "luecke": "bolígrafo",
+          "luecke_akzeptiert": [
+            "bolígrafo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du hast deinen Kuli vergessen. Frag deinen Nachbarn.",
+        "muster": [
+          "¿Tienes un bolígrafo?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Buch",
+        "Deutsch; die deutsche Sprache",
+        "das Foto"
+      ]
+    },
+    {
+      "id": "u05-011",
+      "es": "la goma",
+      "de": "der Radiergummi",
+      "akzeptiert_es": [
+        "la goma"
+      ],
+      "akzeptiert_de": [
+        "der Radiergummi"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Siempre pierdo mi goma.",
+          "de": "Ich verliere immer meinen Radiergummi.",
+          "luecke": "goma",
+          "luecke_akzeptiert": [
+            "goma"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deine Nachbarin, ob sie einen Radiergummi hat.",
+        "muster": [
+          "¿Tienes una goma?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Gesicht",
+        "der Samstag",
+        "die Nacht"
+      ]
+    },
+    {
+      "id": "u05-012",
+      "es": "el portátil",
+      "de": "der Laptop",
+      "akzeptiert_es": [
+        "el portátil"
+      ],
+      "akzeptiert_de": [
+        "der Laptop"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "💻",
+      "beispiele": [
+        {
+          "es": "Hago los deberes con el portátil.",
+          "de": "Ich mache die Hausaufgaben mit dem Laptop.",
+          "luecke": "portátil",
+          "luecke_akzeptiert": [
+            "portátil"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wofür du deinen Laptop benutzt.",
+        "muster": [
+          "Con el portátil chateo con mis amigos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Großvater / die Großmutter",
+        "der Akzent",
+        "der Onkel / die Tante"
+      ]
+    },
+    {
+      "id": "u05-013",
+      "es": "el cuaderno",
+      "de": "das Heft",
+      "akzeptiert_es": [
+        "el cuaderno"
+      ],
+      "akzeptiert_de": [
+        "das Heft"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "📓",
+      "beispiele": [
+        {
+          "es": "Escribo las palabras nuevas en el cuaderno.",
+          "de": "Ich schreibe die neuen Wörter ins Heft.",
+          "luecke": "cuaderno",
+          "luecke_akzeptiert": [
+            "cuaderno"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo du die neuen Vokabeln aufschreibst.",
+        "muster": [
+          "Escribo las palabras en mi cuaderno."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Angst",
+        "die Literatur",
+        "der Brief"
+      ]
+    },
+    {
+      "id": "u05-014",
+      "es": "el estuche",
+      "de": "das Federmäppchen",
+      "akzeptiert_es": [
+        "el estuche"
+      ],
+      "akzeptiert_de": [
+        "das Federmäppchen"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi estuche está en la mochila.",
+          "de": "Mein Federmäppchen ist im Rucksack.",
+          "luecke": "estuche",
+          "luecke_akzeptiert": [
+            "estuche"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Freund sucht sein Mäppchen. Sag, dass es auf dem Tisch liegt.",
+        "muster": [
+          "Tu estuche está encima de la mesa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Herr",
+        "das Buch",
+        "das Zimmer"
+      ]
+    },
+    {
+      "id": "u05-015",
+      "es": "el lápiz",
+      "de": "der Bleistift; der Buntstift",
+      "akzeptiert_es": [
+        "el lápiz"
+      ],
+      "akzeptiert_de": [
+        "der Bleistift",
+        "der Buntstift"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "✏️",
+      "beispiele": [
+        {
+          "es": "Tengo tres lápices en el estuche.",
+          "de": "Ich habe drei Bleistifte im Mäppchen.",
+          "luecke": "lápices",
+          "luecke_akzeptiert": [
+            "lápices"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wie viele Stifte in deinem Mäppchen sind.",
+        "muster": [
+          "En mi estuche hay cinco lápices."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "Plural: los lápices (z wird zu c)",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die U-Bahn-Station",
+        "das Wohnzimmer",
+        "der Umzug"
+      ]
+    },
+    {
+      "id": "u05-016",
+      "es": "la calculadora",
+      "de": "der Taschenrechner",
+      "akzeptiert_es": [
+        "la calculadora"
+      ],
+      "akzeptiert_de": [
+        "der Taschenrechner"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "🧮",
+      "beispiele": [
+        {
+          "es": "Para Matemáticas necesito la calculadora.",
+          "de": "Für Mathe brauche ich den Taschenrechner.",
+          "luecke": "calculadora",
+          "luecke_akzeptiert": [
+            "calculadora"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, für welches Fach du einen Taschenrechner brauchst.",
+        "muster": [
+          "Necesito la calculadora para Matemáticas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Tintenfisch",
+        "die Reise",
+        "das Café; die Cafeteria"
+      ]
+    },
+    {
+      "id": "u05-017",
+      "es": "¿cuántos? / ¿cuántas?",
+      "de": "wie viele?",
+      "akzeptiert_es": [
+        "¿cuántos? / ¿cuántas?",
+        "¿cuántos?",
+        "¿cuántas?",
+        "cuántos",
+        "cuántas"
+      ],
+      "akzeptiert_de": [
+        "wie viele?"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "PP",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "preguntas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Cuántas sillas hay en el aula?",
+          "de": "Wie viele Stühle gibt es im Klassenraum?",
+          "luecke": "Cuántas",
+          "luecke_akzeptiert": [
+            "cuántas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deine Freundin, wie viele Geschwister sie hat.",
+        "muster": [
+          "¿Cuántos hermanos tienes?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "unser/unsere",
+        "sie (Plural)",
+        "ihr"
+      ]
+    },
+    {
+      "id": "u05-018",
+      "es": "el alumno / la alumna",
+      "de": "der Schüler / die Schülerin",
+      "akzeptiert_es": [
+        "el alumno / la alumna",
+        "el alumno/la alumna",
+        "el alumno, la alumna",
+        "el alumno y la alumna"
+      ],
+      "akzeptiert_de": [
+        "der Schüler / die Schülerin"
+      ],
+      "fehlantworten_es": {
+        "el alumno": "Fast! Nenne beide Formen: el alumno / la alumna"
+      },
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m/f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En mi clase hay veinte alumnos.",
+          "de": "In meiner Klasse gibt es zwanzig Schüler.",
+          "luecke": "alumnos",
+          "luecke_akzeptiert": [
+            "alumnos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wie viele Schüler in deiner Klasse sind.",
+        "muster": [
+          "En mi clase hay veinticinco alumnos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Freizeit",
+        "die Küste",
+        "die Nachricht"
+      ]
+    },
+    {
+      "id": "u05-019",
+      "es": "el e-mail",
+      "de": "die E-Mail",
+      "akzeptiert_es": [
+        "el e-mail"
+      ],
+      "akzeptiert_de": [
+        "die E-Mail"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": "📧",
+      "beispiele": [
+        {
+          "es": "Escribo un e-mail a mi profesor.",
+          "de": "Ich schreibe meinem Lehrer eine E-Mail.",
+          "luecke": "e-mail",
+          "luecke_akzeptiert": [
+            "e-mail"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wem du eine E-Mail schreibst.",
+        "muster": [
+          "Escribo un e-mail a mi amiga de México."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Restaurant",
+        "das Tier",
+        "das Geheimnis"
+      ]
+    },
+    {
+      "id": "u05-020",
+      "es": "el horario",
+      "de": "der Stundenplan",
+      "akzeptiert_es": [
+        "el horario"
+      ],
+      "akzeptiert_de": [
+        "der Stundenplan"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi horario es muy bueno: el viernes solo tengo cuatro horas.",
+          "de": "Mein Stundenplan ist sehr gut: Freitags habe ich nur vier Stunden.",
+          "luecke": "horario",
+          "luecke_akzeptiert": [
+            "horario"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wie du deinen Stundenplan findest.",
+        "muster": [
+          "Mi horario es fatal: tengo clase hasta las cuatro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Naturkunde (Schulfach)",
+        "das Wasser",
+        "das Taxi"
+      ]
+    },
+    {
+      "id": "u05-021",
+      "es": "la asignatura",
+      "de": "das Unterrichtsfach",
+      "akzeptiert_es": [
+        "la asignatura"
+      ],
+      "akzeptiert_de": [
+        "das Unterrichtsfach"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi asignatura favorita es Música.",
+          "de": "Mein Lieblingsfach ist Musik.",
+          "luecke": "asignatura",
+          "luecke_akzeptiert": [
+            "asignatura"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne dein Lieblingsfach und sag, warum.",
+        "muster": [
+          "Mi asignatura favorita es Inglés porque es interesante."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Tür; das Tor",
+        "das Taxi",
+        "die Stunde; die Uhrzeit"
+      ]
+    },
+    {
+      "id": "u05-022",
+      "es": "las Matemáticas",
+      "de": "Mathematik (Schulfach)",
+      "akzeptiert_es": [
+        "las Matemáticas"
+      ],
+      "akzeptiert_de": [
+        "Mathematik (Schulfach)"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "asignaturas",
+      "bild": "➗",
+      "beispiele": [
+        {
+          "es": "Hoy tenemos dos horas de Matemáticas.",
+          "de": "Heute haben wir zwei Stunden Mathe.",
+          "luecke": "Matemáticas",
+          "luecke_akzeptiert": [
+            "matemáticas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du Mathe magst.",
+        "muster": [
+          "Me gustan las Matemáticas.",
+          "No me gustan las Matemáticas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-023",
+        "u05-024",
+        "u05-025",
+        "u05-027",
+        "u05-030",
+        "u05-035"
+      ],
+      "distraktoren_de": [
+        "die U-Bahn-Station",
+        "die Eltern",
+        "der Arzt / die Ärztin"
+      ]
+    },
+    {
+      "id": "u05-023",
+      "es": "la Geografía e Historia",
+      "de": "Geschichte und Erdkunde (Schulfach)",
+      "akzeptiert_es": [
+        "la Geografía e Historia"
+      ],
+      "akzeptiert_de": [
+        "Geschichte und Erdkunde (Schulfach)"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "asignaturas",
+      "bild": "🗺️",
+      "beispiele": [
+        {
+          "es": "Mi profesor de Geografía e Historia es muy simpático.",
+          "de": "Mein Erdkunde- und Geschichtslehrer ist sehr nett.",
+          "luecke": "Geografía e Historia",
+          "luecke_akzeptiert": [
+            "geografía e historia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie du Erdkunde und Geschichte findest.",
+        "muster": [
+          "La Geografía e Historia es muy interesante."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-022",
+        "u05-024",
+        "u05-025",
+        "u05-027",
+        "u05-030",
+        "u05-035"
+      ],
+      "distraktoren_de": [
+        "der Nachbar / die Nachbarin",
+        "der Keks",
+        "das Wochenende; am Wochenende"
+      ]
+    },
+    {
+      "id": "u05-024",
+      "es": "el Francés",
+      "de": "Französisch (Schulfach)",
+      "akzeptiert_es": [
+        "el Francés"
+      ],
+      "akzeptiert_de": [
+        "Französisch (Schulfach)"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermana estudia Francés en el instituto.",
+          "de": "Meine Schwester lernt Französisch am Gymnasium.",
+          "luecke": "Francés",
+          "luecke_akzeptiert": [
+            "francés"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du Französisch lernst.",
+        "muster": [
+          "No estudio Francés, estudio español."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-022",
+        "u05-023",
+        "u05-025",
+        "u05-027",
+        "u05-030",
+        "u05-035"
+      ],
+      "distraktoren_de": [
+        "das (Stadt)Zentrum",
+        "die Notiz; die Note",
+        "der Arzt / die Ärztin"
+      ]
+    },
+    {
+      "id": "u05-025",
+      "es": "la Educación Física",
+      "de": "Sport (Schulfach)",
+      "akzeptiert_es": [
+        "la Educación Física"
+      ],
+      "akzeptiert_de": [
+        "Sport (Schulfach)"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Los martes tenemos Educación Física en el gimnasio.",
+          "de": "Dienstags haben wir Sport in der Turnhalle.",
+          "luecke": "Educación Física",
+          "luecke_akzeptiert": [
+            "educación física"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann ihr Sportunterricht habt.",
+        "muster": [
+          "Tenemos Educación Física los lunes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-022",
+        "u05-023",
+        "u05-024",
+        "u05-027",
+        "u05-030",
+        "u05-035"
+      ],
+      "distraktoren_de": [
+        "der Garten",
+        "die Milch",
+        "die Woche"
+      ]
+    },
+    {
+      "id": "u05-026",
+      "es": "la educación",
+      "de": "die Erziehung; die Bildung",
+      "akzeptiert_es": [
+        "la educación"
+      ],
+      "akzeptiert_de": [
+        "die Erziehung",
+        "die Bildung"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La educación es muy importante.",
+          "de": "Bildung ist sehr wichtig.",
+          "luecke": "educación",
+          "luecke_akzeptiert": [
+            "educación"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was für dich in der Schule wichtig ist.",
+        "muster": [
+          "Para mí, la educación es importante."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. education, lat. educatio",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der beste Freund / die beste Freundin",
+        "die Großeltern",
+        "die Küste"
+      ]
+    },
+    {
+      "id": "u05-027",
+      "es": "las Ciencias de la Naturaleza",
+      "de": "Naturkunde (Schulfach)",
+      "akzeptiert_es": [
+        "las Ciencias de la Naturaleza"
+      ],
+      "akzeptiert_de": [
+        "Naturkunde (Schulfach)"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En Ciencias de la Naturaleza estudiamos los animales.",
+          "de": "In Naturkunde lernen wir etwas über Tiere.",
+          "luecke": "Ciencias de la Naturaleza",
+          "luecke_akzeptiert": [
+            "ciencias de la naturaleza"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was ihr in Naturkunde gerade lernt.",
+        "muster": [
+          "Estudiamos la naturaleza."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-022",
+        "u05-023",
+        "u05-024",
+        "u05-025",
+        "u05-030",
+        "u05-035"
+      ],
+      "distraktoren_de": [
+        "das Jahr",
+        "die Katze",
+        "der Ausflug"
+      ]
+    },
+    {
+      "id": "u05-028",
+      "es": "la ciencia",
+      "de": "die Wissenschaft",
+      "akzeptiert_es": [
+        "la ciencia"
+      ],
+      "akzeptiert_de": [
+        "die Wissenschaft"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi tía trabaja en la ciencia.",
+          "de": "Meine Tante arbeitet in der Wissenschaft.",
+          "luecke": "ciencia",
+          "luecke_akzeptiert": [
+            "ciencia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, ob du dich für Wissenschaft interessierst.",
+        "muster": [
+          "Me gusta mucho la ciencia."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. science, lat. scientia",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Flur",
+        "das Küsschen",
+        "das Telefon"
+      ]
+    },
+    {
+      "id": "u05-029",
+      "es": "la naturaleza",
+      "de": "die Natur",
+      "akzeptiert_es": [
+        "la naturaleza"
+      ],
+      "akzeptiert_de": [
+        "die Natur"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🌿",
+      "beispiele": [
+        {
+          "es": "Los fines de semana estamos en la naturaleza.",
+          "de": "Am Wochenende sind wir in der Natur.",
+          "luecke": "naturaleza",
+          "luecke_akzeptiert": [
+            "naturaleza"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du gern in der Natur bist.",
+        "muster": [
+          "Me gusta mucho la naturaleza."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Geburtstag",
+        "der Freitag",
+        "die Woche"
+      ]
+    },
+    {
+      "id": "u05-030",
+      "es": "la Lengua Castellana y Literatura",
+      "de": "Spanisch (als Schulfach, wie Deutsch bei uns)",
+      "akzeptiert_es": [
+        "la Lengua Castellana y Literatura"
+      ],
+      "akzeptiert_de": [
+        "Spanisch (als Schulfach, wie Deutsch bei uns)"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En Lengua Castellana y Literatura leemos un libro.",
+          "de": "Im Fach Spanisch lesen wir ein Buch.",
+          "luecke": "Lengua Castellana y Literatura",
+          "luecke_akzeptiert": [
+            "lengua castellana y literatura"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre: Welches Fach entspricht in Spanien dem Fach Deutsch?",
+        "muster": [
+          "Es Lengua Castellana y Literatura."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-022",
+        "u05-023",
+        "u05-024",
+        "u05-025",
+        "u05-027",
+        "u05-035"
+      ],
+      "distraktoren_de": [
+        "das Schlafzimmer",
+        "der Flur",
+        "die Hausaufgaben"
+      ]
+    },
+    {
+      "id": "u05-031",
+      "es": "la lengua",
+      "de": "die Sprache",
+      "akzeptiert_es": [
+        "la lengua"
+      ],
+      "akzeptiert_de": [
+        "die Sprache"
+      ],
+      "unidad": 5,
+      "seite": 198,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lengua",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El inglés es una lengua importante.",
+          "de": "Englisch ist eine wichtige Sprache.",
+          "luecke": "lengua",
+          "luecke_akzeptiert": [
+            "lengua"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, welche Sprachen du sprichst – mit „lengua“.",
+        "muster": [
+          "Hablo dos lenguas: alemán e inglés."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la langue, lat. lingua",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Rucksack",
+        "die Minute",
+        "die Linie"
+      ]
+    },
+    {
+      "id": "u05-032",
+      "es": "el castellano",
+      "de": "die spanische Sprache",
+      "akzeptiert_es": [
+        "el castellano"
+      ],
+      "akzeptiert_de": [
+        "die spanische Sprache"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lengua",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En México hablan castellano.",
+          "de": "In Mexiko spricht man Spanisch.",
+          "luecke": "castellano",
+          "luecke_akzeptiert": [
+            "castellano"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre: Welche zwei Wörter gibt es im Spanischen für „Spanisch“?",
+        "muster": [
+          "Español y castellano."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Tür; das Tor",
+        "der Laden; das Geschäft",
+        "der Schlafanzug; der Pyjama"
+      ]
+    },
+    {
+      "id": "u05-033",
+      "es": "la literatura",
+      "de": "die Literatur",
+      "akzeptiert_es": [
+        "la literatura"
+      ],
+      "akzeptiert_de": [
+        "die Literatur"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lengua",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi madre lee mucha literatura española.",
+          "de": "Meine Mutter liest viel spanische Literatur.",
+          "luecke": "literatura",
+          "luecke_akzeptiert": [
+            "literatura"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du gern Literatur liest.",
+        "muster": [
+          "Me gusta la literatura."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Theater",
+        "der Papa / die Mama",
+        "das Sekretariat"
+      ]
+    },
+    {
+      "id": "u05-034",
+      "es": "el recreo",
+      "de": "die Pause",
+      "akzeptiert_es": [
+        "el recreo"
+      ],
+      "akzeptiert_de": [
+        "die Pause"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En el recreo como un bocadillo.",
+          "de": "In der Pause esse ich ein belegtes Brötchen.",
+          "luecke": "recreo",
+          "luecke_akzeptiert": [
+            "recreo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du in der Pause machst.",
+        "muster": [
+          "En el recreo hablo con mis amigos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la récré",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Mutter",
+        "das Unterrichtsfach",
+        "der Platz"
+      ]
+    },
+    {
+      "id": "u05-035",
+      "es": "la Expresión Plástica",
+      "de": "Kunst (Schulfach)",
+      "akzeptiert_es": [
+        "la Expresión Plástica"
+      ],
+      "akzeptiert_de": [
+        "Kunst (Schulfach)"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "asignaturas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En Expresión Plástica hacemos dibujos.",
+          "de": "In Kunst machen wir Zeichnungen.",
+          "luecke": "Expresión Plástica",
+          "luecke_akzeptiert": [
+            "expresión plástica"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was ihr in Kunst macht.",
+        "muster": [
+          "En Expresión Plástica hacemos dibujos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-022",
+        "u05-023",
+        "u05-024",
+        "u05-025",
+        "u05-027",
+        "u05-030"
+      ],
+      "distraktoren_de": [
+        "das Geschenk",
+        "das Haus; die Wohnung",
+        "der Onkel / die Tante"
+      ]
+    },
+    {
+      "id": "u05-036",
+      "es": "tener mala cara",
+      "de": "schlecht aussehen",
+      "akzeptiert_es": [
+        "tener mala cara"
+      ],
+      "akzeptiert_de": [
+        "schlecht aussehen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "salud",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Qué te pasa? Tienes mala cara.",
+          "de": "Was ist los mit dir? Du siehst schlecht aus.",
+          "luecke": "Tienes mala cara",
+          "luecke_akzeptiert": [
+            "tienes mala cara"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin sieht krank aus. Sprich sie an.",
+        "muster": [
+          "¿Qué pasa? Tienes mala cara."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "etw. trinken; etw. essen",
+        "ich bin",
+        "gehen; fahren"
+      ]
+    },
+    {
+      "id": "u05-037",
+      "es": "malo, -a",
+      "de": "schlecht",
+      "akzeptiert_es": [
+        "malo, -a",
+        "malo",
+        "malo/a",
+        "malo, mala"
+      ],
+      "akzeptiert_de": [
+        "schlecht"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La película es muy mala.",
+          "de": "Der Film ist sehr schlecht.",
+          "luecke": "mala",
+          "luecke_akzeptiert": [
+            "mala"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe einen schlechten Film oder eine schlechte Serie.",
+        "muster": [
+          "La serie es muy mala."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. malus",
+      "nicht_zusammen_mit": [
+        "u05-093"
+      ],
+      "distraktoren_de": [
+        "perfekt",
+        "frei",
+        "toll; prima"
+      ]
+    },
+    {
+      "id": "u05-038",
+      "es": "la cara",
+      "de": "das Gesicht",
+      "akzeptiert_es": [
+        "la cara"
+      ],
+      "akzeptiert_de": [
+        "das Gesicht"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "cuerpo",
+      "bild": "🙂",
+      "beispiele": [
+        {
+          "es": "Mi hermano tiene la cara roja.",
+          "de": "Mein Bruder hat ein rotes Gesicht.",
+          "luecke": "cara",
+          "luecke_akzeptiert": [
+            "cara"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe das Gesicht einer Person, die sich gerade schämt.",
+        "muster": [
+          "Tiene la cara roja."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Handy",
+        "das Fernsehen",
+        "die Woche"
+      ]
+    },
+    {
+      "id": "u05-039",
+      "es": "encontrar",
+      "de": "finden",
+      "akzeptiert_es": [
+        "encontrar"
+      ],
+      "akzeptiert_de": [
+        "finden"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "No encuentro mi bolígrafo.",
+          "de": "Ich finde meinen Kuli nicht.",
+          "luecke": "encuentro",
+          "luecke_akzeptiert": [
+            "encuentro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du suchst dein Handy überall. Sag, dass du es nicht findest.",
+        "muster": [
+          "No encuentro mi móvil."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-040"
+      ],
+      "distraktoren_de": [
+        "Hausarrest haben",
+        "zubereiten; vorbereiten",
+        "schlafen"
+      ]
+    },
+    {
+      "id": "u05-040",
+      "es": "buscar",
+      "de": "suchen",
+      "akzeptiert_es": [
+        "buscar"
+      ],
+      "akzeptiert_de": [
+        "suchen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Busco mi mochila.",
+          "de": "Ich suche meinen Rucksack.",
+          "luecke": "Busco",
+          "luecke_akzeptiert": [
+            "busco"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag deiner Mutter, was du suchst.",
+        "muster": [
+          "Busco mi cuaderno de español."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sich ausruhen; sich entspannen",
+        "abschreiben; kopieren",
+        "beenden; enden"
+      ]
+    },
+    {
+      "id": "u05-041",
+      "es": "llamar",
+      "de": "(an)rufen",
+      "akzeptiert_es": [
+        "llamar"
+      ],
+      "akzeptiert_de": [
+        "(an)rufen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Estoy llamando a mi abuela.",
+          "de": "Ich rufe gerade meine Großmutter an.",
+          "luecke": "llamando",
+          "luecke_akzeptiert": [
+            "llamando"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wen du heute Abend anrufst.",
+        "muster": [
+          "Esta noche llamo a mi tía."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "(an)schauen",
+        "sehen; (an)schauen",
+        "rennen; laufen"
+      ]
+    },
+    {
+      "id": "u05-042",
+      "es": "¡Claro!",
+      "de": "Natürlich!; Klar!",
+      "akzeptiert_es": [
+        "¡Claro!"
+      ],
+      "akzeptiert_de": [
+        "Natürlich!",
+        "Klar!"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": false,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Me ayudas con los deberes? —¡Claro!",
+          "de": "– Hilfst du mir bei den Hausaufgaben? – Klar!",
+          "luecke": "Claro",
+          "luecke_akzeptiert": [
+            "claro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin fragt, ob du mit ins Kino kommst. Antworte begeistert.",
+        "muster": [
+          "¡Claro!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "mit dem Fahrrad",
+        "Wie geht es dir?",
+        "Auf Wiedersehen!; Tschüs!"
+      ]
+    },
+    {
+      "id": "u05-043",
+      "es": "poner en silencio",
+      "de": "auf leise stellen",
+      "akzeptiert_es": [
+        "poner en silencio"
+      ],
+      "akzeptiert_de": [
+        "auf leise stellen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "comunicacion",
+      "bild": "🔕",
+      "beispiele": [
+        {
+          "es": "En clase pongo el móvil en silencio.",
+          "de": "Im Unterricht stelle ich das Handy auf leise.",
+          "luecke": "pongo el móvil en silencio",
+          "luecke_akzeptiert": [
+            "pongo el móvil en silencio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du mit deinem Handy im Kino machst.",
+        "muster": [
+          "En el cine pongo el móvil en silencio."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "gefallen",
+        "ein Selbstgespräch führen",
+        "schlecht aussehen"
+      ]
+    },
+    {
+      "id": "u05-044",
+      "es": "poner",
+      "de": "(hinein)legen; setzen; stellen",
+      "akzeptiert_es": [
+        "poner"
+      ],
+      "akzeptiert_de": [
+        "(hinein)legen",
+        "setzen",
+        "stellen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Pongo los libros en la mesa.",
+          "de": "Ich lege die Bücher auf den Tisch.",
+          "luecke": "Pongo",
+          "luecke_akzeptiert": [
+            "pongo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wohin du deine Schultasche stellst, wenn du nach Hause kommst.",
+        "muster": [
+          "Pongo la mochila debajo de la mesa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. ponere",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "aufstehen",
+        "gefallen",
+        "beenden; enden"
+      ]
+    },
+    {
+      "id": "u05-045",
+      "es": "el silencio",
+      "de": "die Ruhe",
+      "akzeptiert_es": [
+        "el silencio"
+      ],
+      "akzeptiert_de": [
+        "die Ruhe"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En la biblioteca hay mucho silencio.",
+          "de": "In der Bibliothek ist es sehr ruhig.",
+          "luecke": "silencio",
+          "luecke_akzeptiert": [
+            "silencio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du willst lernen, aber es ist laut. Bitte um Ruhe.",
+        "muster": [
+          "¡Silencio! Estoy estudiando."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Donnerstag",
+        "Spanisch (als Schulfach, wie Deutsch bei uns)",
+        "die Eltern"
+      ]
+    },
+    {
+      "id": "u05-046",
+      "es": "tranquilo, -a",
+      "de": "ruhig",
+      "akzeptiert_es": [
+        "tranquilo, -a",
+        "tranquilo",
+        "tranquilo/a",
+        "tranquilo, tranquila"
+      ],
+      "akzeptiert_de": [
+        "ruhig"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi barrio es muy tranquilo.",
+          "de": "Mein Viertel ist sehr ruhig.",
+          "luecke": "tranquilo",
+          "luecke_akzeptiert": [
+            "tranquilo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin ist nervös vor der Klassenarbeit. Beruhige sie.",
+        "muster": [
+          "Tranquila, tenemos tiempo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "perfekt",
+        "frei",
+        "toll; klasse"
+      ]
+    },
+    {
+      "id": "u05-047",
+      "es": "pensar en",
+      "de": "an etw./jdn denken",
+      "akzeptiert_es": [
+        "pensar en"
+      ],
+      "akzeptiert_de": [
+        "an etw./jdn denken"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Estoy pensando en las vacaciones.",
+          "de": "Ich denke gerade an die Ferien.",
+          "luecke": "pensando en",
+          "luecke_akzeptiert": [
+            "pensando en"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, woran du gerade denkst.",
+        "muster": [
+          "Estoy pensando en el fin de semana."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. penser",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sich ausruhen; sich entspannen",
+        "machen",
+        "man schreibt"
+      ]
+    },
+    {
+      "id": "u05-048",
+      "es": "¡Mira!",
+      "de": "Schau (mal)!",
+      "akzeptiert_es": [
+        "¡Mira!",
+        "Mira."
+      ],
+      "akzeptiert_de": [
+        "Schau (mal)!"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Mira! Es el nuevo móvil de Ana.",
+          "de": "Schau mal! Das ist das neue Handy von Ana.",
+          "luecke": "Mira",
+          "luecke_akzeptiert": [
+            "mira"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Zeig deinem Freund etwas Lustiges auf dem Schulhof.",
+        "muster": [
+          "¡Mira! El perro tiene un helado."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "am Nachmittag",
+        "halb (Uhrzeit)",
+        "geradeaus (weiter)"
+      ]
+    },
+    {
+      "id": "u05-049",
+      "es": "creer",
+      "de": "glauben; meinen",
+      "akzeptiert_es": [
+        "creer"
+      ],
+      "akzeptiert_de": [
+        "glauben",
+        "meinen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Creo que el examen es el lunes.",
+          "de": "Ich glaube, die Klassenarbeit ist am Montag.",
+          "luecke": "Creo",
+          "luecke_akzeptiert": [
+            "creo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du glaubst: Wann ist die nächste Klassenarbeit?",
+        "muster": [
+          "Creo que es el viernes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. credere",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Hausarrest haben",
+        "chatten",
+        "an etw./jdn denken"
+      ]
+    },
+    {
+      "id": "u05-050",
+      "es": "que",
+      "de": "dass",
+      "akzeptiert_es": [
+        "que"
+      ],
+      "akzeptiert_de": [
+        "dass"
+      ],
+      "fehlantworten_es": {
+        "qué": "Mit Akzent ist qué das Fragewort. „Dass“ schreibt man que ohne Akzent."
+      },
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "conjuncion",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Creo que Ana tiene un perro.",
+          "de": "Ich glaube, dass Ana einen Hund hat.",
+          "luecke": "que",
+          "luecke_akzeptiert": [
+            "que"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du über deine Lehrerin glaubst.",
+        "muster": [
+          "Creo que la profesora es simpática."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Tintenfisch",
+        "gehen; weggehen",
+        "der Schüler / die Schülerin"
+      ]
+    },
+    {
+      "id": "u05-051",
+      "es": "copiar",
+      "de": "abschreiben; kopieren",
+      "akzeptiert_es": [
+        "copiar"
+      ],
+      "akzeptiert_de": [
+        "abschreiben",
+        "kopieren"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermano copia los deberes en el recreo.",
+          "de": "Mein Bruder schreibt in der Pause die Hausaufgaben ab.",
+          "luecke": "copia",
+          "luecke_akzeptiert": [
+            "copia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre, warum man nicht abschreiben soll.",
+        "muster": [
+          "No es bueno copiar los deberes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. to copy",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "haben",
+        "gehen; weggehen",
+        "über etw./jdn sprechen"
+      ]
+    },
+    {
+      "id": "u05-052",
+      "es": "meter en",
+      "de": "in etw. (hinein)legen",
+      "akzeptiert_es": [
+        "meter en"
+      ],
+      "akzeptiert_de": [
+        "in etw. (hinein)legen"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Meto el cuaderno en la mochila.",
+          "de": "Ich lege das Heft in den Rucksack.",
+          "luecke": "Meto",
+          "luecke_akzeptiert": [
+            "meto"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du morgens in deinen Rucksack packst.",
+        "muster": [
+          "Meto los libros y el estuche en la mochila."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. mettre",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "an etw./jdn denken",
+        "auf leise stellen",
+        "chatten"
+      ]
+    },
+    {
+      "id": "u05-053",
+      "es": "desde",
+      "de": "seit",
+      "akzeptiert_es": [
+        "desde"
+      ],
+      "akzeptiert_de": [
+        "seit"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Vivo en mi piso nuevo desde el verano.",
+          "de": "Ich wohne seit dem Sommer in meiner neuen Wohnung.",
+          "luecke": "desde",
+          "luecke_akzeptiert": [
+            "desde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, seit wann du in deiner Stadt wohnst.",
+        "muster": [
+          "Vivo en Versmold desde 2015."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "für",
+        "unter",
+        "auf"
+      ]
+    },
+    {
+      "id": "u05-054",
+      "es": "rojo, -a",
+      "de": "rot",
+      "akzeptiert_es": [
+        "rojo, -a",
+        "rojo",
+        "rojo/a",
+        "rojo, roja"
+      ],
+      "akzeptiert_de": [
+        "rot"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "colores",
+      "bild": "🔴",
+      "beispiele": [
+        {
+          "es": "Mi bolígrafo favorito es rojo.",
+          "de": "Mein Lieblingskuli ist rot.",
+          "luecke": "rojo",
+          "luecke_akzeptiert": [
+            "rojo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe etwas Rotes in deinem Zimmer.",
+        "muster": [
+          "Mi silla es roja."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "schön",
+        "interessant",
+        "toll; klasse"
+      ]
+    },
+    {
+      "id": "u05-055",
+      "es": "tonto, -a",
+      "de": "dumm",
+      "akzeptiert_es": [
+        "tonto, -a",
+        "tonto",
+        "tonto/a",
+        "tonto, tonta"
+      ],
+      "akzeptiert_de": [
+        "dumm"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡No soy tonto!",
+          "de": "Ich bin nicht dumm!",
+          "luecke": "tonto",
+          "luecke_akzeptiert": [
+            "tonto"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Bruder sagt, du verstehst nichts. Antworte.",
+        "muster": [
+          "¡No soy tonto!",
+          "¡No soy tonta!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "genial; super",
+        "Lieblings-",
+        "(alle) zusammen"
+      ]
+    },
+    {
+      "id": "u05-056",
+      "es": "ser de",
+      "de": "gehören",
+      "akzeptiert_es": [
+        "ser de"
+      ],
+      "akzeptiert_de": [
+        "gehören"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El estuche es de Marta.",
+          "de": "Das Mäppchen gehört Marta.",
+          "luecke": "es de",
+          "luecke_akzeptiert": [
+            "es de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Auf dem Tisch liegt ein Rucksack. Frag, wem er gehört.",
+        "muster": [
+          "¿De quién es la mochila?",
+          "¿La mochila es de Paco?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "er/sie/es hat",
+        "sich verabreden; sich treffen",
+        "(an)rufen"
+      ]
+    },
+    {
+      "id": "u05-057",
+      "es": "entonces",
+      "de": "dann",
+      "akzeptiert_es": [
+        "entonces"
+      ],
+      "akzeptiert_de": [
+        "dann"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—No tengo tiempo hoy. —Entonces quedamos mañana.",
+          "de": "– Ich habe heute keine Zeit. – Dann treffen wir uns morgen.",
+          "luecke": "Entonces",
+          "luecke_akzeptiert": [
+            "entonces"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Freund sagt: „Tengo hambre.“ Mach einen Vorschlag mit „entonces“.",
+        "muster": [
+          "Entonces vamos a la cafetería."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nur",
+        "morgen",
+        "bald"
+      ]
+    },
+    {
+      "id": "u05-058",
+      "es": "la nota",
+      "de": "die Notiz; die Note",
+      "akzeptiert_es": [
+        "la nota"
+      ],
+      "akzeptiert_de": [
+        "die Notiz",
+        "die Note"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo una buena nota en Matemáticas.",
+          "de": "Ich habe eine gute Note in Mathe.",
+          "luecke": "nota",
+          "luecke_akzeptiert": [
+            "nota"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl stolz von einer guten Note.",
+        "muster": [
+          "¡Tengo una buena nota en español!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Bad; das Badezimmer",
+        "die Nacht",
+        "die U-Bahn-Station"
+      ]
+    },
+    {
+      "id": "u05-059",
+      "es": "la carta",
+      "de": "der Brief",
+      "akzeptiert_es": [
+        "la carta"
+      ],
+      "akzeptiert_de": [
+        "der Brief"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": "✉️",
+      "beispiele": [
+        {
+          "es": "Escribo una carta a mi amiga de México.",
+          "de": "Ich schreibe meiner Freundin in Mexiko einen Brief.",
+          "luecke": "carta",
+          "luecke_akzeptiert": [
+            "carta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wem du einen Brief schreibst.",
+        "muster": [
+          "Escribo una carta a mis abuelos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Fußballspiel",
+        "der Montag",
+        "der Film"
+      ]
+    },
+    {
+      "id": "u05-060",
+      "es": "el amor",
+      "de": "die Liebe",
+      "akzeptiert_es": [
+        "el amor"
+      ],
+      "akzeptiert_de": [
+        "die Liebe"
+      ],
+      "unidad": 5,
+      "seite": 199,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": "❤️",
+      "beispiele": [
+        {
+          "es": "Es una película de amor.",
+          "de": "Das ist ein Liebesfilm.",
+          "luecke": "amor",
+          "luecke_akzeptiert": [
+            "amor"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, welche Filme du magst (Liebesfilme?).",
+        "muster": [
+          "No me gustan las películas de amor."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’amour, lat. amor",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die U-Bahn-Station",
+        "das Ausland",
+        "die Ruhe"
+      ]
+    },
+    {
+      "id": "u05-061",
+      "es": "nuestro, -a",
+      "de": "unser/unsere",
+      "akzeptiert_es": [
+        "nuestro, -a",
+        "nuestro",
+        "nuestra"
+      ],
+      "akzeptiert_de": [
+        "unser/unsere"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": true,
+      "tema": "familia",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Nuestra profesora es de Madrid.",
+          "de": "Unsere Lehrerin kommt aus Madrid.",
+          "luecke": "Nuestra",
+          "luecke_akzeptiert": [
+            "nuestra"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell deine Schule vor: Wie heißt unser Gymnasium?",
+        "muster": [
+          "Nuestro instituto se llama CJD."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-064"
+      ],
+      "distraktoren_de": [
+        "wie viele?",
+        "er",
+        "wie?"
+      ]
+    },
+    {
+      "id": "u05-062",
+      "es": "el secreto",
+      "de": "das Geheimnis",
+      "akzeptiert_es": [
+        "el secreto"
+      ],
+      "akzeptiert_de": [
+        "das Geheimnis"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": "🤫",
+      "beispiele": [
+        {
+          "es": "¡Es un secreto!",
+          "de": "Das ist ein Geheimnis!",
+          "luecke": "secreto",
+          "luecke_akzeptiert": [
+            "secreto"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin will wissen, was dein Geschenk ist. Verrate nichts.",
+        "muster": [
+          "¡Es un secreto!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. secret, lat. secretum",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Idee",
+        "der Sport",
+        "das Obst"
+      ]
+    },
+    {
+      "id": "u05-063",
+      "es": "perder",
+      "de": "verlieren",
+      "akzeptiert_es": [
+        "perder"
+      ],
+      "akzeptiert_de": [
+        "verlieren"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermano siempre pierde su móvil.",
+          "de": "Mein Bruder verliert immer sein Handy.",
+          "luecke": "pierde",
+          "luecke_akzeptiert": [
+            "pierde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du oft verlierst.",
+        "muster": [
+          "Siempre pierdo mi goma."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. perdere",
+      "nicht_zusammen_mit": [
+        "u05-039"
+      ],
+      "distraktoren_de": [
+        "kaufen",
+        "Hunger haben",
+        "Lust haben auf; Lust haben, etw. zu tun"
+      ]
+    },
+    {
+      "id": "u05-064",
+      "es": "vuestro, -a",
+      "de": "euer/eure",
+      "akzeptiert_es": [
+        "vuestro, -a",
+        "vuestro",
+        "vuestra"
+      ],
+      "akzeptiert_de": [
+        "euer/eure"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": true,
+      "tema": "familia",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Cómo se llama vuestro perro?",
+          "de": "Wie heißt euer Hund?",
+          "luecke": "vuestro",
+          "luecke_akzeptiert": [
+            "vuestro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag zwei Freunde, wie ihre Lehrerin heißt.",
+        "muster": [
+          "¿Cómo se llama vuestra profesora?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Sie (Höflichkeitsform)",
+        "wohin?",
+        "sie"
+      ]
+    },
+    {
+      "id": "u05-065",
+      "es": "quedarse",
+      "de": "bleiben; sich aufhalten",
+      "akzeptiert_es": [
+        "quedarse"
+      ],
+      "akzeptiert_de": [
+        "bleiben",
+        "sich aufhalten"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hoy me quedo en casa.",
+          "de": "Heute bleibe ich zu Hause.",
+          "luecke": "me quedo",
+          "luecke_akzeptiert": [
+            "me quedo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Es regnet. Sag, dass du heute zu Hause bleibst.",
+        "muster": [
+          "Hoy me quedo en casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-080"
+      ],
+      "distraktoren_de": [
+        "(lange) brauchen",
+        "ein Selbstgespräch führen",
+        "froh sein; zufrieden sein"
+      ]
+    },
+    {
+      "id": "u05-066",
+      "es": "desayunar",
+      "de": "frühstücken",
+      "akzeptiert_es": [
+        "desayunar"
+      ],
+      "akzeptiert_de": [
+        "frühstücken"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": "🥣",
+      "beispiele": [
+        {
+          "es": "Desayuno con mi familia a las siete.",
+          "de": "Ich frühstücke um sieben mit meiner Familie.",
+          "luecke": "Desayuno",
+          "luecke_akzeptiert": [
+            "desayuno"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du zum Frühstück isst.",
+        "muster": [
+          "Desayuno leche y galletas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich komme aus",
+        "(an)rufen",
+        "sich ausruhen"
+      ]
+    },
+    {
+      "id": "u05-067",
+      "es": "lavarse los dientes",
+      "de": "sich die Zähne putzen",
+      "akzeptiert_es": [
+        "lavarse los dientes"
+      ],
+      "akzeptiert_de": [
+        "sich die Zähne putzen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "rutina",
+      "bild": "🪥",
+      "beispiele": [
+        {
+          "es": "Después de desayunar me lavo los dientes.",
+          "de": "Nach dem Frühstück putze ich mir die Zähne.",
+          "luecke": "me lavo los dientes",
+          "luecke_akzeptiert": [
+            "me lavo los dientes"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann du dir die Zähne putzt.",
+        "muster": [
+          "Me lavo los dientes antes de dormir."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-068",
+        "u05-069"
+      ],
+      "distraktoren_de": [
+        "froh sein; zufrieden sein",
+        "glauben; meinen",
+        "wollen; mögen"
+      ]
+    },
+    {
+      "id": "u05-068",
+      "es": "lavarse",
+      "de": "sich waschen",
+      "akzeptiert_es": [
+        "lavarse"
+      ],
+      "akzeptiert_de": [
+        "sich waschen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Me lavo con agua fría.",
+          "de": "Ich wasche mich mit kaltem Wasser.",
+          "luecke": "Me lavo",
+          "luecke_akzeptiert": [
+            "me lavo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Morgen: Was machst du im Bad?",
+        "muster": [
+          "Me lavo y me ducho."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "er/sie heißt",
+        "gerade etw. getan haben",
+        "gehen; weggehen"
+      ]
+    },
+    {
+      "id": "u05-069",
+      "es": "el diente",
+      "de": "der Zahn",
+      "akzeptiert_es": [
+        "el diente"
+      ],
+      "akzeptiert_de": [
+        "der Zahn"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "cuerpo",
+      "bild": "🦷",
+      "beispiele": [
+        {
+          "es": "Mi hermano pequeño tiene dos dientes nuevos.",
+          "de": "Mein kleiner Bruder hat zwei neue Zähne.",
+          "luecke": "dientes",
+          "luecke_akzeptiert": [
+            "dientes"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann du dir die Zähne putzt.",
+        "muster": [
+          "Me lavo los dientes por la mañana."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la dent",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Haustier",
+        "das Fußballspiel",
+        "die Wissenschaft"
+      ]
+    },
+    {
+      "id": "u05-070",
+      "es": "antes de",
+      "de": "bevor; vor",
+      "akzeptiert_es": [
+        "antes de"
+      ],
+      "akzeptiert_de": [
+        "bevor",
+        "vor"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Antes de dormir leo un poco.",
+          "de": "Bevor ich schlafe, lese ich ein bisschen.",
+          "luecke": "Antes de",
+          "luecke_akzeptiert": [
+            "antes de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du vor dem Schlafengehen machst.",
+        "muster": [
+          "Antes de dormir me lavo los dientes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "bis",
+        "von; aus",
+        "unter"
+      ]
+    },
+    {
+      "id": "u05-071",
+      "es": "ducharse",
+      "de": "(sich) duschen",
+      "akzeptiert_es": [
+        "ducharse"
+      ],
+      "akzeptiert_de": [
+        "(sich) duschen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": "🚿",
+      "beispiele": [
+        {
+          "es": "Me ducho por la mañana.",
+          "de": "Ich dusche morgens.",
+          "luecke": "Me ducho",
+          "luecke_akzeptiert": [
+            "me ducho"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du morgens oder abends duschst.",
+        "muster": [
+          "Me ducho por la noche."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "(hinein)legen; setzen; stellen",
+        "empfangen; bekommen",
+        "nehmen"
+      ]
+    },
+    {
+      "id": "u05-072",
+      "es": "el agua",
+      "de": "das Wasser",
+      "akzeptiert_es": [
+        "el agua"
+      ],
+      "akzeptiert_de": [
+        "das Wasser"
+      ],
+      "fehlantworten_es": {
+        "la agua": "Vor betontem a- steht el: el agua (aber: el agua fría)."
+      },
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "💧",
+      "beispiele": [
+        {
+          "es": "¿Puedo tomar un poco de agua?",
+          "de": "Darf ich etwas Wasser trinken?",
+          "luecke": "agua",
+          "luecke_akzeptiert": [
+            "agua"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du hast Durst. Frag deine Gastmutter nach Wasser.",
+        "muster": [
+          "¿Puedo tomar agua?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. aqua; el agua ist feminin: el agua fría",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Tier",
+        "der Brief",
+        "die Erziehung; die Bildung"
+      ]
+    },
+    {
+      "id": "u05-073",
+      "es": "frío, -a",
+      "de": "kalt",
+      "akzeptiert_es": [
+        "frío, -a",
+        "frío",
+        "frío/a",
+        "frío, fría"
+      ],
+      "akzeptiert_de": [
+        "kalt"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El agua de la piscina está fría.",
+          "de": "Das Wasser im Schwimmbad ist kalt.",
+          "luecke": "fría",
+          "luecke_akzeptiert": [
+            "fría"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe das Wasser am Strand im Frühling.",
+        "muster": [
+          "El agua está muy fría."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "lecker; reich",
+        "perfekt",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u05-074",
+      "es": "ponerse",
+      "de": "anziehen (Kleidung)",
+      "akzeptiert_es": [
+        "ponerse"
+      ],
+      "akzeptiert_de": [
+        "anziehen (Kleidung)"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Por la noche me pongo el pijama.",
+          "de": "Abends ziehe ich den Schlafanzug an.",
+          "luecke": "me pongo",
+          "luecke_akzeptiert": [
+            "me pongo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du vor dem Schlafen anziehst.",
+        "muster": [
+          "Me pongo el pijama."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sich ausruhen",
+        "es gibt; da ist/sind",
+        "gehen; fahren"
+      ]
+    },
+    {
+      "id": "u05-075",
+      "es": "el pijama",
+      "de": "der Schlafanzug; der Pyjama",
+      "akzeptiert_es": [
+        "el pijama"
+      ],
+      "akzeptiert_de": [
+        "der Schlafanzug",
+        "der Pyjama"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "rutina",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi pijama es rojo.",
+          "de": "Mein Schlafanzug ist rot.",
+          "luecke": "pijama",
+          "luecke_akzeptiert": [
+            "pijama"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Schlafanzug.",
+        "muster": [
+          "Mi pijama es muy bonito."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Fußballspiel",
+        "die Apotheke",
+        "der Freund"
+      ]
+    },
+    {
+      "id": "u05-076",
+      "es": "dormir",
+      "de": "schlafen",
+      "akzeptiert_es": [
+        "dormir"
+      ],
+      "akzeptiert_de": [
+        "schlafen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": "😴",
+      "beispiele": [
+        {
+          "es": "Mi gato duerme en mi cama.",
+          "de": "Meine Katze schläft in meinem Bett.",
+          "luecke": "duerme",
+          "luecke_akzeptiert": [
+            "duerme"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie viele Stunden du schläfst.",
+        "muster": [
+          "Duermo ocho horas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. dormire",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "gehen; weggehen",
+        "hören",
+        "shoppen gehen; einkaufen gehen"
+      ]
+    },
+    {
+      "id": "u05-077",
+      "es": "relajarse",
+      "de": "sich ausruhen; sich entspannen",
+      "akzeptiert_es": [
+        "relajarse"
+      ],
+      "akzeptiert_de": [
+        "sich ausruhen",
+        "sich entspannen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Me relajo en el jardín.",
+          "de": "Ich entspanne mich im Garten.",
+          "luecke": "Me relajo",
+          "luecke_akzeptiert": [
+            "me relajo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie du dich am besten entspannst.",
+        "muster": [
+          "Me relajo con música."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. to relax",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "müssen",
+        "es gibt; da ist/sind",
+        "haben"
+      ]
+    },
+    {
+      "id": "u05-078",
+      "es": "tomar algo",
+      "de": "etw. trinken; etw. essen",
+      "akzeptiert_es": [
+        "tomar algo"
+      ],
+      "akzeptiert_de": [
+        "etw. trinken",
+        "etw. essen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Tomamos algo en la cafetería?",
+          "de": "Trinken wir etwas in der Cafeteria?",
+          "luecke": "Tomamos algo",
+          "luecke_akzeptiert": [
+            "tomamos algo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Schlag deiner Freundin vor, nach der Schule etwas trinken zu gehen.",
+        "muster": [
+          "¿Tomamos algo después del instituto?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "abschreiben; kopieren",
+        "an etw./jdn denken",
+        "glauben; meinen"
+      ]
+    },
+    {
+      "id": "u05-079",
+      "es": "la merienda",
+      "de": "die Zwischenmahlzeit am Nachmittag",
+      "akzeptiert_es": [
+        "la merienda"
+      ],
+      "akzeptiert_de": [
+        "die Zwischenmahlzeit am Nachmittag"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "De merienda tomo un bocadillo.",
+          "de": "Am Nachmittag esse ich ein belegtes Brötchen.",
+          "luecke": "merienda",
+          "luecke_akzeptiert": [
+            "merienda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du nachmittags zwischendurch isst.",
+        "muster": [
+          "De merienda tomo fruta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Balkon",
+        "das Fernsehen",
+        "der Bleistift; der Buntstift"
+      ]
+    },
+    {
+      "id": "u05-080",
+      "es": "irse",
+      "de": "gehen; weggehen",
+      "akzeptiert_es": [
+        "irse"
+      ],
+      "akzeptiert_de": [
+        "gehen",
+        "weggehen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ya es tarde. Me voy a casa.",
+          "de": "Es ist schon spät. Ich gehe nach Hause.",
+          "luecke": "Me voy",
+          "luecke_akzeptiert": [
+            "me voy"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du musst die Party verlassen. Verabschiede dich.",
+        "muster": [
+          "Me voy. ¡Hasta luego!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "leben; wohnen",
+        "ich habe",
+        "spielen"
+      ]
+    },
+    {
+      "id": "u05-081",
+      "es": "levantarse",
+      "de": "aufstehen",
+      "akzeptiert_es": [
+        "levantarse"
+      ],
+      "akzeptiert_de": [
+        "aufstehen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": "⏰",
+      "beispiele": [
+        {
+          "es": "Los sábados me levanto tarde.",
+          "de": "Samstags stehe ich spät auf.",
+          "luecke": "me levanto",
+          "luecke_akzeptiert": [
+            "me levanto"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann du an Schultagen aufstehst.",
+        "muster": [
+          "Me levanto a las seis y media."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Lust haben auf; Lust haben, etw. zu tun",
+        "gehören",
+        "lesen"
+      ]
+    },
+    {
+      "id": "u05-082",
+      "es": "la leche",
+      "de": "die Milch",
+      "akzeptiert_es": [
+        "la leche"
+      ],
+      "akzeptiert_de": [
+        "die Milch"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "🥛",
+      "beispiele": [
+        {
+          "es": "Desayuno leche con chocolate.",
+          "de": "Ich frühstücke Milch mit Kakao.",
+          "luecke": "leche",
+          "luecke_akzeptiert": [
+            "leche"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du zum Frühstück trinkst.",
+        "muster": [
+          "Tomo leche."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Unterricht; die Klasse; die Stunde",
+        "das Unterrichtsfach",
+        "das Küsschen"
+      ]
+    },
+    {
+      "id": "u05-083",
+      "es": "la galleta",
+      "de": "der Keks",
+      "akzeptiert_es": [
+        "la galleta"
+      ],
+      "akzeptiert_de": [
+        "der Keks"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "🍪",
+      "beispiele": [
+        {
+          "es": "Mi perro come galletas.",
+          "de": "Mein Hund isst Kekse.",
+          "luecke": "galletas",
+          "luecke_akzeptiert": [
+            "galletas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du als Snack magst.",
+        "muster": [
+          "Me gustan las galletas de chocolate."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Musik",
+        "der Rat; der Tipp",
+        "die Ruhe"
+      ]
+    },
+    {
+      "id": "u05-084",
+      "es": "la fruta",
+      "de": "das Obst",
+      "akzeptiert_es": [
+        "la fruta"
+      ],
+      "akzeptiert_de": [
+        "das Obst"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "🍎",
+      "beispiele": [
+        {
+          "es": "En el recreo como fruta.",
+          "de": "In der Pause esse ich Obst.",
+          "luecke": "fruta",
+          "luecke_akzeptiert": [
+            "fruta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du gern Obst isst.",
+        "muster": [
+          "Como fruta todos los días."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Hilfe",
+        "Englisch; die englische Sprache",
+        "die Erziehung; die Bildung"
+      ]
+    },
+    {
+      "id": "u05-085",
+      "es": "cenar",
+      "de": "zu Abend essen",
+      "akzeptiert_es": [
+        "cenar"
+      ],
+      "akzeptiert_de": [
+        "zu Abend essen"
+      ],
+      "unidad": 5,
+      "seite": 200,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Cenamos a las ocho.",
+          "de": "Wir essen um acht zu Abend.",
+          "luecke": "Cenamos",
+          "luecke_akzeptiert": [
+            "cenamos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, um wie viel Uhr ihr zu Abend esst.",
+        "muster": [
+          "Cenamos a las siete."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-066"
+      ],
+      "distraktoren_de": [
+        "schlafen",
+        "müssen",
+        "spielen (Musikinstrument)"
+      ]
+    },
+    {
+      "id": "u05-086",
+      "es": "salir de",
+      "de": "verlassen; hinausgehen",
+      "akzeptiert_es": [
+        "salir de"
+      ],
+      "akzeptiert_de": [
+        "verlassen",
+        "hinausgehen"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "rutina",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Salgo de casa a las siete y media.",
+          "de": "Ich verlasse das Haus um halb acht.",
+          "luecke": "Salgo de casa",
+          "luecke_akzeptiert": [
+            "salgo de casa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, um wie viel Uhr du morgens das Haus verlässt.",
+        "muster": [
+          "Salgo de casa a las siete."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "suchen",
+        "empfangen; bekommen",
+        "abschreiben; kopieren"
+      ]
+    },
+    {
+      "id": "u05-087",
+      "es": "la idea",
+      "de": "die Idee",
+      "akzeptiert_es": [
+        "la idea"
+      ],
+      "akzeptiert_de": [
+        "die Idee"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Es una idea genial!",
+          "de": "Das ist eine geniale Idee!",
+          "luecke": "idea",
+          "luecke_akzeptiert": [
+            "idea"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin schlägt vor, ans Meer zu fahren. Reagiere begeistert.",
+        "muster": [
+          "¡Qué buena idea!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der feste Freund / die feste Freundin",
+        "das Haus; die Wohnung",
+        "die Zeichnung"
+      ]
+    },
+    {
+      "id": "u05-088",
+      "es": "estupendo, -a",
+      "de": "toll; prima",
+      "akzeptiert_es": [
+        "estupendo, -a",
+        "estupendo",
+        "estupendo/a",
+        "estupendo, estupenda"
+      ],
+      "akzeptiert_de": [
+        "toll",
+        "prima"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El viaje es estupendo.",
+          "de": "Die Reise ist toll.",
+          "luecke": "estupendo",
+          "luecke_akzeptiert": [
+            "estupendo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine letzten Ferien mit „estupendo“.",
+        "muster": [
+          "Las vacaciones son estupendas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-094",
+        "u05-098"
+      ],
+      "distraktoren_de": [
+        "normal",
+        "alt; altertümlich",
+        "neu"
+      ]
+    },
+    {
+      "id": "u05-089",
+      "es": "estar contento",
+      "de": "froh sein; zufrieden sein",
+      "akzeptiert_es": [
+        "estar contento",
+        "estar contenta",
+        "estar contento, -a"
+      ],
+      "akzeptiert_de": [
+        "froh sein",
+        "zufrieden sein"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Estoy muy contenta porque tengo una buena nota.",
+          "de": "Ich bin sehr froh, weil ich eine gute Note habe.",
+          "luecke": "contenta",
+          "luecke_akzeptiert": [
+            "contenta",
+            "contento"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, warum du heute froh bist.",
+        "muster": [
+          "Estoy contento porque es viernes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "gehen; weggehen",
+        "müssen",
+        "Rad fahren"
+      ]
+    },
+    {
+      "id": "u05-090",
+      "es": "el extranjero",
+      "de": "das Ausland",
+      "akzeptiert_es": [
+        "el extranjero"
+      ],
+      "akzeptiert_de": [
+        "das Ausland"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "viajes",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi prima estudia en el extranjero.",
+          "de": "Meine Cousine studiert im Ausland.",
+          "luecke": "extranjero",
+          "luecke_akzeptiert": [
+            "extranjero"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wer aus deiner Familie im Ausland lebt.",
+        "muster": [
+          "Mi tío vive en el extranjero."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’étranger",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Katastrophe",
+        "die Zeichnung",
+        "Spanisch; die spanische Sprache"
+      ]
+    },
+    {
+      "id": "u05-091",
+      "es": "ir de viaje",
+      "de": "verreisen",
+      "akzeptiert_es": [
+        "ir de viaje"
+      ],
+      "akzeptiert_de": [
+        "verreisen"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "viajes",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En verano vamos de viaje a Portugal.",
+          "de": "Im Sommer verreisen wir nach Portugal.",
+          "luecke": "vamos de viaje",
+          "luecke_akzeptiert": [
+            "vamos de viaje"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wohin ihr in den Ferien verreist.",
+        "muster": [
+          "En verano vamos de viaje a España."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-092"
+      ],
+      "distraktoren_de": [
+        "Lust haben auf; Lust haben, etw. zu tun",
+        "Hunger haben",
+        "rennen; laufen"
+      ]
+    },
+    {
+      "id": "u05-092",
+      "es": "el viaje",
+      "de": "die Reise",
+      "akzeptiert_es": [
+        "el viaje"
+      ],
+      "akzeptiert_de": [
+        "die Reise"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "viajes",
+      "bild": "✈️",
+      "beispiele": [
+        {
+          "es": "¿Qué tal el viaje?",
+          "de": "Wie war die Reise?",
+          "luecke": "viaje",
+          "luecke_akzeptiert": [
+            "viaje"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wie die Reise in die Ferien ist.",
+        "muster": [
+          "El viaje es estupendo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Sekretariat",
+        "das Federmäppchen",
+        "die Fernsehserie"
+      ]
+    },
+    {
+      "id": "u05-093",
+      "es": "bueno, -a",
+      "de": "gut",
+      "akzeptiert_es": [
+        "bueno, -a",
+        "bueno",
+        "bueno/a",
+        "bueno, buena"
+      ],
+      "akzeptiert_de": [
+        "gut"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Es una película muy buena.",
+          "de": "Das ist ein sehr guter Film.",
+          "luecke": "buena",
+          "luecke_akzeptiert": [
+            "buena"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Empfiehl einen guten Film.",
+        "muster": [
+          "Es una película muy buena."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. bonus",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sehr schlecht",
+        "Lieblings-",
+        "toll; klasse"
+      ]
+    },
+    {
+      "id": "u05-094",
+      "es": "guay",
+      "de": "toll; klasse",
+      "akzeptiert_es": [
+        "guay"
+      ],
+      "akzeptiert_de": [
+        "toll",
+        "klasse"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Tu bicicleta nueva es guay!",
+          "de": "Dein neues Fahrrad ist klasse!",
+          "luecke": "guay",
+          "luecke_akzeptiert": [
+            "guay"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Freund zeigt dir sein neues Handy. Reagiere umgangssprachlich.",
+        "muster": [
+          "¡Qué guay!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "klein",
+        "groß",
+        "berühmt; bekannt"
+      ]
+    },
+    {
+      "id": "u05-095",
+      "es": "bienvenido, -a",
+      "de": "willkommen",
+      "akzeptiert_es": [
+        "bienvenido, -a",
+        "bienvenido",
+        "bienvenido/a",
+        "bienvenido, bienvenida"
+      ],
+      "akzeptiert_de": [
+        "willkommen"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "cortesia",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Bienvenidos a nuestra casa!",
+          "de": "Willkommen in unserem Haus!",
+          "luecke": "Bienvenidos",
+          "luecke_akzeptiert": [
+            "bienvenidos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Austauschpartnerin kommt an. Begrüße sie bei dir zu Hause.",
+        "muster": [
+          "¡Bienvenida a mi casa!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. bienvenu, -e",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "perfekt",
+        "frei",
+        "berühmt; bekannt"
+      ]
+    },
+    {
+      "id": "u05-096",
+      "es": "primero",
+      "de": "zuerst",
+      "akzeptiert_es": [
+        "primero"
+      ],
+      "akzeptiert_de": [
+        "zuerst"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Primero desayuno y después me ducho.",
+          "de": "Zuerst frühstücke ich und dann dusche ich.",
+          "luecke": "Primero",
+          "luecke_akzeptiert": [
+            "primero"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Morgen mit „primero“ und „después“.",
+        "muster": [
+          "Primero me levanto y después desayuno."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "bald",
+        "hier",
+        "normalerweise"
+      ]
+    },
+    {
+      "id": "u05-097",
+      "es": "el país",
+      "de": "das Land",
+      "akzeptiert_es": [
+        "el país"
+      ],
+      "akzeptiert_de": [
+        "das Land"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🗺️",
+      "beispiele": [
+        {
+          "es": "España es un país muy bonito.",
+          "de": "Spanien ist ein sehr schönes Land.",
+          "luecke": "país",
+          "luecke_akzeptiert": [
+            "país"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne dein Lieblingsland und sag, warum.",
+        "muster": [
+          "Mi país favorito es México porque es interesante."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Gesicht",
+        "der Arzt / die Ärztin",
+        "der Sonntag"
+      ]
+    },
+    {
+      "id": "u05-098",
+      "es": "fantástico, -a",
+      "de": "fantastisch; toll",
+      "akzeptiert_es": [
+        "fantástico, -a",
+        "fantástico",
+        "fantástico/a",
+        "fantástico, fantástica"
+      ],
+      "akzeptiert_de": [
+        "fantastisch",
+        "toll"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡La fiesta es fantástica!",
+          "de": "Die Party ist fantastisch!",
+          "luecke": "fantástica",
+          "luecke_akzeptiert": [
+            "fantástica"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe den schönsten Tag deiner Ferien.",
+        "muster": [
+          "¡El día en la playa es fantástico!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "frei",
+        "sympathisch; nett",
+        "ruhig"
+      ]
+    },
+    {
+      "id": "u05-099",
+      "es": "juntos, -as",
+      "de": "(alle) zusammen",
+      "akzeptiert_es": [
+        "juntos, -as",
+        "juntos",
+        "juntas",
+        "todos juntos",
+        "todas juntas"
+      ],
+      "akzeptiert_de": [
+        "(alle) zusammen"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "personas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Paco y yo hacemos los deberes juntos.",
+          "de": "Paco und ich machen die Hausaufgaben zusammen.",
+          "luecke": "juntos",
+          "luecke_akzeptiert": [
+            "juntos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du mit deiner besten Freundin zusammen machst.",
+        "muster": [
+          "Mi amiga y yo vamos juntas al instituto."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "kalt",
+        "klein",
+        "Lieblings-"
+      ]
+    },
+    {
+      "id": "u05-100",
+      "es": "pelearse",
+      "de": "sich streiten",
+      "akzeptiert_es": [
+        "pelearse"
+      ],
+      "akzeptiert_de": [
+        "sich streiten"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermana y yo nos peleamos mucho.",
+          "de": "Meine Schwester und ich streiten uns viel.",
+          "luecke": "nos peleamos",
+          "luecke_akzeptiert": [
+            "nos peleamos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, mit wem du dich manchmal streitest.",
+        "muster": [
+          "A veces me peleo con mi hermano."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "einverstanden sein",
+        "verreisen",
+        "haben"
+      ]
+    },
+    {
+      "id": "u05-101",
+      "es": "la visita",
+      "de": "der Besuch; die Besichtigung",
+      "akzeptiert_es": [
+        "la visita"
+      ],
+      "akzeptiert_de": [
+        "der Besuch",
+        "die Besichtigung"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "viajes",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La visita al museo es a las diez.",
+          "de": "Die Museumsbesichtigung ist um zehn.",
+          "luecke": "visita",
+          "luecke_akzeptiert": [
+            "visita"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wann der Museumsbesuch auf der Klassenfahrt ist.",
+        "muster": [
+          "La visita al museo es el lunes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Ordner; die (Schreib)Mappe",
+        "das Theater",
+        "das Wohnzimmer"
+      ]
+    },
+    {
+      "id": "u05-102",
+      "es": "acabar de",
+      "de": "gerade etw. getan haben",
+      "akzeptiert_es": [
+        "acabar de"
+      ],
+      "akzeptiert_de": [
+        "gerade etw. getan haben"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Acabo de hablar con mi madre.",
+          "de": "Ich habe gerade mit meiner Mutter gesprochen.",
+          "luecke": "Acabo de",
+          "luecke_akzeptiert": [
+            "acabo de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Mutter fragt, ob du schon gegessen hast. Antworte: gerade eben.",
+        "muster": [
+          "Sí, acabo de comer."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ein Selbstgespräch führen",
+        "ich bin",
+        "sich ausruhen; sich entspannen"
+      ]
+    },
+    {
+      "id": "u05-103",
+      "es": "tardar",
+      "de": "(lange) brauchen",
+      "akzeptiert_es": [
+        "tardar"
+      ],
+      "akzeptiert_de": [
+        "(lange) brauchen"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermano tarda mucho en el baño.",
+          "de": "Mein Bruder braucht lange im Bad.",
+          "luecke": "tarda",
+          "luecke_akzeptiert": [
+            "tarda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschwer dich über jemanden, der morgens lange im Bad braucht.",
+        "muster": [
+          "¡Mi hermana tarda mucho en el baño!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "zubereiten; vorbereiten",
+        "ausgehen",
+        "verreisen"
+      ]
+    },
+    {
+      "id": "u05-104",
+      "es": "tarde",
+      "de": "spät; zu spät",
+      "akzeptiert_es": [
+        "tarde"
+      ],
+      "akzeptiert_de": [
+        "spät",
+        "zu spät"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ya es tarde. Me voy a la cama.",
+          "de": "Es ist schon spät. Ich gehe ins Bett.",
+          "luecke": "tarde",
+          "luecke_akzeptiert": [
+            "tarde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Es ist schon spät auf der Party. Verabschiede dich.",
+        "muster": [
+          "Lo siento, es tarde. Me voy."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. tard",
+      "nicht_zusammen_mit": [
+        "u05-109"
+      ],
+      "distraktoren_de": [
+        "fast",
+        "ja",
+        "bald"
+      ]
+    },
+    {
+      "id": "u05-105",
+      "es": "mañana",
+      "de": "morgen",
+      "akzeptiert_es": [
+        "mañana"
+      ],
+      "akzeptiert_de": [
+        "morgen"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mañana tenemos un examen de Matemáticas.",
+          "de": "Morgen schreiben wir eine Mathearbeit.",
+          "luecke": "Mañana",
+          "luecke_akzeptiert": [
+            "mañana"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du morgen machst.",
+        "muster": [
+          "Mañana voy a la piscina."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "auch",
+        "zuerst",
+        "hier"
+      ]
+    },
+    {
+      "id": "u05-106",
+      "es": "el examen",
+      "de": "die Klassenarbeit",
+      "akzeptiert_es": [
+        "el examen"
+      ],
+      "akzeptiert_de": [
+        "die Klassenarbeit"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "escuela",
+      "bild": "📝",
+      "beispiele": [
+        {
+          "es": "El examen de español es el viernes.",
+          "de": "Die Spanischarbeit ist am Freitag.",
+          "luecke": "examen",
+          "luecke_akzeptiert": [
+            "examen"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann eure nächste Klassenarbeit ist.",
+        "muster": [
+          "El examen de inglés es el martes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "Plural: los exámenes",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Englisch; die englische Sprache",
+        "die Großeltern",
+        "die Hilfe"
+      ]
+    },
+    {
+      "id": "u05-107",
+      "es": "¡Mucha suerte!",
+      "de": "Viel Glück!",
+      "akzeptiert_es": [
+        "¡Mucha suerte!"
+      ],
+      "akzeptiert_de": [
+        "Viel Glück!"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "cortesia",
+      "bild": "🍀",
+      "beispiele": [
+        {
+          "es": "—Mañana tengo un examen. —¡Mucha suerte!",
+          "de": "– Morgen habe ich eine Klassenarbeit. – Viel Glück!",
+          "luecke": "Mucha suerte",
+          "luecke_akzeptiert": [
+            "mucha suerte"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Freund hat morgen ein Basketballspiel. Wünsch ihm Glück.",
+        "muster": [
+          "¡Mucha suerte!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-108"
+      ],
+      "distraktoren_de": [
+        "Wie aufregend!",
+        "Was für eine Angst!",
+        "zu Fuß"
+      ]
+    },
+    {
+      "id": "u05-108",
+      "es": "la suerte",
+      "de": "das Glück",
+      "akzeptiert_es": [
+        "la suerte"
+      ],
+      "akzeptiert_de": [
+        "das Glück"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Qué suerte! No hay clase hoy.",
+          "de": "Was für ein Glück! Heute ist kein Unterricht.",
+          "luecke": "suerte",
+          "luecke_akzeptiert": [
+            "suerte"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du findest 10 Euro auf der Straße. Reagiere.",
+        "muster": [
+          "¡Qué suerte!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Naturkunde (Schulfach)",
+        "das Zimmer",
+        "der Zoo"
+      ]
+    },
+    {
+      "id": "u05-109",
+      "es": "temprano",
+      "de": "früh",
+      "akzeptiert_es": [
+        "temprano"
+      ],
+      "akzeptiert_de": [
+        "früh"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi padre se levanta muy temprano.",
+          "de": "Mein Vater steht sehr früh auf.",
+          "luecke": "temprano",
+          "luecke_akzeptiert": [
+            "temprano"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wer in deiner Familie am frühesten aufsteht.",
+        "muster": [
+          "Mi madre se levanta muy temprano."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "auch",
+        "zuerst",
+        "auch nicht"
+      ]
+    },
+    {
+      "id": "u05-110",
+      "es": "a pie",
+      "de": "zu Fuß",
+      "akzeptiert_es": [
+        "a pie"
+      ],
+      "akzeptiert_de": [
+        "zu Fuß"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "transporte",
+      "bild": "🚶",
+      "beispiele": [
+        {
+          "es": "Voy al instituto a pie.",
+          "de": "Ich gehe zu Fuß zur Schule.",
+          "luecke": "a pie",
+          "luecke_akzeptiert": [
+            "a pie"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie du zur Schule kommst.",
+        "muster": [
+          "Voy al instituto a pie.",
+          "Voy en bicicleta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u05-111"
+      ],
+      "distraktoren_de": [
+        "Was hältst du davon, wenn …?",
+        "Wer ist das?",
+        "morgens (Uhrzeit)"
+      ]
+    },
+    {
+      "id": "u05-111",
+      "es": "el pie",
+      "de": "der Fuß",
+      "akzeptiert_es": [
+        "el pie"
+      ],
+      "akzeptiert_de": [
+        "der Fuß"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "cuerpo",
+      "bild": "🦶",
+      "beispiele": [
+        {
+          "es": "Mi pie es muy grande.",
+          "de": "Mein Fuß ist sehr groß.",
+          "luecke": "pie",
+          "luecke_akzeptiert": [
+            "pie"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Schuhgeschäft: Sag, dass dein Fuß groß ist.",
+        "muster": [
+          "Mi pie es grande."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Mädchen",
+        "das Essen",
+        "der Tisch"
+      ]
+    },
+    {
+      "id": "u05-112",
+      "es": "estar de acuerdo",
+      "de": "einverstanden sein",
+      "akzeptiert_es": [
+        "estar de acuerdo"
+      ],
+      "akzeptiert_de": [
+        "einverstanden sein"
+      ],
+      "unidad": 5,
+      "seite": 201,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Vamos a la playa? —Sí, estoy de acuerdo.",
+          "de": "– Gehen wir an den Strand? – Ja, ich bin einverstanden.",
+          "luecke": "estoy de acuerdo",
+          "luecke_akzeptiert": [
+            "estoy de acuerdo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin schlägt einen Plan vor. Sag, dass du einverstanden bist.",
+        "muster": [
+          "Estoy de acuerdo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "in etw. (hinein)legen",
+        "sich die Zähne putzen",
+        "aufstehen"
+      ]
+    }
+  ]
+}
