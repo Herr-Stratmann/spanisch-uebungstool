@@ -9,255 +9,210 @@
   ],
   "grammar": [
     {
-      "id": "g-verben-ar",
-      "titel": "Verben auf -ar (hablar)",
+      "id": "g-praesens-regelmaessig",
+      "titel": "Präsens der regelmäßigen Verben (-ar, -er, -ir)",
       "bereich": "Verben im Präsens",
-      "unidad": 2,
+      "unidades": [
+        2,
+        4
+      ],
       "datei": null
     },
     {
-      "id": "g-verben-er-ir",
-      "titel": "Verben auf -er und -ir (comer, escribir)",
+      "id": "g-praesens-ser-estar-ir-tener",
+      "titel": "Unregelmäßige Verben I: ser, estar, ir, tener",
       "bereich": "Verben im Präsens",
-      "unidad": 4,
+      "unidades": [
+        2,
+        3
+      ],
       "datei": null
     },
     {
-      "id": "g-ser",
-      "titel": "Das Verb ser",
+      "id": "g-praesens-unregelmaessig",
+      "titel": "Unregelmäßige Verben II: hacer, ver, venir, decir, dar, saber",
       "bereich": "Verben im Präsens",
-      "unidad": 2,
-      "datei": null
-    },
-    {
-      "id": "g-tener",
-      "titel": "Das Verb tener",
-      "bereich": "Verben im Präsens",
-      "unidad": 2,
-      "datei": null
-    },
-    {
-      "id": "g-estar",
-      "titel": "Das Verb estar",
-      "bereich": "Verben im Präsens",
-      "unidad": 3,
-      "datei": null
-    },
-    {
-      "id": "g-ir",
-      "titel": "Das Verb ir",
-      "bereich": "Verben im Präsens",
-      "unidad": 3,
-      "datei": null
-    },
-    {
-      "id": "g-ver-hacer",
-      "titel": "Die Verben ver und hacer",
-      "bereich": "Verben im Präsens",
-      "unidad": 4,
+      "unidades": [
+        4,
+        7,
+        8
+      ],
       "datei": null
     },
     {
       "id": "g-stammwechsel",
-      "titel": "Stammwechsel: querer, poder, jugar",
+      "titel": "Verben mit Stammwechsel (querer, poder, jugar, pedir)",
       "bereich": "Verben im Präsens",
-      "unidad": 4,
-      "datei": null
-    },
-    {
-      "id": "g-pedir",
-      "titel": "Das Verb pedir",
-      "bereich": "Verben im Präsens",
-      "unidad": 6,
-      "datei": null
-    },
-    {
-      "id": "g-venir",
-      "titel": "Das Verb venir",
-      "bereich": "Verben im Präsens",
-      "unidad": 7,
-      "datei": null
-    },
-    {
-      "id": "g-decir-dar-saber",
-      "titel": "Die Verben decir, dar, saber",
-      "bereich": "Verben im Präsens",
-      "unidad": 8,
+      "unidades": [
+        4,
+        6
+      ],
       "datei": null
     },
     {
       "id": "g-reflexiv",
       "titel": "Reflexive Verben (lavarse, levantarse)",
       "bereich": "Verben im Präsens",
-      "unidad": 5,
+      "unidades": [
+        5
+      ],
       "datei": null
     },
     {
       "id": "g-ser-estar-hay",
       "titel": "ser, estar oder hay?",
       "bereich": "Verwendung und Kontraste",
-      "unidad": 3,
+      "unidades": [
+        3
+      ],
       "datei": null
     },
     {
       "id": "g-gustar",
-      "titel": "me gusta / te gusta / le gusta",
+      "titel": "gustar: me gusta / te gusta / le gusta",
       "bereich": "Verwendung und Kontraste",
-      "unidad": 4,
+      "unidades": [
+        4
+      ],
       "datei": null
     },
     {
-      "id": "g-ir-a",
-      "titel": "Die nahe Zukunft: ir a + Infinitiv",
+      "id": "g-verb-infinitiv",
+      "titel": "Verb + Infinitiv: ir a, tener que, hay que",
       "bereich": "Zeiten und Verbformen",
-      "unidad": 4,
-      "datei": null
-    },
-    {
-      "id": "g-tener-que",
-      "titel": "tener que + Infinitiv",
-      "bereich": "Zeiten und Verbformen",
-      "unidad": 4,
+      "unidades": [
+        4,
+        6
+      ],
       "datei": null
     },
     {
       "id": "g-gerundio",
       "titel": "Die Verlaufsform: estar + gerundio",
       "bereich": "Zeiten und Verbformen",
-      "unidad": 5,
+      "unidades": [
+        5
+      ],
       "datei": null
     },
     {
       "id": "g-imperativo",
       "titel": "Der bejahte Imperativ (tú, vosotros)",
       "bereich": "Zeiten und Verbformen",
-      "unidad": 6,
+      "unidades": [
+        6
+      ],
       "datei": null
     },
     {
       "id": "g-indefinido-regular",
       "titel": "Pretérito indefinido: regelmäßige Formen",
       "bereich": "Zeiten und Verbformen",
-      "unidad": 7,
+      "unidades": [
+        7
+      ],
       "datei": null
     },
     {
-      "id": "g-indefinido-irregular-1",
-      "titel": "Pretérito indefinido: unregelmäßige Formen I (ser/ir, hacer, tener)",
+      "id": "g-indefinido-irregular",
+      "titel": "Pretérito indefinido: unregelmäßige Formen",
       "bereich": "Zeiten und Verbformen",
-      "unidad": 7,
+      "unidades": [
+        7,
+        8
+      ],
       "datei": null
     },
     {
-      "id": "g-indefinido-irregular-2",
-      "titel": "Pretérito indefinido: unregelmäßige Formen II (decir, estar, querer …)",
-      "bereich": "Zeiten und Verbformen",
-      "unidad": 8,
-      "datei": null
-    },
-    {
-      "id": "g-articulos",
-      "titel": "Bestimmter und unbestimmter Artikel",
+      "id": "g-articulos-plural",
+      "titel": "Artikel und Plural",
       "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 1,
-      "datei": null
-    },
-    {
-      "id": "g-plural",
-      "titel": "Der Plural",
-      "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 1,
+      "unidades": [
+        1
+      ],
       "datei": null
     },
     {
       "id": "g-adjetivos",
-      "titel": "Adjektive: Angleichung",
+      "titel": "Adjektive: Angleichung und Kurzformen (buen, gran, primer)",
       "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 3,
-      "datei": null
-    },
-    {
-      "id": "g-adjetivos-cortos",
-      "titel": "Verkürzte Adjektive: buen, gran, primer",
-      "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 8,
+      "unidades": [
+        3,
+        8
+      ],
       "datei": null
     },
     {
       "id": "g-posesivos",
       "titel": "Possessivbegleiter (mi, tu, su …)",
       "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 5,
+      "unidades": [
+        5
+      ],
       "datei": null
     },
     {
       "id": "g-demostrativos",
       "titel": "Demonstrativbegleiter und -pronomen (este, ese, aquel)",
       "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 8,
+      "unidades": [
+        8
+      ],
       "datei": null
     },
     {
-      "id": "g-comparativo",
-      "titel": "Der Komparativ",
+      "id": "g-comparacion",
+      "titel": "Vergleichen: Komparativ und Superlativ",
       "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 7,
-      "datei": null
-    },
-    {
-      "id": "g-superlativo",
-      "titel": "Der Superlativ",
-      "bereich": "Nomen, Artikel und Begleiter",
-      "unidad": 7,
+      "unidades": [
+        7
+      ],
       "datei": null
     },
     {
       "id": "g-negacion",
       "titel": "Die Verneinung mit no",
       "bereich": "Pronomen und Satzbau",
-      "unidad": 2,
+      "unidades": [
+        2
+      ],
       "datei": null
     },
     {
-      "id": "g-objeto-directo",
-      "titel": "Direkte Objektpronomen (lo, la, los, las)",
+      "id": "g-objektpronomen",
+      "titel": "Objektpronomen: direkt (lo, la) und indirekt (le, les)",
       "bereich": "Pronomen und Satzbau",
-      "unidad": 6,
-      "datei": null
-    },
-    {
-      "id": "g-objeto-indirecto",
-      "titel": "Indirekte Objektpronomen (le, les)",
-      "bereich": "Pronomen und Satzbau",
-      "unidad": 6,
+      "unidades": [
+        6
+      ],
       "datei": null
     },
     {
       "id": "g-pronombres-preposicion",
       "titel": "Pronomen nach Präpositionen (conmigo, contigo)",
       "bereich": "Pronomen und Satzbau",
-      "unidad": 7,
+      "unidades": [
+        7
+      ],
       "datei": null
     },
     {
-      "id": "g-numeros-20",
-      "titel": "Die Zahlen von 0 bis 20",
-      "bereich": "Zahlen",
-      "unidad": 1,
-      "datei": null
-    },
-    {
-      "id": "g-numeros-100",
+      "id": "g-numeros",
       "titel": "Die Zahlen bis 100",
       "bereich": "Zahlen",
-      "unidad": 2,
+      "unidades": [
+        1,
+        2
+      ],
       "datei": null
     },
     {
       "id": "g-ordinales",
       "titel": "Die Ordnungszahlen",
       "bereich": "Zahlen",
-      "unidad": 3,
+      "unidades": [
+        3
+      ],
       "datei": null
     }
   ]

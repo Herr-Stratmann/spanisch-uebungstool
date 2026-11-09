@@ -1,7 +1,7 @@
 // Service Worker: Offline-Nutzung. Beim Ändern von Dateien VERSION erhöhen.
 // Strategie: erst aus dem Cache antworten, im Hintergrund aktualisieren (stale-while-revalidate).
 
-const VERSION = 'v1-2026-11-09c';
+const VERSION = 'v1-2026-11-09d';
 const DATEIEN = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
   'js/app.js', 'js/dom.js', 'js/audio.js', 'js/daten.js', 'js/check.js', 'js/scheduler.js',

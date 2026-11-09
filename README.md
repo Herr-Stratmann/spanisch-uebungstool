@@ -10,7 +10,7 @@ Der Name „¡Practica!“ ist ein Platzhalter (offener Punkt §13) und steht in
 |---|---|
 | `check.js`, `scheduler.js`, `storage.js`, `ablauf.js` | fertig, mit Tests |
 | Oberfläche: Start (Vokabeln / Grammatik), Vokabeln nach Unidades oder gemischt, Fortschritt, Meine Sätze, Beamermodus | fertig |
-| Grammatik | Themenliste (36 Themen, nach Bereichen) in `data/index.json`; Übungen folgen in V2. Ein Thema wird aktiv, sobald `datei` gesetzt ist. |
+| Grammatik | Themenliste (22 Themen, nach Bereichen; Lehrbuch-Abschnitte, die fürs Üben zusammengehören, sind zusammengefasst (`unidades` nennt die Quellen)) in `data/index.json`; Übungen folgen in V2. Ein Thema wird aktiv, sobald `datei` gesetzt ist. |
 | Übungstypen Stufe 1 | `mc_es_de`, `mc_bild` (offen: `mc_audio`) |
 | Übungstypen Stufe 2 | `tippen_de_es`, `luecke_hilfe` (offen: `diktat`) |
 | Übungstypen Stufe 3 | `luecke` (offen: `satzpuzzle`, `kollokation`, `umformen`) |
