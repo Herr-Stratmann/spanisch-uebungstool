@@ -1,0 +1,9 @@
+{
+  "name": "spanisch-uebungstool",
+  "private": true,
+  "type": "module",
+  "description": "Nur für Tests (node --test). Keine Abhängigkeiten, kein Build-Schritt.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
