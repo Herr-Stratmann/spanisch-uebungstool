@@ -102,6 +102,9 @@ h2 { font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
 .chip[aria-pressed="true"] { border-color: var(--primaer); background: var(--primaer); color: var(--primaer-text); }
 .chip[aria-pressed="true"]::before { content: "✓ "; }
 .chip:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.erinnerung { display: flex; gap: .75rem; align-items: flex-start; background: var(--hinweis-bg); border: 2px solid var(--hinweis); border-radius: var(--radius); padding: .9rem 1rem; margin: .5rem 0 1rem; }
+.erinnerung .symbol { font-size: 1.6rem; line-height: 1.2; }
+.erinnerung p { margin: .25rem 0; }
 .hinweis-box { background: var(--info-bg); border: 2px solid var(--info); border-radius: var(--radius); padding: .75rem 1rem; }
 .themenbereich h2 { margin-top: 1.25rem; }
 .themenbereich .liste { margin: .5rem 0; }

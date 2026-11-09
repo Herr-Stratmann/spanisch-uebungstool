@@ -77,3 +77,40 @@ export function importiere(text) {
   }
   return migriere(roh);
 }
+
+// --- Erinnerung an die Sicherung (Export) ----------------------------------
+
+const TAGE_ERSTE_ERINNERUNG = 7;
+const TAGE_ERINNERUNG = 14;
+const TAGE_SPAETER = 3;
+
+function tageZwischen(von, bis) {
+  const ms = (iso) => { const [j, m, t] = iso.split('-').map(Number); return Date.UTC(j, m - 1, t); };
+  return Math.round((ms(bis) - ms(von)) / 86400000);
+}
+
+function plusTage(iso, n) {
+  const [j, m, t] = iso.split('-').map(Number);
+  return new Date(Date.UTC(j, m - 1, t + n)).toISOString().slice(0, 10);
+}
+
+/** Soll die App an eine Sicherung erinnern? */
+export function sicherungFaellig(stand, heute) {
+  const zustaende = Object.values(stand.items ?? {});
+  if (!zustaende.length) return false;
+  const e = stand.einstellungen ?? {};
+  if (e.erinnerungAb && heute < e.erinnerungAb) return false;
+  if (e.letzteSicherung) return tageZwischen(e.letzteSicherung, heute) >= TAGE_ERINNERUNG;
+  const daten = zustaende.map((z) => z.erstkontakt ?? z.letzte).filter(Boolean).sort();
+  if (!daten.length) return false;
+  return tageZwischen(daten[0], heute) >= TAGE_ERSTE_ERINNERUNG;
+}
+
+export function markiereSicherung(stand, heute) {
+  stand.einstellungen.letzteSicherung = heute;
+  delete stand.einstellungen.erinnerungAb;
+}
+
+export function verschiebeErinnerung(stand, heute) {
+  stand.einstellungen.erinnerungAb = plusTage(heute, TAGE_SPAETER);
+}

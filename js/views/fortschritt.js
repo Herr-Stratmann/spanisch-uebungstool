@@ -1,7 +1,8 @@
 // Fortschritt je Unidad (Verteilung auf die Fächer), Einstellungen, Export/Import (§8.3, §9).
 
 import { h } from '../dom.js';
-import { exportiere, importiere } from '../storage.js';
+import { importiere } from '../storage.js';
+import { sichereFortschritt } from '../sicherung.js';
 import { setzeAudio } from '../audio.js';
 
 const FACH_NAMEN = ['neu', 'Fach 1', 'Fach 2', 'Fach 3', 'Fach 4', 'Fach 5'];
@@ -58,21 +59,19 @@ function sicherung(app) {
       meldung.textContent = e.message;
     }
   });
+  const letzte = app.stand.einstellungen.letzteSicherung;
+  const stand = h('p', { class: 'meta', role: 'status' },
+    letzte ? `Letzte Sicherung: ${letzte.split('-').reverse().join('.')}` : 'Noch keine Sicherung.');
   return h('section', { class: 'sicherung' },
     h('h2', {}, 'Sichern und übertragen'),
-    h('p', {}, 'Lade deinen Fortschritt als Datei herunter, z. B. bevor du das Gerät wechselst. Die Datei enthält nur deine Lernstände und Sätze.'),
+    h('p', {}, 'Speichere deinen Fortschritt regelmäßig als Datei, am besten in OneDrive. Damit kannst du ihn auf einem neuen oder zurückgesetzten iPad wiederherstellen. Die Datei enthält nur deine Lernstände und Sätze.'),
+    stand,
     h('div', { class: 'knopfreihe' },
-      h('button', { type: 'button', class: 'knopf', onclick: () => herunterladen(app) }, '⬇ Fortschritt speichern'),
+      h('button', {
+        type: 'button', class: 'knopf', onclick: async () => {
+          if (await sichereFortschritt(app)) stand.textContent = `Letzte Sicherung: ${app.heute().split('-').reverse().join('.')} ✓`;
+        }
+      }, '⬇ Fortschritt sichern'),
       h('button', { type: 'button', class: 'knopf', onclick: () => datei.click() }, '⬆ Fortschritt laden')),
     datei, meldung);
-}
-
-function herunterladen(app) {
-  const blob = new Blob([exportiere(app.stand)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = h('a', { href: url, download: `spanisch-fortschritt-${app.heute()}.json` });
-  document.body.append(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }

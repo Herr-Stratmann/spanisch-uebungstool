@@ -47,7 +47,7 @@ export function zeigeVokabeln(el, app) {
       heutige.length ? h('button', {
         type: 'button', class: 'knopf primaer gross',
         onclick: () => app.zeige(zeigeUeben, { titel: 'Täglich üben', aufgaben: taeglicheAufgaben(app) })
-      }, `▶ Täglich üben (${heutige.length} Aufgaben, ca. ${minuten(heutige.length)} Min.)`) : null),
+      }, `▶ Täglich üben (${heutige.length} ${heutige.length === 1 ? 'Aufgabe' : 'Aufgaben'}, ca. ${minuten(heutige.length)} Min.)`) : null),
     lernplaene(app, heute),
     auswahlBereich(app, heute),
     h('button', { type: 'button', class: 'knopf', onclick: app.start }, '← Zurück')

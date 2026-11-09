@@ -2,7 +2,8 @@
 
 import { h, leere } from './dom.js';
 import { ladeDaten } from './daten.js';
-import { ladeStand, speichereStand } from './storage.js';
+import { ladeStand, speichereStand, sicherungFaellig, verschiebeErinnerung } from './storage.js';
+import { sichereFortschritt } from './sicherung.js';
 import { initAudio, setzeAudio } from './audio.js';
 import { heuteISO } from './scheduler.js';
 import { zeigeUeben } from './views/ueben.js';
@@ -43,12 +44,13 @@ function zeigeStart(el) {
   const themen = app.daten.grammatik.length;
   el.append(
     h('section', { class: 'start' },
+      sicherungFaellig(app.stand, app.heute()) ? erinnerung() : null,
       h('h1', {}, '¡Hola! Was möchtest du üben?'),
       h('div', { class: 'bereiche' },
         h('button', { type: 'button', class: 'bereich', onclick: () => app.zeige(zeigeVokabeln) },
           h('span', { class: 'bereich-symbol', 'aria-hidden': 'true' }, '📚'),
           h('span', { class: 'bereich-titel' }, 'Vokabeln'),
-          h('span', { class: 'bereich-info' }, faellig ? `Heute: ${faellig} Aufgaben` : 'Heute nichts fällig ✓')),
+          h('span', { class: 'bereich-info' }, faellig ? `Heute: ${faellig} ${faellig === 1 ? 'Aufgabe' : 'Aufgaben'}` : 'Heute nichts fällig ✓')),
         h('button', { type: 'button', class: 'bereich', onclick: () => app.zeige(zeigeGrammatik) },
           h('span', { class: 'bereich-symbol', 'aria-hidden': 'true' }, '🧩'),
           h('span', { class: 'bereich-titel' }, 'Grammatik'),
@@ -61,6 +63,18 @@ function zeigeStart(el) {
         h('button', { type: 'button', class: 'link', onclick: () => { setzeBeamer(true); app.start(); } }, 'Beamermodus'))
     )
   );
+}
+
+function erinnerung() {
+  const box = h('div', { class: 'erinnerung', role: 'status' },
+    h('span', { class: 'symbol', 'aria-hidden': 'true' }, '💾'),
+    h('div', {},
+      h('strong', {}, 'Zeit für eine Sicherung'),
+      h('p', {}, 'Speichere deinen Fortschritt als Datei, z. B. in OneDrive. So geht er nicht verloren, wenn dein iPad zurückgesetzt wird.'),
+      h('div', { class: 'knopfreihe' },
+        h('button', { type: 'button', class: 'knopf primaer', onclick: async () => { if (await sichereFortschritt(app)) box.remove(); } }, 'Jetzt sichern'),
+        h('button', { type: 'button', class: 'knopf', onclick: () => { verschiebeErinnerung(app.stand, app.heute()); app.speichere(); box.remove(); } }, 'Später'))));
+  return box;
 }
 
 function zeigeGrammatik(el) {

@@ -1,7 +1,8 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  SCHEMA, SCHLUESSEL, leererStand, ladeStand, speichereStand, migriere, exportiere, importiere
+  SCHEMA, SCHLUESSEL, leererStand, ladeStand, speichereStand, migriere, exportiere, importiere,
+  sicherungFaellig, markiereSicherung, verschiebeErinnerung
 } from '../js/storage.js';
 
 // Minimaler Ersatz für window.localStorage (gleiche Schnittstelle).
@@ -90,5 +91,43 @@ describe('Export/Import', () => {
     assert.throws(() => importiere('kein json'), /keine gültige Fortschrittsdatei/);
     assert.throws(() => importiere('{"foo": 1}'), /keine gültige Fortschrittsdatei/);
     assert.throws(() => importiere('[]'), /keine gültige Fortschrittsdatei/);
+  });
+});
+
+describe('Sicherungserinnerung', () => {
+  const mitUebung = (erstkontakt) => {
+    const s = leererStand();
+    s.items['u01-001'] = { fach: 2, faellig: '2026-11-20', erstkontakt };
+    return s;
+  };
+
+  test('ohne Lernstand keine Erinnerung', () => {
+    assert.equal(sicherungFaellig(leererStand(), '2026-11-09'), false);
+  });
+
+  test('noch nie gesichert: Erinnerung 7 Tage nach dem ersten Üben', () => {
+    assert.equal(sicherungFaellig(mitUebung('2026-11-03'), '2026-11-09'), false);
+    assert.equal(sicherungFaellig(mitUebung('2026-11-02'), '2026-11-09'), true);
+  });
+
+  test('nach einer Sicherung: Erinnerung nach 14 Tagen', () => {
+    const s = mitUebung('2026-10-01');
+    markiereSicherung(s, '2026-11-01');
+    assert.equal(s.einstellungen.letzteSicherung, '2026-11-01');
+    assert.equal(sicherungFaellig(s, '2026-11-14'), false);
+    assert.equal(sicherungFaellig(s, '2026-11-15'), true);
+  });
+
+  test('„Später“ schiebt die Erinnerung um 3 Tage', () => {
+    const s = mitUebung('2026-10-01');
+    verschiebeErinnerung(s, '2026-11-09');
+    assert.equal(sicherungFaellig(s, '2026-11-11'), false);
+    assert.equal(sicherungFaellig(s, '2026-11-12'), true);
+  });
+
+  test('ältere Stände ohne Erstkontakt-Datum nutzen das Datum der letzten Übung', () => {
+    const s = leererStand();
+    s.items.a = { fach: 1, faellig: '2026-11-10', letzte: '2026-10-20' };
+    assert.equal(sicherungFaellig(s, '2026-11-09'), true);
   });
 });
