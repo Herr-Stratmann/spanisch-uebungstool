@@ -15,6 +15,13 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="css/style.css">
   <script type="module" src="js/app.js"></script>
+  <script>
+    // Falls ein Modul nicht lädt, nicht ewig „Wird geladen …“ zeigen.
+    setTimeout(function () {
+      var l = document.querySelector('#app .laden');
+      if (l) l.textContent = 'Die App konnte nicht starten. Bitte Seite neu laden. Hilft das nicht, bitte der Lehrkraft Bescheid geben.';
+    }, 8000);
+  </script>
 </head>
 <body>
   <header class="kopfleiste">

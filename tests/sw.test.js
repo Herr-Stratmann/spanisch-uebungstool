@@ -19,3 +19,7 @@ test('sw.js enthält alle JS- und Datendateien', async () => {
     .filter((d) => !sw.includes(`'${d}'`));
   assert.deepEqual(fehlend, [], `In sw.js (DATEIEN) fehlen: ${fehlend.join(', ')}`);
 });
+
+test('.nojekyll ist vorhanden (sonst liefert GitHub Pages Dateien mit _ nicht aus)', async () => {
+  await assert.doesNotReject(readFile(join(WURZEL, '.nojekyll')));
+});
