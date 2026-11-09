@@ -1,13 +1,22 @@
 // Übungsablauf: eine Aufgabe pro Bildschirm, Fortschrittsbalken ohne Zeitdruck, Abschlussübersicht.
 
 import { h, leere, anfuegen } from '../dom.js';
-import { Sitzung } from '../ablauf.js';
+import { Sitzung, planeSitzung } from '../ablauf.js';
 import { bewerte } from '../scheduler.js';
 import { spaetestensFuer } from '../plan.js';
 import { waehleUebung, einfuehrung } from '../exercises/index.js';
 
 export function zeigeUeben(el, app, { titel, aufgaben }) {
-  const sitzung = new Sitzung(aufgaben);
+  const rangIndex = new Map(app.daten.items.map((it, i) => [it.id, i]));
+  const sitzung = new Sitzung(planeSitzung(aufgaben, {
+    rang: (id) => rangIndex.get(id) ?? 0,
+    konflikt: (a, b) => {
+      const x = app.daten.nachId.get(a);
+      const y = app.daten.nachId.get(b);
+      return Boolean(x?.nicht_zusammen_mit?.includes(b) || y?.nicht_zusammen_mit?.includes(a));
+    }
+  }));
+  let gelernt = 0;
   const balken = h('div', { class: 'balken', role: 'progressbar', 'aria-valuemin': '0' }, h('div', { class: 'balken-fuellung' }));
   const zaehler = h('span', { class: 'zaehler' });
   const buehne = h('section', { class: 'aufgabe' });
@@ -34,6 +43,7 @@ export function zeigeUeben(el, app, { titel, aufgaben }) {
     delete buehne.dataset.item;
     if (sitzung.fertig) return abschluss();
     const aufgabe = sitzung.aktuelle;
+    if (aufgabe.art === 'lernen') return lernkarten(aufgabe.ids.map((id) => app.daten.nachId.get(id)).filter(Boolean));
     const item = app.daten.nachId.get(aufgabe.id);
     if (!item) { sitzung.verbuche('richtig'); return naechste(); }
     buehne.dataset.item = item.id;
@@ -53,6 +63,28 @@ export function zeigeUeben(el, app, { titel, aufgaben }) {
     } else {
       uebe(aufgabe.stufe);
     }
+  }
+
+  // Lernphase: mehrere neue Wörter nacheinander ansehen (vor- und zurückblättern), dann gemischte Abfrage.
+  function lernkarten(items, k = 0) {
+    leere(buehne);
+    buehne.dataset.typ = 'lernen';
+    buehne.dataset.item = items[k]?.id ?? '';
+    if (!items.length) { sitzung.verbuche(null); return naechste(); }
+    const letzte = k === items.length - 1;
+    einfuehrung.render(buehne, items[k], {
+      beamer: app.beamer,
+      fertig: () => {
+        if (!letzte) return lernkarten(items, k + 1);
+        gelernt += items.length;
+        sitzung.verbuche(null);
+        naechste();
+      }
+    }, {
+      titel: `Neue Wörter · ${k + 1} von ${items.length}`,
+      knopf: letzte ? 'Alle angesehen – Abfrage starten →' : 'Nächstes Wort →',
+      zurueck: k > 0 ? () => lernkarten(items, k - 1) : null
+    });
   }
 
   function abschliessen(aufgabe, item, ergebnis, extra = {}) {
@@ -90,6 +122,7 @@ export function zeigeUeben(el, app, { titel, aufgaben }) {
     anfuegen(buehne,
       h('h1', {}, '¡Muy bien! Geschafft.'),
       app.beamer ? null : h('ul', { class: 'bilanz' },
+        gelernt ? h('li', {}, `${gelernt} neue ${gelernt === 1 ? 'Wort' : 'Wörter'} kennengelernt`) : null,
         zeile(b.richtig, 'gleich gewusst'),
         zeile(b.hinweis, 'mit Hinweis gelöst'),
         zeile(b.falsch, 'noch einmal anschauen – kommt bald wieder'),

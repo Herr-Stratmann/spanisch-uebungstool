@@ -10,7 +10,7 @@ export const passt = () => true;
 
 const GENUS = { m: 'maskulin', f: 'feminin', 'm/f': 'maskulin/feminin' };
 
-export function render(container, item, ctx, { titel = 'Neues Wort', knopf = 'Verstanden – jetzt üben →' } = {}) {
+export function render(container, item, ctx, { titel = 'Neues Wort', knopf = 'Verstanden – jetzt üben →', zurueck = null } = {}) {
   const merkmale = [
     item.genero ? h('span', { class: 'etikett' }, GENUS[item.genero]) : null,
     item.chunk ? h('span', { class: 'etikett' }, 'Wendung') : null,
@@ -26,6 +26,8 @@ export function render(container, item, ctx, { titel = 'Neues Wort', knopf = 'Ve
       beispielInfo(item),
       item.bruecke && item.bruecke !== '—' ? h('p', { class: 'bruecke' }, '🌉 ', item.bruecke) : null
     ),
-    h('div', { class: 'aktionen' }, weiterKnopf(() => ctx.fertig(null), knopf))
+    h('div', { class: 'aktionen knopfreihe' },
+      zurueck ? h('button', { type: 'button', class: 'knopf', onclick: zurueck }, '← Zurück') : null,
+      weiterKnopf(() => ctx.fertig(null), knopf))
   );
 }

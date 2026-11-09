@@ -168,19 +168,9 @@ function verteileUnidades(aufgaben, rng) {
   return ergebnis;
 }
 
+// Prämisse 5 (nicht_zusammen_mit) wird beim Aufteilen in Lernblöcke beachtet (ablauf.planeSitzung).
 function waehleNeue(kandidaten, anzahl) {
-  const gewaehlt = [];
-  const gesperrt = new Set();
-  for (const it of kandidaten) {
-    if (gewaehlt.length >= anzahl) break;
-    if (gesperrt.has(it.id)) continue;
-    const eigene = it.nicht_zusammen_mit ?? [];
-    const konflikt = gewaehlt.some((g) => eigene.includes(g.id));
-    if (konflikt) continue;
-    gewaehlt.push(it);
-    for (const id of it.nicht_zusammen_mit ?? []) gesperrt.add(id);
-  }
-  return gewaehlt;
+  return kandidaten.slice(0, anzahl);
 }
 
 /**

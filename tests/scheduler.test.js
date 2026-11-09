@@ -289,18 +289,13 @@ describe('stelleSitzungZusammen (§5 Sitzung)', () => {
     assert.equal(s.length, 15);
   });
 
-  test('nicht_zusammen_mit: Items werden nicht in derselben Sitzung neu eingeführt (beide Richtungen)', () => {
+  test('nicht_zusammen_mit: beide Wörter dürfen in die Sitzung (getrennt werden sie erst in Lernblöcken)', () => {
     const items = [
       item('lunes', 4, { nicht_zusammen_mit: ['martes'] }),
-      item('martes', 4),
-      item('blanco', 8),
-      item('negro', 8, { nicht_zusammen_mit: ['blanco'] })
+      item('martes', 4)
     ];
     const s = stelleSitzungZusammen({ items, fortschritt: {}, heute: HEUTE, rng: seeded() });
-    const ids = s.map((a) => a.id);
-    assert.ok(!(ids.includes('lunes') && ids.includes('martes')));
-    assert.ok(!(ids.includes('blanco') && ids.includes('negro')));
-    assert.ok(ids.includes('lunes') && ids.includes('blanco'));
+    assert.equal(s.length, 2);
   });
 
   test('nicht_zusammen_mit gilt nicht für Wiederholungen (Mischen erlaubt)', () => {
