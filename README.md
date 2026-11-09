@@ -17,7 +17,14 @@ Der Name „¡Practica!“ ist ein Platzhalter (offener Punkt §13) und steht in
 | Übungstypen Stufe 3 | `luecke` (offen: `satzpuzzle`, `kollokation`, `umformen`) |
 | Übungstypen Stufe 4 | `situation` mit Musterlösung, Checkliste, Selbstbewertung |
 | PWA | Manifest, Service Worker, Icons |
-| Daten | Unidad 1 mit 33 Items als Beispiel, Unidad 2–8 offen |
+| Daten | Unidad 1–8 aus ¡Vamos! ¡Adelante! Curso intensivo 1, 831 Wörter mit Seite/Bloque, eigenen Beispielsätzen und Situationen |
+
+## Hinweise zu den Daten
+
+- Weggelassen: Artikel und Zahlen (laufen über die Grammatik), Orts- und Eigennamen (z. B. Andalucía, los Alpes) sowie einzelne Doppelungen (z. B. „el horror“ neben „¡Qué horror!“).
+- Wörter mit zwei Formen (el hermano / la hermana) verlangen beide Formen; nur eine Form gibt einen Hinweis und einen zweiten Versuch.
+- Bedeutungsunterscheidende Akzente (tú/tu, él/el, sí/si, qué/que …) sind über `fehlantworten_es` abgesichert.
+- Distraktoren wurden automatisch gewählt (gleiche Wortart, anderes Thema) und können in den JSON-Dateien von Hand angepasst werden.
 
 ## Lokal starten
 

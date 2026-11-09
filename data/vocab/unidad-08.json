@@ -1,0 +1,4434 @@
+{
+  "unidad": 8,
+  "items": [
+    {
+      "id": "u08-001",
+      "es": "pasar",
+      "de": "geschehen; passieren",
+      "akzeptiert_es": [
+        "pasar"
+      ],
+      "akzeptiert_de": [
+        "geschehen",
+        "passieren"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Qué pasó ayer en el instituto?",
+          "de": "Was ist gestern in der Schule passiert?",
+          "luecke": "pasó",
+          "luecke_akzeptiert": [
+            "pasó"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deinen Freund, was am Wochenende passiert ist.",
+        "muster": [
+          "¿Qué pasó el fin de semana?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. se passer",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "(sich) duschen",
+        "(an)rufen",
+        "aufstehen"
+      ]
+    },
+    {
+      "id": "u08-002",
+      "es": "el vestido",
+      "de": "das Kleid",
+      "akzeptiert_es": [
+        "el vestido"
+      ],
+      "akzeptiert_de": [
+        "das Kleid"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "👗",
+      "beispiele": [
+        {
+          "es": "Para la fiesta me pongo un vestido rojo.",
+          "de": "Für die Party ziehe ich ein rotes Kleid an.",
+          "luecke": "vestido",
+          "luecke_akzeptiert": [
+            "vestido"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was du zu einer Party anziehst.",
+        "muster": [
+          "Me pongo un vestido azul.",
+          "Me pongo una camisa blanca."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. vestis",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Einkaufszentrum",
+        "der Hai",
+        "die Zwiebel"
+      ]
+    },
+    {
+      "id": "u08-003",
+      "es": "el abrigo",
+      "de": "der Mantel",
+      "akzeptiert_es": [
+        "el abrigo"
+      ],
+      "akzeptiert_de": [
+        "der Mantel"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "🧥",
+      "beispiele": [
+        {
+          "es": "En invierno necesito un abrigo.",
+          "de": "Im Winter brauche ich einen Mantel.",
+          "luecke": "abrigo",
+          "luecke_akzeptiert": [
+            "abrigo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du anziehst, wenn es kalt ist.",
+        "muster": [
+          "Cuando hace frío, me pongo el abrigo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Haustier",
+        "der Zoo",
+        "die Grenze"
+      ]
+    },
+    {
+      "id": "u08-004",
+      "es": "la bufanda",
+      "de": "der Schal",
+      "akzeptiert_es": [
+        "la bufanda"
+      ],
+      "akzeptiert_de": [
+        "der Schal"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "🧣",
+      "beispiele": [
+        {
+          "es": "Mi bufanda es de mi abuela.",
+          "de": "Mein Schal ist von meiner Großmutter.",
+          "luecke": "bufanda",
+          "luecke_akzeptiert": [
+            "bufanda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du im Winter um den Hals trägst.",
+        "muster": [
+          "En invierno llevo una bufanda."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Balkon",
+        "die Idee",
+        "die Dose"
+      ]
+    },
+    {
+      "id": "u08-005",
+      "es": "el guante",
+      "de": "der Handschuh",
+      "akzeptiert_es": [
+        "el guante"
+      ],
+      "akzeptiert_de": [
+        "der Handschuh"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "🧤",
+      "beispiele": [
+        {
+          "es": "¿Dónde están mis guantes?",
+          "de": "Wo sind meine Handschuhe?",
+          "luecke": "guantes",
+          "luecke_akzeptiert": [
+            "guantes"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du findest deine Handschuhe nicht. Frag deine Mutter.",
+        "muster": [
+          "Mamá, ¿dónde están mis guantes?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. le gant",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Osten",
+        "die Altstadt",
+        "der Umzug"
+      ]
+    },
+    {
+      "id": "u08-006",
+      "es": "la falda",
+      "de": "der Rock",
+      "akzeptiert_es": [
+        "la falda"
+      ],
+      "akzeptiert_de": [
+        "der Rock"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La falda es demasiado corta.",
+          "de": "Der Rock ist zu kurz.",
+          "luecke": "falda",
+          "luecke_akzeptiert": [
+            "falda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Sag, dass dir der Rock zu lang ist.",
+        "muster": [
+          "La falda me queda larga."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Schrei",
+        "das Schwimmbad",
+        "die Route"
+      ]
+    },
+    {
+      "id": "u08-007",
+      "es": "la sandalia",
+      "de": "die Sandale",
+      "akzeptiert_es": [
+        "la sandalia"
+      ],
+      "akzeptiert_de": [
+        "die Sandale"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "🩴",
+      "beispiele": [
+        {
+          "es": "En verano llevo sandalias.",
+          "de": "Im Sommer trage ich Sandalen.",
+          "luecke": "sandalias",
+          "luecke_akzeptiert": [
+            "sandalias"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, welche Schuhe du im Sommer trägst.",
+        "muster": [
+          "En verano llevo sandalias."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Fernsehen",
+        "das Lied",
+        "die Hilfe"
+      ]
+    },
+    {
+      "id": "u08-008",
+      "es": "los vaqueros",
+      "de": "die Jeans",
+      "akzeptiert_es": [
+        "los vaqueros"
+      ],
+      "akzeptiert_de": [
+        "die Jeans"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "👖",
+      "beispiele": [
+        {
+          "es": "Mis vaqueros favoritos son azules.",
+          "de": "Meine Lieblingsjeans ist blau.",
+          "luecke": "vaqueros",
+          "luecke_akzeptiert": [
+            "vaqueros"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Lieblingshose.",
+        "muster": [
+          "Mis vaqueros favoritos son negros."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: los vaqueros (Plural) = eine Jeans; el vaquero = der Cowboy.",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das (Speise)Eis",
+        "der Hof; der Schulhof",
+        "der Ausflug"
+      ]
+    },
+    {
+      "id": "u08-009",
+      "es": "el pantalón / los pantalones",
+      "de": "die Hose",
+      "akzeptiert_es": [
+        "el pantalón",
+        "los pantalones",
+        "el pantalón / los pantalones"
+      ],
+      "akzeptiert_de": [
+        "die Hose"
+      ],
+      "fehlantworten_es": {
+        "el pantalón": "Fast! Nenne beide Formen: el pantalón / los pantalones"
+      },
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Este pantalón es muy bonito.",
+          "de": "Diese Hose ist sehr schön.",
+          "luecke": "pantalón",
+          "luecke_akzeptiert": [
+            "pantalón"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Sag, dass dir die Hose gefällt.",
+        "muster": [
+          "Me gusta este pantalón."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. le pantalon",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Hai",
+        "der Akzent",
+        "die U-Bahn"
+      ]
+    },
+    {
+      "id": "u08-010",
+      "es": "la chaqueta",
+      "de": "die Jacke",
+      "akzeptiert_es": [
+        "la chaqueta"
+      ],
+      "akzeptiert_de": [
+        "die Jacke"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Qué te parece mi chaqueta nueva?",
+          "de": "Wie findest du meine neue Jacke?",
+          "luecke": "chaqueta",
+          "luecke_akzeptiert": [
+            "chaqueta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deine Freundin nach ihrer Meinung zu deiner neuen Jacke.",
+        "muster": [
+          "¿Te gusta mi chaqueta?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. jacket",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Sommer",
+        "das Museum",
+        "die Neuigkeit; die Nachricht"
+      ]
+    },
+    {
+      "id": "u08-011",
+      "es": "el bikini",
+      "de": "der Bikini",
+      "akzeptiert_es": [
+        "el bikini"
+      ],
+      "akzeptiert_de": [
+        "der Bikini"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Para la playa llevo un bikini.",
+          "de": "Für den Strand nehme ich einen Bikini mit.",
+          "luecke": "bikini",
+          "luecke_akzeptiert": [
+            "bikini"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du in den Koffer für den Strandurlaub packst.",
+        "muster": [
+          "Llevo un bikini y sandalias."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Knoblauch",
+        "der Churro (frittiertes Spritzgebäck)",
+        "die Sonne"
+      ]
+    },
+    {
+      "id": "u08-012",
+      "es": "el jersey",
+      "de": "der Pullover",
+      "akzeptiert_es": [
+        "el jersey"
+      ],
+      "akzeptiert_de": [
+        "der Pullover"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "🧶",
+      "beispiele": [
+        {
+          "es": "Me pongo un jersey porque hace frío.",
+          "de": "Ich ziehe einen Pulli an, weil es kalt ist.",
+          "luecke": "jersey",
+          "luecke_akzeptiert": [
+            "jersey"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du anziehst, wenn es im Herbst kühl ist.",
+        "muster": [
+          "Me pongo un jersey."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Jahreszeit",
+        "der Sport",
+        "der Teller; das Gericht"
+      ]
+    },
+    {
+      "id": "u08-013",
+      "es": "las gafas de sol",
+      "de": "die Sonnenbrille",
+      "akzeptiert_es": [
+        "las gafas de sol"
+      ],
+      "akzeptiert_de": [
+        "die Sonnenbrille"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "ropa",
+      "bild": "🕶️",
+      "beispiele": [
+        {
+          "es": "En la playa siempre llevo gafas de sol.",
+          "de": "Am Strand trage ich immer eine Sonnenbrille.",
+          "luecke": "gafas de sol",
+          "luecke_akzeptiert": [
+            "gafas de sol"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du mitnimmst, wenn die Sonne scheint.",
+        "muster": [
+          "Llevo mis gafas de sol."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-014"
+      ],
+      "distraktoren_de": [
+        "der Sonntag",
+        "das Wohnzimmer",
+        "die Natur"
+      ]
+    },
+    {
+      "id": "u08-014",
+      "es": "las gafas",
+      "de": "die Brille",
+      "akzeptiert_es": [
+        "las gafas"
+      ],
+      "akzeptiert_de": [
+        "die Brille"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "👓",
+      "beispiele": [
+        {
+          "es": "Mi padre necesita gafas para leer.",
+          "de": "Mein Vater braucht zum Lesen eine Brille.",
+          "luecke": "gafas",
+          "luecke_akzeptiert": [
+            "gafas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe jemanden aus deiner Familie, der eine Brille trägt.",
+        "muster": [
+          "Mi madre lleva gafas."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: las gafas (Plural) = eine Brille.",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Wald",
+        "die Gitarre",
+        "die Sache; das Ding"
+      ]
+    },
+    {
+      "id": "u08-015",
+      "es": "las zapatillas de deporte",
+      "de": "die Sportschuhe",
+      "akzeptiert_es": [
+        "las zapatillas de deporte"
+      ],
+      "akzeptiert_de": [
+        "die Sportschuhe"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "ropa",
+      "bild": "👟",
+      "beispiele": [
+        {
+          "es": "Para Educación Física necesitas zapatillas de deporte.",
+          "de": "Für Sport brauchst du Sportschuhe.",
+          "luecke": "zapatillas de deporte",
+          "luecke_akzeptiert": [
+            "zapatillas de deporte"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du für den Sportunterricht brauchst.",
+        "muster": [
+          "Necesito zapatillas de deporte."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Radiergummi",
+        "die Angst",
+        "die Neuigkeit; die Nachricht"
+      ]
+    },
+    {
+      "id": "u08-016",
+      "es": "la camisa",
+      "de": "das Hemd",
+      "akzeptiert_es": [
+        "la camisa"
+      ],
+      "akzeptiert_de": [
+        "das Hemd"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi padre lleva una camisa blanca.",
+          "de": "Mein Vater trägt ein weißes Hemd.",
+          "luecke": "camisa",
+          "luecke_akzeptiert": [
+            "camisa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was jemand aus deiner Familie zu einer Feier trägt.",
+        "muster": [
+          "Mi hermano lleva una camisa azul."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: la camisa = das Hemd; das T-Shirt heißt la camiseta.",
+      "nicht_zusammen_mit": [
+        "u08-019",
+        "u08-017"
+      ],
+      "distraktoren_de": [
+        "die Polizei",
+        "das Obst",
+        "das (Stadt)Zentrum"
+      ]
+    },
+    {
+      "id": "u08-017",
+      "es": "la blusa",
+      "de": "die Bluse",
+      "akzeptiert_es": [
+        "la blusa"
+      ],
+      "akzeptiert_de": [
+        "die Bluse"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La profesora lleva una blusa verde.",
+          "de": "Die Lehrerin trägt eine grüne Bluse.",
+          "luecke": "blusa",
+          "luecke_akzeptiert": [
+            "blusa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die Kleidung einer Person in deiner Nähe.",
+        "muster": [
+          "Mi amiga lleva una blusa blanca."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Kneipe; das Lokal",
+        "das Wasser",
+        "der Sonntag"
+      ]
+    },
+    {
+      "id": "u08-018",
+      "es": "el zapato",
+      "de": "der Schuh",
+      "akzeptiert_es": [
+        "el zapato"
+      ],
+      "akzeptiert_de": [
+        "der Schuh"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "👞",
+      "beispiele": [
+        {
+          "es": "No tienes que quitarte los zapatos.",
+          "de": "Du musst die Schuhe nicht ausziehen.",
+          "luecke": "zapatos",
+          "luecke_akzeptiert": [
+            "zapatos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Schuhladen: Sag, dass dir die Schuhe gefallen.",
+        "muster": [
+          "Me gustan estos zapatos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Deutsch; die deutsche Sprache",
+        "der Unterricht; die Klasse; die Stunde",
+        "das Verkehrsmittel"
+      ]
+    },
+    {
+      "id": "u08-019",
+      "es": "la camiseta",
+      "de": "das T-Shirt",
+      "akzeptiert_es": [
+        "la camiseta"
+      ],
+      "akzeptiert_de": [
+        "das T-Shirt"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "👕",
+      "beispiele": [
+        {
+          "es": "Mi camiseta favorita es del Real Madrid.",
+          "de": "Mein Lieblings-T-Shirt ist vom Real Madrid.",
+          "luecke": "camiseta",
+          "luecke_akzeptiert": [
+            "camiseta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe dein Lieblings-T-Shirt.",
+        "muster": [
+          "Mi camiseta favorita es negra."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Apotheke",
+        "der Saft",
+        "die Pyramide"
+      ]
+    },
+    {
+      "id": "u08-020",
+      "es": "la estación del año",
+      "de": "die Jahreszeit",
+      "akzeptiert_es": [
+        "la estación del año"
+      ],
+      "akzeptiert_de": [
+        "die Jahreszeit"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi estación del año favorita es el verano.",
+          "de": "Meine Lieblingsjahreszeit ist der Sommer.",
+          "luecke": "estación del año",
+          "luecke_akzeptiert": [
+            "estación del año"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne deine Lieblingsjahreszeit und sag, warum.",
+        "muster": [
+          "Mi estación del año favorita es la primavera porque hace sol."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Ausflug",
+        "der Handschuh",
+        "das Tor"
+      ]
+    },
+    {
+      "id": "u08-021",
+      "es": "la primavera",
+      "de": "der Frühling",
+      "akzeptiert_es": [
+        "la primavera"
+      ],
+      "akzeptiert_de": [
+        "der Frühling"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": "🌸",
+      "beispiele": [
+        {
+          "es": "En primavera hace sol, pero a veces llueve.",
+          "de": "Im Frühling scheint die Sonne, aber manchmal regnet es.",
+          "luecke": "primavera",
+          "luecke_akzeptiert": [
+            "primavera"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du im Frühling gern machst.",
+        "muster": [
+          "En primavera voy al parque."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-022",
+        "u08-023"
+      ],
+      "distraktoren_de": [
+        "der Besuch; die Besichtigung",
+        "der Westen",
+        "das (Stadt)Zentrum"
+      ]
+    },
+    {
+      "id": "u08-022",
+      "es": "el otoño",
+      "de": "der Herbst",
+      "akzeptiert_es": [
+        "el otoño"
+      ],
+      "akzeptiert_de": [
+        "der Herbst"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": "🍂",
+      "beispiele": [
+        {
+          "es": "En otoño hace viento y llueve mucho.",
+          "de": "Im Herbst ist es windig und es regnet viel.",
+          "luecke": "otoño",
+          "luecke_akzeptiert": [
+            "otoño"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du im Herbst gern machst.",
+        "muster": [
+          "En otoño leo mucho."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. autumn, frz. l’automne",
+      "nicht_zusammen_mit": [
+        "u08-023"
+      ],
+      "distraktoren_de": [
+        "die Aktivität; die Beschäftigung",
+        "das Problem",
+        "die Zutat"
+      ]
+    },
+    {
+      "id": "u08-023",
+      "es": "el invierno",
+      "de": "der Winter",
+      "akzeptiert_es": [
+        "el invierno"
+      ],
+      "akzeptiert_de": [
+        "der Winter"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": "☃️",
+      "beispiele": [
+        {
+          "es": "En invierno hace mucho frío.",
+          "de": "Im Winter ist es sehr kalt.",
+          "luecke": "invierno",
+          "luecke_akzeptiert": [
+            "invierno"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe das Wetter bei dir im Winter.",
+        "muster": [
+          "En invierno nieva poco y hace frío."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’hiver",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Rucksack",
+        "der Osten",
+        "der Sport"
+      ]
+    },
+    {
+      "id": "u08-024",
+      "es": "el color",
+      "de": "die Farbe",
+      "akzeptiert_es": [
+        "el color"
+      ],
+      "akzeptiert_de": [
+        "die Farbe"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🎨",
+      "beispiele": [
+        {
+          "es": "¿Cuál es tu color favorito?",
+          "de": "Was ist deine Lieblingsfarbe?",
+          "luecke": "color",
+          "luecke_akzeptiert": [
+            "color"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deine Freundin nach ihrer Lieblingsfarbe.",
+        "muster": [
+          "¿Cuál es tu color favorito?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. colour, lat. color",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Lied",
+        "der Ausflug",
+        "Mathematik (Schulfach)"
+      ]
+    },
+    {
+      "id": "u08-025",
+      "es": "marrón",
+      "de": "braun",
+      "akzeptiert_es": [
+        "marrón"
+      ],
+      "akzeptiert_de": [
+        "braun"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🟤",
+      "beispiele": [
+        {
+          "es": "Mi perro es marrón.",
+          "de": "Mein Hund ist braun.",
+          "luecke": "marrón",
+          "luecke_akzeptiert": [
+            "marrón"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die Farbe eines Tiers, das du kennst.",
+        "muster": [
+          "Mi gato es marrón."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. marron",
+      "nicht_zusammen_mit": [
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "dumm",
+        "nächste, -r, -s",
+        "berühmt; bekannt"
+      ]
+    },
+    {
+      "id": "u08-026",
+      "es": "verde",
+      "de": "grün",
+      "akzeptiert_es": [
+        "verde"
+      ],
+      "akzeptiert_de": [
+        "grün"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🟢",
+      "beispiele": [
+        {
+          "es": "El parque es muy verde.",
+          "de": "Der Park ist sehr grün.",
+          "luecke": "verde",
+          "luecke_akzeptiert": [
+            "verde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne etwas Grünes in deinem Zimmer.",
+        "muster": [
+          "Mi carpeta es verde."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. vert, -e",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "langsam",
+        "klein (Körpergröße)",
+        "kalt"
+      ]
+    },
+    {
+      "id": "u08-027",
+      "es": "gris",
+      "de": "grau",
+      "akzeptiert_es": [
+        "gris"
+      ],
+      "akzeptiert_de": [
+        "grau"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🩶",
+      "beispiele": [
+        {
+          "es": "Mi gato es gris.",
+          "de": "Meine Katze ist grau.",
+          "luecke": "gris",
+          "luecke_akzeptiert": [
+            "gris"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe das Wetter an einem trüben Tag.",
+        "muster": [
+          "Está nublado y todo está gris."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. gris, -e",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "groß",
+        "typisch",
+        "alt"
+      ]
+    },
+    {
+      "id": "u08-028",
+      "es": "blanco, -a",
+      "de": "weiß",
+      "akzeptiert_es": [
+        "blanco, -a",
+        "blanco",
+        "blanco/a",
+        "blanco, blanca"
+      ],
+      "akzeptiert_de": [
+        "weiß"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "colores",
+      "bild": "⚪",
+      "beispiele": [
+        {
+          "es": "Tengo una camiseta blanca.",
+          "de": "Ich habe ein weißes T-Shirt.",
+          "luecke": "blanca",
+          "luecke_akzeptiert": [
+            "blanca"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe etwas Weißes.",
+        "muster": [
+          "La leche es blanca."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "willkommen",
+        "beeindruckend",
+        "frei"
+      ]
+    },
+    {
+      "id": "u08-029",
+      "es": "naranja",
+      "de": "orange(farben)",
+      "akzeptiert_es": [
+        "naranja"
+      ],
+      "akzeptiert_de": [
+        "orange(farben)"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🟠",
+      "beispiele": [
+        {
+          "es": "Me gusta el color naranja.",
+          "de": "Ich mag die Farbe Orange.",
+          "luecke": "naranja",
+          "luecke_akzeptiert": [
+            "naranja"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne etwas Oranges.",
+        "muster": [
+          "Las zanahorias son naranjas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "gut (vor männlichem Nomen)",
+        "warm; heiß",
+        "verrückt"
+      ]
+    },
+    {
+      "id": "u08-030",
+      "es": "lila",
+      "de": "lila",
+      "akzeptiert_es": [
+        "lila"
+      ],
+      "akzeptiert_de": [
+        "lila"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🟣",
+      "beispiele": [
+        {
+          "es": "Mi hermana tiene una bicicleta lila.",
+          "de": "Meine Schwester hat ein lila Fahrrad.",
+          "luecke": "lila",
+          "luecke_akzeptiert": [
+            "lila"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die Farbe deines Fahrrads oder Rucksacks.",
+        "muster": [
+          "Mi mochila es lila."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-031",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "kurz",
+        "verrückt",
+        "noch ein; ein anderer"
+      ]
+    },
+    {
+      "id": "u08-031",
+      "es": "azul",
+      "de": "blau",
+      "akzeptiert_es": [
+        "azul"
+      ],
+      "akzeptiert_de": [
+        "blau"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🔵",
+      "beispiele": [
+        {
+          "es": "Mi bicicleta es azul.",
+          "de": "Mein Fahrrad ist blau.",
+          "luecke": "azul",
+          "luecke_akzeptiert": [
+            "azul"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die Farbe deines Rucksacks.",
+        "muster": [
+          "Mi mochila es azul."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-032",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "noch ein; ein anderer",
+        "warm; heiß",
+        "besonders"
+      ]
+    },
+    {
+      "id": "u08-032",
+      "es": "amarillo, -a",
+      "de": "gelb",
+      "akzeptiert_es": [
+        "amarillo, -a",
+        "amarillo",
+        "amarillo/a",
+        "amarillo, amarilla"
+      ],
+      "akzeptiert_de": [
+        "gelb"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "colores",
+      "bild": "🟡",
+      "beispiele": [
+        {
+          "es": "Ponte la camisa amarilla.",
+          "de": "Zieh das gelbe Hemd an.",
+          "luecke": "amarilla",
+          "luecke_akzeptiert": [
+            "amarilla"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne etwas Gelbes.",
+        "muster": [
+          "El plátano es amarillo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-033",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "sympathisch; nett",
+        "fantastisch; toll",
+        "anders; verschieden"
+      ]
+    },
+    {
+      "id": "u08-033",
+      "es": "rosa",
+      "de": "rosa",
+      "akzeptiert_es": [
+        "rosa"
+      ],
+      "akzeptiert_de": [
+        "rosa"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "colores",
+      "bild": "🩷",
+      "beispiele": [
+        {
+          "es": "Mi abuela lleva una blusa rosa.",
+          "de": "Meine Großmutter trägt eine rosa Bluse.",
+          "luecke": "rosa",
+          "luecke_akzeptiert": [
+            "rosa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe ein Kleidungsstück in Rosa.",
+        "muster": [
+          "Tengo una camiseta rosa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-034"
+      ],
+      "distraktoren_de": [
+        "nächste, -r, -s",
+        "perfekt",
+        "beeindruckend"
+      ]
+    },
+    {
+      "id": "u08-034",
+      "es": "negro, -a",
+      "de": "schwarz",
+      "akzeptiert_es": [
+        "negro, -a",
+        "negro",
+        "negro/a",
+        "negro, negra"
+      ],
+      "akzeptiert_de": [
+        "schwarz"
+      ],
+      "unidad": 8,
+      "seite": 210,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "colores",
+      "bild": "⚫",
+      "beispiele": [
+        {
+          "es": "Acabo de ver un gato negro.",
+          "de": "Ich habe gerade eine schwarze Katze gesehen.",
+          "luecke": "negro",
+          "luecke_akzeptiert": [
+            "negro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Schuhe.",
+        "muster": [
+          "Mis zapatos son negros."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. niger",
+      "nicht_zusammen_mit": [
+        "u08-025",
+        "u08-026",
+        "u08-027",
+        "u08-028",
+        "u08-029",
+        "u08-030",
+        "u08-031",
+        "u08-032",
+        "u08-033"
+      ],
+      "distraktoren_de": [
+        "klein (Körpergröße)",
+        "breit; weit",
+        "ordentlich; organisiert"
+      ]
+    },
+    {
+      "id": "u08-035",
+      "es": "que",
+      "de": "der/die/das (Relativpronomen)",
+      "akzeptiert_es": [
+        "que"
+      ],
+      "akzeptiert_de": [
+        "der/die/das (Relativpronomen)"
+      ],
+      "fehlantworten_es": {
+        "qué": "Als Relativpronomen schreibt man que ohne Akzent."
+      },
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ana es la chica que lleva la falda azul.",
+          "de": "Ana ist das Mädchen, das den blauen Rock trägt.",
+          "luecke": "que",
+          "luecke_akzeptiert": [
+            "que"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine Person auf dem Schulhof mit „que“.",
+        "muster": [
+          "Es el chico que lleva gafas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "mit mir",
+        "unser/unsere",
+        "meine (Plural)"
+      ]
+    },
+    {
+      "id": "u08-036",
+      "es": "probarse",
+      "de": "anprobieren",
+      "akzeptiert_es": [
+        "probarse"
+      ],
+      "akzeptiert_de": [
+        "anprobieren"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Puedo probarme estos vaqueros?",
+          "de": "Kann ich diese Jeans anprobieren?",
+          "luecke": "probarme",
+          "luecke_akzeptiert": [
+            "probarme"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Frag, ob du die Jacke anprobieren darfst.",
+        "muster": [
+          "¿Puedo probarme la chaqueta?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-071"
+      ],
+      "distraktoren_de": [
+        "knabbern; naschen",
+        "sich streiten",
+        "beenden; enden"
+      ]
+    },
+    {
+      "id": "u08-037",
+      "es": "desde hace",
+      "de": "seit (+ Zeitraum)",
+      "akzeptiert_es": [
+        "desde hace"
+      ],
+      "akzeptiert_de": [
+        "seit (+ Zeitraum)"
+      ],
+      "fehlantworten_es": {
+        "desde": "Für einen Zeitraum („seit einem Jahr“) sagt man desde hace un año."
+      },
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Estudio español desde hace un año.",
+          "de": "Ich lerne seit einem Jahr Spanisch.",
+          "luecke": "desde hace",
+          "luecke_akzeptiert": [
+            "desde hace"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, seit wann du in deiner Stadt wohnst.",
+        "muster": [
+          "Vivo en Versmold desde hace diez años."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "dir gefällt; du machst gern",
+        "von … bis",
+        "deswegen; deshalb"
+      ]
+    },
+    {
+      "id": "u08-038",
+      "es": "este, -a",
+      "de": "dieser, diese, dieses (hier)",
+      "akzeptiert_es": [
+        "este, -a",
+        "este",
+        "esta",
+        "este, esta"
+      ],
+      "akzeptiert_de": [
+        "dieser, diese, dieses (hier)"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": true,
+      "tema": "demostrativos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Esta camiseta es muy bonita.",
+          "de": "Dieses T-Shirt ist sehr schön.",
+          "luecke": "Esta",
+          "luecke_akzeptiert": [
+            "esta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Zeig auf die Jacke vor dir und sag, dass sie dir gefällt.",
+        "muster": [
+          "Me gusta esta chaqueta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-040",
+        "u08-064"
+      ],
+      "distraktoren_de": [
+        "dein/deine",
+        "nichts",
+        "meine (Plural)"
+      ]
+    },
+    {
+      "id": "u08-039",
+      "es": "conocer",
+      "de": "kennen; kennenlernen",
+      "akzeptiert_es": [
+        "conocer"
+      ],
+      "akzeptiert_de": [
+        "kennen",
+        "kennenlernen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "personas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Conoces a mi prima?",
+          "de": "Kennst du meine Cousine?",
+          "luecke": "Conoces",
+          "luecke_akzeptiert": [
+            "conoces"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deinen Freund, ob er deinen neuen Nachbarn kennt.",
+        "muster": [
+          "¿Conoces a mi vecino?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. connaître, lat. cognoscere",
+      "nicht_zusammen_mit": [
+        "u08-041"
+      ],
+      "distraktoren_de": [
+        "einverstanden sein",
+        "sein",
+        "gehen; weggehen"
+      ]
+    },
+    {
+      "id": "u08-040",
+      "es": "ese, -a",
+      "de": "dieser, diese, dieses (da)",
+      "akzeptiert_es": [
+        "ese, -a",
+        "ese",
+        "esa",
+        "ese, esa"
+      ],
+      "akzeptiert_de": [
+        "dieser, diese, dieses (da)"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": true,
+      "tema": "demostrativos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ese bikini es muy barato.",
+          "de": "Der Bikini da ist sehr billig.",
+          "luecke": "Ese",
+          "luecke_akzeptiert": [
+            "ese"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Zeig im Schaufenster auf eine Jacke etwas weiter weg.",
+        "muster": [
+          "Me gusta esa chaqueta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-064"
+      ],
+      "distraktoren_de": [
+        "wo?",
+        "wie?",
+        "seine; ihre (Plural)"
+      ]
+    },
+    {
+      "id": "u08-041",
+      "es": "saber",
+      "de": "wissen",
+      "akzeptiert_es": [
+        "saber"
+      ],
+      "akzeptiert_de": [
+        "wissen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "No sé dónde está mi móvil.",
+          "de": "Ich weiß nicht, wo mein Handy ist.",
+          "luecke": "sé",
+          "luecke_akzeptiert": [
+            "sé"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Ein Tourist fragt nach dem Weg. Sag, dass du es nicht weißt.",
+        "muster": [
+          "Lo siento, no sé."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. savoir",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "in Ohnmacht fallen",
+        "lustig sein",
+        "shoppen gehen; einkaufen gehen"
+      ]
+    },
+    {
+      "id": "u08-042",
+      "es": "quedar",
+      "de": "jdm stehen; passen",
+      "akzeptiert_es": [
+        "quedar"
+      ],
+      "akzeptiert_de": [
+        "jdm stehen",
+        "passen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Esta chaqueta te queda muy bien.",
+          "de": "Diese Jacke steht dir sehr gut.",
+          "luecke": "queda",
+          "luecke_akzeptiert": [
+            "queda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Mach deiner Freundin ein Kompliment für ihr neues Kleid.",
+        "muster": [
+          "¡El vestido te queda muy bien!"
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: quedar heißt hier „stehen/passen“ (auch: sich verabreden).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "scheinen; finden",
+        "sich sonnen",
+        "Hunger haben"
+      ]
+    },
+    {
+      "id": "u08-043",
+      "es": "ancho, -a",
+      "de": "breit; weit",
+      "akzeptiert_es": [
+        "ancho, -a",
+        "ancho",
+        "ancho/a",
+        "ancho, ancha"
+      ],
+      "akzeptiert_de": [
+        "breit",
+        "weit"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Este pantalón me queda ancho.",
+          "de": "Diese Hose ist mir zu weit.",
+          "luecke": "ancho",
+          "luecke_akzeptiert": [
+            "ancho"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Sag, dass dir der Pullover zu weit ist.",
+        "muster": [
+          "El jersey me queda ancho."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-046"
+      ],
+      "distraktoren_de": [
+        "warm; heiß",
+        "besonders",
+        "ungesalzen; fade"
+      ]
+    },
+    {
+      "id": "u08-044",
+      "es": "largo, -a",
+      "de": "lang",
+      "akzeptiert_es": [
+        "largo, -a",
+        "largo",
+        "largo/a",
+        "largo, larga"
+      ],
+      "akzeptiert_de": [
+        "lang"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Esta falda me queda muy larga.",
+          "de": "Dieser Rock ist mir zu lang.",
+          "luecke": "larga",
+          "luecke_akzeptiert": [
+            "larga"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Sag, dass dir die Hose zu lang ist.",
+        "muster": [
+          "El pantalón me queda largo."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: largo = lang (nicht „groß“).",
+      "nicht_zusammen_mit": [
+        "u08-047"
+      ],
+      "distraktoren_de": [
+        "(alle) zusammen",
+        "genial; super",
+        "dunkelhaarig; dunkel"
+      ]
+    },
+    {
+      "id": "u08-045",
+      "es": "oscuro, -a",
+      "de": "dunkel",
+      "akzeptiert_es": [
+        "oscuro, -a",
+        "oscuro",
+        "oscuro/a",
+        "oscuro, oscura"
+      ],
+      "akzeptiert_de": [
+        "dunkel"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "colores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Prefiero los colores oscuros.",
+          "de": "Ich mag lieber dunkle Farben.",
+          "luecke": "oscuros",
+          "luecke_akzeptiert": [
+            "oscuros"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob du lieber helle oder dunkle Farben trägst.",
+        "muster": [
+          "Prefiero los colores oscuros."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. obscur, lat. obscurus",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "noch ein; ein anderer",
+        "schlank",
+        "sympathisch; nett"
+      ]
+    },
+    {
+      "id": "u08-046",
+      "es": "estrecho, -a",
+      "de": "eng",
+      "akzeptiert_es": [
+        "estrecho, -a",
+        "estrecho",
+        "estrecho/a",
+        "estrecho, estrecha"
+      ],
+      "akzeptiert_de": [
+        "eng"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Esta calle es muy estrecha.",
+          "de": "Diese Straße ist sehr eng.",
+          "luecke": "estrecha",
+          "luecke_akzeptiert": [
+            "estrecha"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Sag, dass dir die Jeans zu eng ist.",
+        "muster": [
+          "Los vaqueros me quedan estrechos."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. étroit, -e",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ruhig",
+        "klein (Körpergröße)",
+        "allein"
+      ]
+    },
+    {
+      "id": "u08-047",
+      "es": "corto, -a",
+      "de": "kurz",
+      "akzeptiert_es": [
+        "corto, -a",
+        "corto",
+        "corto/a",
+        "corto, corta"
+      ],
+      "akzeptiert_de": [
+        "kurz"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En verano llevo pantalones cortos.",
+          "de": "Im Sommer trage ich kurze Hosen.",
+          "luecke": "cortos",
+          "luecke_akzeptiert": [
+            "cortos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du im Sommer anziehst.",
+        "muster": [
+          "En verano llevo pantalones cortos y camisetas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "braun",
+        "unabhängig",
+        "ungesalzen; fade"
+      ]
+    },
+    {
+      "id": "u08-048",
+      "es": "dar",
+      "de": "geben",
+      "akzeptiert_es": [
+        "dar"
+      ],
+      "akzeptiert_de": [
+        "geben"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Me das tu número de móvil?",
+          "de": "Gibst du mir deine Handynummer?",
+          "luecke": "das",
+          "luecke_akzeptiert": [
+            "das"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deine neue Freundin nach ihrer Adresse – mit „dar“.",
+        "muster": [
+          "¿Me das tu dirección?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. dare",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich komme aus",
+        "mieten",
+        "hinzugeben; werfen"
+      ]
+    },
+    {
+      "id": "u08-049",
+      "es": "la opinión",
+      "de": "die Meinung",
+      "akzeptiert_es": [
+        "la opinión"
+      ],
+      "akzeptiert_de": [
+        "die Meinung"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En mi opinión, la chaqueta es demasiado cara.",
+          "de": "Meiner Meinung nach ist die Jacke zu teuer.",
+          "luecke": "opinión",
+          "luecke_akzeptiert": [
+            "opinión"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag deine Meinung zu einem Film.",
+        "muster": [
+          "En mi opinión, la película es muy buena."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Haar",
+        "das Foto",
+        "der Wald"
+      ]
+    },
+    {
+      "id": "u08-050",
+      "es": "de abuela",
+      "de": "omamäßig",
+      "akzeptiert_es": [
+        "de abuela"
+      ],
+      "akzeptiert_de": [
+        "omamäßig"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "No me gusta esa chaqueta. Es de abuela.",
+          "de": "Ich mag die Jacke nicht. Sie ist omamäßig.",
+          "luecke": "de abuela",
+          "luecke_akzeptiert": [
+            "de abuela"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Mutter zeigt dir einen altmodischen Pullover. Reagiere.",
+        "muster": [
+          "¡Es de abuela!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Es tut mir leid.",
+        "mit dem Fahrrad",
+        "Mir auch nicht.; Ich auch nicht."
+      ]
+    },
+    {
+      "id": "u08-051",
+      "es": "enseñar",
+      "de": "zeigen",
+      "akzeptiert_es": [
+        "enseñar"
+      ],
+      "akzeptiert_de": [
+        "zeigen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Te voy a enseñar mi habitación.",
+          "de": "Ich zeige dir mein Zimmer.",
+          "luecke": "enseñar",
+          "luecke_akzeptiert": [
+            "enseñar"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Austauschpartner kommt an. Sag, dass du ihm das Haus zeigst.",
+        "muster": [
+          "Te enseño la casa."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: enseñar = zeigen (auch: unterrichten).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "finden",
+        "zusammenstoßen mit",
+        "gerade etw. getan haben"
+      ]
+    },
+    {
+      "id": "u08-052",
+      "es": "parecer",
+      "de": "scheinen; finden",
+      "akzeptiert_es": [
+        "parecer"
+      ],
+      "akzeptiert_de": [
+        "scheinen",
+        "finden"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Qué te parece este vestido?",
+          "de": "Wie findest du dieses Kleid?",
+          "luecke": "parece",
+          "luecke_akzeptiert": [
+            "parece"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deinen Freund, wie er deine neuen Schuhe findet.",
+        "muster": [
+          "¿Qué te parecen mis zapatos nuevos?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "(an)kommen",
+        "kaufen",
+        "sprechen; reden"
+      ]
+    },
+    {
+      "id": "u08-053",
+      "es": "precioso, -a",
+      "de": "wunderschön; wertvoll",
+      "akzeptiert_es": [
+        "precioso, -a",
+        "precioso",
+        "precioso/a",
+        "precioso, preciosa"
+      ],
+      "akzeptiert_de": [
+        "wunderschön",
+        "wertvoll"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Qué vestido más precioso!",
+          "de": "Was für ein wunderschönes Kleid!",
+          "luecke": "precioso",
+          "luecke_akzeptiert": [
+            "precioso"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin zeigt dir ein Foto vom Meer. Reagiere begeistert.",
+        "muster": [
+          "¡Es precioso!"
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: precioso = wunderschön (nicht nur „kostbar“).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "schlecht",
+        "schlank",
+        "breit; weit"
+      ]
+    },
+    {
+      "id": "u08-054",
+      "es": "encantar",
+      "de": "sehr gefallen; sehr mögen",
+      "akzeptiert_es": [
+        "encantar"
+      ],
+      "akzeptiert_de": [
+        "sehr gefallen",
+        "sehr mögen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Me encanta la música de Rosalía.",
+          "de": "Ich liebe die Musik von Rosalía.",
+          "luecke": "encanta",
+          "luecke_akzeptiert": [
+            "encanta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du total liebst.",
+        "muster": [
+          "Me encantan los perros.",
+          "Me encanta la pizza."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "leben; wohnen",
+        "Basketball spielen",
+        "man muss"
+      ]
+    },
+    {
+      "id": "u08-055",
+      "es": "buen",
+      "de": "gut (vor männlichem Nomen)",
+      "akzeptiert_es": [
+        "buen"
+      ],
+      "akzeptiert_de": [
+        "gut (vor männlichem Nomen)"
+      ],
+      "fehlantworten_es": {
+        "bueno": "Vor einem männlichen Nomen im Singular wird bueno zu buen: un buen plan."
+      },
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo un buen plan para el sábado.",
+          "de": "Ich habe einen guten Plan für Samstag.",
+          "luecke": "buen",
+          "luecke_akzeptiert": [
+            "buen"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, dass Paco ein guter Freund ist.",
+        "muster": [
+          "Paco es un buen amigo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. bon",
+      "nicht_zusammen_mit": [
+        "u08-066"
+      ],
+      "distraktoren_de": [
+        "notwendig",
+        "touristisch",
+        "toll; klasse"
+      ]
+    },
+    {
+      "id": "u08-056",
+      "es": "decir",
+      "de": "sagen",
+      "akzeptiert_es": [
+        "decir"
+      ],
+      "akzeptiert_de": [
+        "sagen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi madre dice que puedo ir a la fiesta.",
+          "de": "Meine Mutter sagt, dass ich zur Party darf.",
+          "luecke": "dice",
+          "luecke_akzeptiert": [
+            "dice"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was deine Lehrerin immer sagt.",
+        "muster": [
+          "La profesora dice: «¡Silencio!»"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. dire, lat. dicere",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "an etw./jdn denken",
+        "verreisen",
+        "Hunger haben"
+      ]
+    },
+    {
+      "id": "u08-057",
+      "es": "la policía",
+      "de": "die Polizei",
+      "akzeptiert_es": [
+        "la policía"
+      ],
+      "akzeptiert_de": [
+        "die Polizei"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "personas",
+      "bild": "🚓",
+      "beispiele": [
+        {
+          "es": "La policía está en la tienda.",
+          "de": "Die Polizei ist im Geschäft.",
+          "luecke": "policía",
+          "luecke_akzeptiert": [
+            "policía"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du siehst einen Unfall. Ruf, dass jemand die Polizei rufen soll.",
+        "muster": [
+          "¡Llama a la policía!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Schal",
+        "die Nummer; die Zahl",
+        "die Sehenswürdigkeit"
+      ]
+    },
+    {
+      "id": "u08-058",
+      "es": "dentro",
+      "de": "drinnen",
+      "akzeptiert_es": [
+        "dentro"
+      ],
+      "akzeptiert_de": [
+        "drinnen"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hace frío. Vamos dentro.",
+          "de": "Es ist kalt. Gehen wir rein.",
+          "luecke": "dentro",
+          "luecke_akzeptiert": [
+            "dentro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Es regnet. Schlag vor, drinnen zu bleiben.",
+        "muster": [
+          "Llueve. Nos quedamos dentro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "außerdem",
+        "auch nicht",
+        "nur"
+      ]
+    },
+    {
+      "id": "u08-059",
+      "es": "la expresión",
+      "de": "der Ausdruck",
+      "akzeptiert_es": [
+        "la expresión"
+      ],
+      "akzeptiert_de": [
+        "der Ausdruck"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lengua",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "«¡Qué fuerte!» es una expresión coloquial.",
+          "de": "„¡Qué fuerte!“ ist ein umgangssprachlicher Ausdruck.",
+          "luecke": "expresión",
+          "luecke_akzeptiert": [
+            "expresión"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne deinen spanischen Lieblingsausdruck.",
+        "muster": [
+          "Mi expresión favorita es «¡Ni loco!»."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. expression",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Freund",
+        "der Umzug",
+        "der Laden; das Geschäft"
+      ]
+    },
+    {
+      "id": "u08-060",
+      "es": "la palabra",
+      "de": "das Wort",
+      "akzeptiert_es": [
+        "la palabra"
+      ],
+      "akzeptiert_de": [
+        "das Wort"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lengua",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "No conozco esta palabra.",
+          "de": "Ich kenne dieses Wort nicht.",
+          "luecke": "palabra",
+          "luecke_akzeptiert": [
+            "palabra"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du verstehst ein Wort nicht. Frag nach.",
+        "muster": [
+          "¿Qué significa esta palabra?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Geräusch; der Lärm",
+        "der Zahn",
+        "der Stil"
+      ]
+    },
+    {
+      "id": "u08-061",
+      "es": "el sinónimo",
+      "de": "das Synonym",
+      "akzeptiert_es": [
+        "el sinónimo"
+      ],
+      "akzeptiert_de": [
+        "das Synonym"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lengua",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "«Bonito» es un sinónimo de «lindo».",
+          "de": "„Bonito“ ist ein Synonym für „lindo“.",
+          "luecke": "sinónimo",
+          "luecke_akzeptiert": [
+            "sinónimo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne ein Synonym für „guay“.",
+        "muster": [
+          "Un sinónimo de «guay» es «estupendo»."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Salat",
+        "das Heft",
+        "das (Fernseh)Programm; die Sendung"
+      ]
+    },
+    {
+      "id": "u08-062",
+      "es": "si",
+      "de": "ob",
+      "akzeptiert_es": [
+        "si"
+      ],
+      "akzeptiert_de": [
+        "ob"
+      ],
+      "fehlantworten_es": {
+        "sí": "Mit Akzent heißt sí „ja“. „Ob“ schreibt man si ohne Akzent."
+      },
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "conjuncion",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi madre pregunta si tienes hambre.",
+          "de": "Meine Mutter fragt, ob du Hunger hast.",
+          "luecke": "si",
+          "luecke_akzeptiert": [
+            "si"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Gib die Frage deines Vaters weiter: Er will wissen, ob dein Freund mitkommt.",
+        "muster": [
+          "Mi padre pregunta si vienes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sich die Zähne putzen",
+        "omamäßig",
+        "die Adresse"
+      ]
+    },
+    {
+      "id": "u08-063",
+      "es": "estar enfermo",
+      "de": "krank sein",
+      "akzeptiert_es": [
+        "estar enfermo",
+        "estar enferma",
+        "estar enfermo, -a"
+      ],
+      "akzeptiert_de": [
+        "krank sein"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "salud",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hoy no voy al instituto porque estoy enfermo.",
+          "de": "Heute gehe ich nicht zur Schule, weil ich krank bin.",
+          "luecke": "estoy enfermo",
+          "luecke_akzeptiert": [
+            "estoy enfermo",
+            "estoy enferma"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Schreib deiner Lehrerin, dass du heute krank bist.",
+        "muster": [
+          "Hoy estoy enferma.",
+          "Estoy enfermo y no puedo ir."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "scheinen; finden",
+        "lernen; studieren",
+        "brauchen"
+      ]
+    },
+    {
+      "id": "u08-064",
+      "es": "aquel, aquella",
+      "de": "jener, jene, jenes",
+      "akzeptiert_es": [
+        "aquel, aquella",
+        "aquel",
+        "aquella"
+      ],
+      "akzeptiert_de": [
+        "jener, jene, jenes"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": true,
+      "tema": "demostrativos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—Este jersey me gusta. —Pues yo prefiero aquel.",
+          "de": "– Dieser Pulli gefällt mir. – Also ich mag den dort lieber.",
+          "luecke": "aquel",
+          "luecke_akzeptiert": [
+            "aquel"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Laden: Zeig auf ein Kleid ganz hinten im Geschäft.",
+        "muster": [
+          "Me gusta aquel vestido."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "du",
+        "er",
+        "der/die/das (Relativpronomen)"
+      ]
+    },
+    {
+      "id": "u08-065",
+      "es": "el desfile de moda",
+      "de": "die Modenschau",
+      "akzeptiert_es": [
+        "el desfile de moda"
+      ],
+      "akzeptiert_de": [
+        "die Modenschau"
+      ],
+      "unidad": 8,
+      "seite": 211,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": true,
+      "tema": "ropa",
+      "bild": "💃",
+      "beispiele": [
+        {
+          "es": "En el instituto hay un desfile de moda.",
+          "de": "In der Schule gibt es eine Modenschau.",
+          "luecke": "desfile de moda",
+          "luecke_akzeptiert": [
+            "desfile de moda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was es beim Schulfest gibt.",
+        "muster": [
+          "Hay un desfile de moda y una fiesta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. le défilé de mode",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Umzug",
+        "die Informatik",
+        "die Kneipe; das Lokal"
+      ]
+    },
+    {
+      "id": "u08-066",
+      "es": "gran",
+      "de": "groß; großartig (vor Nomen)",
+      "akzeptiert_es": [
+        "gran"
+      ],
+      "akzeptiert_de": [
+        "groß",
+        "großartig (vor Nomen)"
+      ],
+      "fehlantworten_es": {
+        "grande": "Vor einem Nomen im Singular wird grande zu gran: una gran aventura."
+      },
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Es una gran aventura.",
+          "de": "Es ist ein großes Abenteuer.",
+          "luecke": "gran",
+          "luecke_akzeptiert": [
+            "gran"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine letzte Reise als großes Abenteuer.",
+        "muster": [
+          "¡Fue una gran aventura!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "eng",
+        "lang",
+        "blond"
+      ]
+    },
+    {
+      "id": "u08-067",
+      "es": "decidir",
+      "de": "entscheiden; beschließen",
+      "akzeptiert_es": [
+        "decidir"
+      ],
+      "akzeptiert_de": [
+        "entscheiden",
+        "beschließen"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "opinion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Decidimos ir a la playa.",
+          "de": "Wir haben beschlossen, an den Strand zu gehen.",
+          "luecke": "Decidimos",
+          "luecke_akzeptiert": [
+            "decidimos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was ihr für die Ferien beschlossen habt.",
+        "muster": [
+          "Decidimos ir a Italia."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. décider, engl. to decide",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "gerade etw. getan haben",
+        "kaufen",
+        "machen"
+      ]
+    },
+    {
+      "id": "u08-068",
+      "es": "último, -a",
+      "de": "letzte, -r, -s",
+      "akzeptiert_es": [
+        "último, -a",
+        "último",
+        "último/a",
+        "último, última"
+      ],
+      "akzeptiert_de": [
+        "letzte, -r, -s"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Es el último día de vacaciones.",
+          "de": "Es ist der letzte Ferientag.",
+          "luecke": "último",
+          "luecke_akzeptiert": [
+            "último"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du am letzten Ferientag gemacht hast.",
+        "muster": [
+          "El último día fui a la playa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ordentlich; organisiert",
+        "alle; jede, -r, -s",
+        "groß; großartig (vor Nomen)"
+      ]
+    },
+    {
+      "id": "u08-069",
+      "es": "el momento",
+      "de": "der Moment",
+      "akzeptiert_es": [
+        "el momento"
+      ],
+      "akzeptiert_de": [
+        "der Moment"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En ese momento llegó la policía.",
+          "de": "In diesem Moment kam die Polizei.",
+          "luecke": "momento",
+          "luecke_akzeptiert": [
+            "momento"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Bitte jemanden am Telefon, kurz zu warten.",
+        "muster": [
+          "Un momento, por favor."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. moment",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Französisch (Schulfach)",
+        "die Kartoffel",
+        "die Pizza"
+      ]
+    },
+    {
+      "id": "u08-070",
+      "es": "entrar",
+      "de": "(hinein)gehen; eintreten",
+      "akzeptiert_es": [
+        "entrar"
+      ],
+      "akzeptiert_de": [
+        "(hinein)gehen",
+        "eintreten"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Entramos en la tienda.",
+          "de": "Wir gehen in das Geschäft hinein.",
+          "luecke": "Entramos",
+          "luecke_akzeptiert": [
+            "entramos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, in welches Geschäft ihr in der Stadt gegangen seid.",
+        "muster": [
+          "Entramos en una tienda de ropa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. entrer, engl. to enter",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "wünschen",
+        "verlassen; hinausgehen",
+        "leihen"
+      ]
+    },
+    {
+      "id": "u08-071",
+      "es": "el probador",
+      "de": "die Umkleide",
+      "akzeptiert_es": [
+        "el probador"
+      ],
+      "akzeptiert_de": [
+        "die Umkleide"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Dónde está el probador?",
+          "de": "Wo ist die Umkleide?",
+          "luecke": "probador",
+          "luecke_akzeptiert": [
+            "probador"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Im Kleidergeschäft: Frag nach der Umkleidekabine.",
+        "muster": [
+          "Perdón, ¿dónde está el probador?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Samstag",
+        "die Hand",
+        "der feste Freund / die feste Freundin"
+      ]
+    },
+    {
+      "id": "u08-072",
+      "es": "de repente",
+      "de": "plötzlich",
+      "akzeptiert_es": [
+        "de repente"
+      ],
+      "akzeptiert_de": [
+        "plötzlich"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "De repente escuchamos un grito.",
+          "de": "Plötzlich hörten wir einen Schrei.",
+          "luecke": "De repente",
+          "luecke_akzeptiert": [
+            "de repente"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl eine kleine Gruselgeschichte mit „de repente“.",
+        "muster": [
+          "De repente, escuché un ruido."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "meine Telefonnummer",
+        "Woher kommst du?",
+        "Was ist auf der Pizza?"
+      ]
+    },
+    {
+      "id": "u08-073",
+      "es": "el grito",
+      "de": "der Schrei",
+      "akzeptiert_es": [
+        "el grito"
+      ],
+      "akzeptiert_de": [
+        "der Schrei"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Por la noche escuché un grito.",
+          "de": "In der Nacht hörte ich einen Schrei.",
+          "luecke": "grito",
+          "luecke_akzeptiert": [
+            "grito"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was du in der Nacht gehört hast.",
+        "muster": [
+          "Escuché un grito en la calle."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Hand",
+        "der Lehrer",
+        "die Frage"
+      ]
+    },
+    {
+      "id": "u08-074",
+      "es": "asustar",
+      "de": "erschrecken",
+      "akzeptiert_es": [
+        "asustar"
+      ],
+      "akzeptiert_de": [
+        "erschrecken"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Me asustas!",
+          "de": "Du erschreckst mich!",
+          "luecke": "asustas",
+          "luecke_akzeptiert": [
+            "asustas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Bruder springt hinter der Tür hervor. Reagiere.",
+        "muster": [
+          "¡Me asustas!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "wandern",
+        "(hinein)gehen; eintreten",
+        "bleiben; sich aufhalten"
+      ]
+    },
+    {
+      "id": "u08-075",
+      "es": "intentar",
+      "de": "versuchen",
+      "akzeptiert_es": [
+        "intentar"
+      ],
+      "akzeptiert_de": [
+        "versuchen"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Intento hablar solo en español.",
+          "de": "Ich versuche, nur Spanisch zu sprechen.",
+          "luecke": "Intento",
+          "luecke_akzeptiert": [
+            "intento"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du in den Ferien versuchen willst.",
+        "muster": [
+          "Intento leer un libro en español."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "(sich) duschen",
+        "sich aufregen; sich ärgern",
+        "sich verabreden; sich treffen"
+      ]
+    },
+    {
+      "id": "u08-076",
+      "es": "el hombre",
+      "de": "der Mann",
+      "akzeptiert_es": [
+        "el hombre"
+      ],
+      "akzeptiert_de": [
+        "der Mann"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "personas",
+      "bild": "👨",
+      "beispiele": [
+        {
+          "es": "El hombre de las gafas de sol es mi tío.",
+          "de": "Der Mann mit der Sonnenbrille ist mein Onkel.",
+          "luecke": "hombre",
+          "luecke_akzeptiert": [
+            "hombre"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe einen Mann auf einem Foto.",
+        "muster": [
+          "Es un hombre alto y moreno."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’homme",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Schuh",
+        "der Tintenfisch",
+        "die Küche"
+      ]
+    },
+    {
+      "id": "u08-077",
+      "es": "la joya",
+      "de": "der Schmuck",
+      "akzeptiert_es": [
+        "la joya"
+      ],
+      "akzeptiert_de": [
+        "der Schmuck"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "ropa",
+      "bild": "💍",
+      "beispiele": [
+        {
+          "es": "Las joyas son muy caras.",
+          "de": "Schmuck ist sehr teuer.",
+          "luecke": "joyas",
+          "luecke_akzeptiert": [
+            "joyas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe ein Schmuckstück, das du magst.",
+        "muster": [
+          "Me gustan las joyas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Onkel / die Tante",
+        "die Katastrophe",
+        "der Laptop"
+      ]
+    },
+    {
+      "id": "u08-078",
+      "es": "la mano",
+      "de": "die Hand",
+      "akzeptiert_es": [
+        "la mano"
+      ],
+      "akzeptiert_de": [
+        "die Hand"
+      ],
+      "fehlantworten_es": {
+        "el mano": "mano ist feminin: la mano."
+      },
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "cuerpo",
+      "bild": "✋",
+      "beispiele": [
+        {
+          "es": "Tengo las manos frías.",
+          "de": "Ich habe kalte Hände.",
+          "luecke": "manos",
+          "luecke_akzeptiert": [
+            "manos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, dass deine Hände kalt sind, und bitte um Handschuhe.",
+        "muster": [
+          "Tengo las manos frías. ¿Me das los guantes?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la main, lat. manus; la mano ist feminin!",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Tapas (Häppchen)",
+        "der Canyon",
+        "der Cousin / die Cousine"
+      ]
+    },
+    {
+      "id": "u08-079",
+      "es": "hacia",
+      "de": "nach; zu (Richtung)",
+      "akzeptiert_es": [
+        "hacia"
+      ],
+      "akzeptiert_de": [
+        "nach",
+        "zu (Richtung)"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El perro corrió hacia mí.",
+          "de": "Der Hund rannte auf mich zu.",
+          "luecke": "hacia",
+          "luecke_akzeptiert": [
+            "hacia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, wie ein Hund im Park auf dich zukommt.",
+        "muster": [
+          "Un perro vino hacia mí."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "von; aus",
+        "(an)statt",
+        "bis"
+      ]
+    },
+    {
+      "id": "u08-080",
+      "es": "chocar con",
+      "de": "zusammenstoßen mit",
+      "akzeptiert_es": [
+        "chocar con",
+        "chocarse con",
+        "chocar(se) con"
+      ],
+      "akzeptiert_de": [
+        "zusammenstoßen mit"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Con la bicicleta choqué con un coche.",
+          "de": "Mit dem Fahrrad bin ich mit einem Auto zusammengestoßen.",
+          "luecke": "choqué",
+          "luecke_akzeptiert": [
+            "choqué"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wie du mit jemandem zusammengestoßen bist.",
+        "muster": [
+          "Me choqué con un chico en el pasillo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "schlecht aussehen",
+        "zurückkommen; zurückkehren",
+        "aufstehen"
+      ]
+    },
+    {
+      "id": "u08-081",
+      "es": "caerse",
+      "de": "fallen; hinfallen",
+      "akzeptiert_es": [
+        "caerse"
+      ],
+      "akzeptiert_de": [
+        "fallen",
+        "hinfallen"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "salud",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Me caí de la bicicleta.",
+          "de": "Ich bin vom Fahrrad gefallen.",
+          "luecke": "Me caí",
+          "luecke_akzeptiert": [
+            "me caí"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, warum dein Knie wehtut.",
+        "muster": [
+          "Me caí en el patio."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. cadere",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "zurückkommen; zurückkehren",
+        "kommen",
+        "tauchen; schnorcheln"
+      ]
+    },
+    {
+      "id": "u08-082",
+      "es": "desmayarse",
+      "de": "in Ohnmacht fallen",
+      "akzeptiert_es": [
+        "desmayarse"
+      ],
+      "akzeptiert_de": [
+        "in Ohnmacht fallen"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "salud",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En el examen casi me desmayé.",
+          "de": "In der Klassenarbeit bin ich fast in Ohnmacht gefallen.",
+          "luecke": "me desmayé",
+          "luecke_akzeptiert": [
+            "me desmayé"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wann du fast in Ohnmacht gefallen bist.",
+        "muster": [
+          "Casi me desmayé en el autobús."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-083"
+      ],
+      "distraktoren_de": [
+        "sprechen; reden",
+        "schlafen",
+        "können; dürfen"
+      ]
+    },
+    {
+      "id": "u08-083",
+      "es": "despertarse",
+      "de": "aufwachen",
+      "akzeptiert_es": [
+        "despertarse"
+      ],
+      "akzeptiert_de": [
+        "aufwachen"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "rutina",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Me despierto a las siete.",
+          "de": "Ich wache um sieben auf.",
+          "luecke": "Me despierto",
+          "luecke_akzeptiert": [
+            "me despierto"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wann du am Wochenende aufwachst.",
+        "muster": [
+          "El sábado me despierto a las diez."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "(mit/her)bringen",
+        "fragen",
+        "auf leise stellen"
+      ]
+    },
+    {
+      "id": "u08-084",
+      "es": "a mi alrededor",
+      "de": "um mich herum",
+      "akzeptiert_es": [
+        "a mi alrededor"
+      ],
+      "akzeptiert_de": [
+        "um mich herum"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Cuando me desperté, vi a mucha gente a mi alrededor.",
+          "de": "Als ich aufwachte, sah ich viele Leute um mich herum.",
+          "luecke": "a mi alrededor",
+          "luecke_akzeptiert": [
+            "a mi alrededor"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was du in diesem Moment um dich herum siehst.",
+        "muster": [
+          "A mi alrededor hay libros y sillas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "deswegen; deshalb",
+        "Guten Morgen!; Guten Tag!",
+        "Was ist los?"
+      ]
+    },
+    {
+      "id": "u08-085",
+      "es": "la noticia",
+      "de": "die Neuigkeit; die Nachricht",
+      "akzeptiert_es": [
+        "la noticia"
+      ],
+      "akzeptiert_de": [
+        "die Neuigkeit",
+        "die Nachricht"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": "📰",
+      "beispiele": [
+        {
+          "es": "¡Tengo una buena noticia!",
+          "de": "Ich habe eine gute Neuigkeit!",
+          "luecke": "noticia",
+          "luecke_akzeptiert": [
+            "noticia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du hast eine tolle Nachricht für deine Freundin. Kündige sie an.",
+        "muster": [
+          "¡Tengo una noticia fantástica!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Alltag",
+        "das Gymnasium",
+        "das Auge"
+      ]
+    },
+    {
+      "id": "u08-086",
+      "es": "el pelo",
+      "de": "das Haar",
+      "akzeptiert_es": [
+        "el pelo"
+      ],
+      "akzeptiert_de": [
+        "das Haar"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermano tiene el pelo largo.",
+          "de": "Mein Bruder hat lange Haare.",
+          "luecke": "pelo",
+          "luecke_akzeptiert": [
+            "pelo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Haare.",
+        "muster": [
+          "Tengo el pelo corto y castaño."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: el pelo (Singular) = die Haare.",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Stadt",
+        "das Fußballspiel",
+        "der Gast"
+      ]
+    },
+    {
+      "id": "u08-087",
+      "es": "rubio, -a",
+      "de": "blond",
+      "akzeptiert_es": [
+        "rubio, -a",
+        "rubio",
+        "rubio/a",
+        "rubio, rubia"
+      ],
+      "akzeptiert_de": [
+        "blond"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi madre es tan rubia como yo.",
+          "de": "Meine Mutter ist so blond wie ich.",
+          "luecke": "rubia",
+          "luecke_akzeptiert": [
+            "rubia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine blonde Person aus deiner Familie.",
+        "muster": [
+          "Mi hermana es rubia."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-090",
+        "u08-091",
+        "u08-093"
+      ],
+      "distraktoren_de": [
+        "touristisch",
+        "warm; heiß",
+        "Lieblings-"
+      ]
+    },
+    {
+      "id": "u08-088",
+      "es": "el ojo",
+      "de": "das Auge",
+      "akzeptiert_es": [
+        "el ojo"
+      ],
+      "akzeptiert_de": [
+        "das Auge"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "aspecto",
+      "bild": "👁️",
+      "beispiele": [
+        {
+          "es": "Mi padre tiene los ojos verdes.",
+          "de": "Mein Vater hat grüne Augen.",
+          "luecke": "ojos",
+          "luecke_akzeptiert": [
+            "ojos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Augenfarbe.",
+        "muster": [
+          "Tengo los ojos azules."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. oculus",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Pfeffer",
+        "der Umzug",
+        "das Wort"
+      ]
+    },
+    {
+      "id": "u08-089",
+      "es": "la barba",
+      "de": "der Bart",
+      "akzeptiert_es": [
+        "la barba"
+      ],
+      "akzeptiert_de": [
+        "der Bart"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "aspecto",
+      "bild": "🧔",
+      "beispiele": [
+        {
+          "es": "Mi abuelo tiene una barba blanca.",
+          "de": "Mein Großvater hat einen weißen Bart.",
+          "luecke": "barba",
+          "luecke_akzeptiert": [
+            "barba"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe einen Mann mit Bart.",
+        "muster": [
+          "Mi tío tiene barba."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la barbe, lat. barba",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Ort; der Platz",
+        "der Stundenplan",
+        "der Liter"
+      ]
+    },
+    {
+      "id": "u08-090",
+      "es": "moreno, -a",
+      "de": "dunkelhaarig; dunkel",
+      "akzeptiert_es": [
+        "moreno, -a",
+        "moreno",
+        "moreno/a",
+        "moreno, morena"
+      ],
+      "akzeptiert_de": [
+        "dunkelhaarig",
+        "dunkel"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi novio es alto y moreno.",
+          "de": "Mein Freund ist groß und dunkelhaarig.",
+          "luecke": "moreno",
+          "luecke_akzeptiert": [
+            "moreno"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine dunkelhaarige Person.",
+        "muster": [
+          "Mi prima es morena."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-087",
+        "u08-091",
+        "u08-093"
+      ],
+      "distraktoren_de": [
+        "groß; großartig (vor Nomen)",
+        "sehr schlecht",
+        "besonders"
+      ]
+    },
+    {
+      "id": "u08-091",
+      "es": "castaño, -a",
+      "de": "brünett; (kastanien)braun",
+      "akzeptiert_es": [
+        "castaño, -a",
+        "castaño",
+        "castaño/a",
+        "castaño, castaña"
+      ],
+      "akzeptiert_de": [
+        "brünett",
+        "(kastanien)braun"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo el pelo castaño.",
+          "de": "Ich habe braunes Haar.",
+          "luecke": "castaño",
+          "luecke_akzeptiert": [
+            "castaño"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die Haarfarbe deiner besten Freundin.",
+        "muster": [
+          "Mi amiga tiene el pelo castaño."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-087",
+        "u08-090",
+        "u08-093"
+      ],
+      "distraktoren_de": [
+        "notwendig",
+        "toll; klasse",
+        "noch ein; ein anderer"
+      ]
+    },
+    {
+      "id": "u08-092",
+      "es": "calvo, -a",
+      "de": "kahlköpfig; glatzköpfig",
+      "akzeptiert_es": [
+        "calvo, -a",
+        "calvo",
+        "calvo/a",
+        "calvo, calva"
+      ],
+      "akzeptiert_de": [
+        "kahlköpfig",
+        "glatzköpfig"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi abuelo es calvo.",
+          "de": "Mein Großvater hat eine Glatze.",
+          "luecke": "calvo",
+          "luecke_akzeptiert": [
+            "calvo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe einen Mann ohne Haare.",
+        "muster": [
+          "Es calvo y lleva gafas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. chauve",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "perfekt",
+        "hell; klar",
+        "alt; altertümlich"
+      ]
+    },
+    {
+      "id": "u08-093",
+      "es": "pelirrojo, -a",
+      "de": "rothaarig",
+      "akzeptiert_es": [
+        "pelirrojo, -a",
+        "pelirrojo",
+        "pelirrojo/a",
+        "pelirrojo, pelirroja"
+      ],
+      "akzeptiert_de": [
+        "rothaarig"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo una amiga pelirroja.",
+          "de": "Ich habe eine rothaarige Freundin.",
+          "luecke": "pelirroja",
+          "luecke_akzeptiert": [
+            "pelirroja"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine Figur mit roten Haaren.",
+        "muster": [
+          "Pippi Calzaslargas es pelirroja."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-087",
+        "u08-090",
+        "u08-091"
+      ],
+      "distraktoren_de": [
+        "frei",
+        "schwarz",
+        "klein"
+      ]
+    },
+    {
+      "id": "u08-094",
+      "es": "claro, -a",
+      "de": "hell; klar",
+      "akzeptiert_es": [
+        "claro, -a",
+        "claro",
+        "claro/a",
+        "claro, clara"
+      ],
+      "akzeptiert_de": [
+        "hell",
+        "klar"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "colores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Prefiero los colores claros.",
+          "de": "Ich mag lieber helle Farben.",
+          "luecke": "claros",
+          "luecke_akzeptiert": [
+            "claros"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob dein Zimmer hell oder dunkel ist.",
+        "muster": [
+          "Mi habitación es muy clara."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "toll; prima",
+        "faul",
+        "glücklich"
+      ]
+    },
+    {
+      "id": "u08-095",
+      "es": "bajo, -a",
+      "de": "klein (Körpergröße)",
+      "akzeptiert_es": [
+        "bajo, -a",
+        "bajo",
+        "bajo/a",
+        "bajo, baja"
+      ],
+      "akzeptiert_de": [
+        "klein (Körpergröße)"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermano es más bajo que yo.",
+          "de": "Mein Bruder ist kleiner als ich.",
+          "luecke": "bajo",
+          "luecke_akzeptiert": [
+            "bajo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Vergleiche deine Körpergröße mit der eines Freundes.",
+        "muster": [
+          "Soy más baja que mi amiga."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: bajo = klein (Person); pequeño = klein (Sache).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "langsam",
+        "gelb",
+        "touristisch"
+      ]
+    },
+    {
+      "id": "u08-096",
+      "es": "delgado, -a",
+      "de": "schlank",
+      "akzeptiert_es": [
+        "delgado, -a",
+        "delgado",
+        "delgado/a",
+        "delgado, delgada"
+      ],
+      "akzeptiert_de": [
+        "schlank"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Aquella chica delgada es mi amiga Marta.",
+          "de": "Das schlanke Mädchen dort ist meine Freundin Marta.",
+          "luecke": "delgada",
+          "luecke_akzeptiert": [
+            "delgada"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine Figur aus einem Film.",
+        "muster": [
+          "Es alto y delgado."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u08-097"
+      ],
+      "distraktoren_de": [
+        "breit; weit",
+        "rot",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u08-097",
+      "es": "gordo, -a",
+      "de": "dick",
+      "akzeptiert_es": [
+        "gordo, -a",
+        "gordo",
+        "gordo/a",
+        "gordo, gorda"
+      ],
+      "akzeptiert_de": [
+        "dick"
+      ],
+      "unidad": 8,
+      "seite": 212,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "aspecto",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Nuestro gato está muy gordo.",
+          "de": "Unsere Katze ist sehr dick.",
+          "luecke": "gordo",
+          "luecke_akzeptiert": [
+            "gordo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe ein Haustier, das zu viel frisst.",
+        "muster": [
+          "Mi perro está un poco gordo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "normal",
+        "rosa",
+        "gelb"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 // Service Worker: Offline-Nutzung. Beim Ändern von Dateien VERSION erhöhen.
 // Strategie: erst aus dem Cache antworten, im Hintergrund aktualisieren (stale-while-revalidate).
 
-const VERSION = 'v1-2026-11-09-u7';
+const VERSION = 'v1-2026-11-09-u8';
 const DATEIEN = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
   'js/app.js', 'js/dom.js', 'js/audio.js', 'js/daten.js', 'js/check.js', 'js/scheduler.js',
@@ -11,7 +11,7 @@ const DATEIEN = [
   'js/exercises/_fehlantworten.js', 'js/exercises/einfuehrung.js', 'js/exercises/mc_es_de.js',
   'js/exercises/mc_bild.js', 'js/exercises/tippen_de_es.js', 'js/exercises/luecke_hilfe.js',
   'js/exercises/luecke.js', 'js/exercises/situation.js',
-  'data/index.json', 'data/vocab/unidad-01.json', 'data/vocab/unidad-02.json', 'data/vocab/unidad-03.json', 'data/vocab/unidad-04.json', 'data/vocab/unidad-05.json', 'data/vocab/unidad-06.json', 'data/vocab/unidad-07.json',
+  'data/index.json', 'data/vocab/unidad-01.json', 'data/vocab/unidad-02.json', 'data/vocab/unidad-03.json', 'data/vocab/unidad-04.json', 'data/vocab/unidad-05.json', 'data/vocab/unidad-06.json', 'data/vocab/unidad-07.json', 'data/vocab/unidad-08.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'
 ];
 
