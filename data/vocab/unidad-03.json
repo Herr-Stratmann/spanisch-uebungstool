@@ -1,0 +1,5344 @@
+{
+  "unidad": 3,
+  "items": [
+    {
+      "id": "u03-001",
+      "es": "el barrio",
+      "de": "das (Stadt)Viertel",
+      "akzeptiert_es": [
+        "el barrio"
+      ],
+      "akzeptiert_de": [
+        "das (Stadt)Viertel"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🏘️",
+      "beispiele": [
+        {
+          "es": "Mi barrio es muy bonito.",
+          "de": "Mein Viertel ist sehr schön.",
+          "luecke": "barrio",
+          "luecke_akzeptiert": [
+            "barrio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe dein Viertel mit einem Satz.",
+        "muster": [
+          "Mi barrio es pequeño y bonito.",
+          "En mi barrio hay un parque."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Woche",
+        "das Mädchen",
+        "die Angst"
+      ]
+    },
+    {
+      "id": "u03-002",
+      "es": "el museo",
+      "de": "das Museum",
+      "akzeptiert_es": [
+        "el museo"
+      ],
+      "akzeptiert_de": [
+        "das Museum"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🖼️",
+      "beispiele": [
+        {
+          "es": "El museo está al lado del parque.",
+          "de": "Das Museum ist neben dem Park.",
+          "luecke": "museo",
+          "luecke_akzeptiert": [
+            "museo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Ein Tourist fragt nach dem Museum. Sag, dass es in der Nähe der Plaza ist.",
+        "muster": [
+          "El museo está cerca de la plaza."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. museum, frz. le musée",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Akzent",
+        "das Zimmer",
+        "der Name"
+      ]
+    },
+    {
+      "id": "u03-003",
+      "es": "la farmacia",
+      "de": "die Apotheke",
+      "akzeptiert_es": [
+        "la farmacia"
+      ],
+      "akzeptiert_de": [
+        "die Apotheke"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "💊",
+      "beispiele": [
+        {
+          "es": "¿Hay una farmacia cerca?",
+          "de": "Gibt es eine Apotheke in der Nähe?",
+          "luecke": "farmacia",
+          "luecke_akzeptiert": [
+            "farmacia"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du brauchst eine Apotheke. Frag, ob es in der Nähe eine gibt.",
+        "muster": [
+          "¿Hay una farmacia cerca de aquí?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la pharmacie",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Kino",
+        "der Cousin / die Cousine",
+        "die Katastrophe"
+      ]
+    },
+    {
+      "id": "u03-004",
+      "es": "la parada de metro",
+      "de": "die U-Bahn-Station",
+      "akzeptiert_es": [
+        "la parada de metro"
+      ],
+      "akzeptiert_de": [
+        "die U-Bahn-Station"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": true,
+      "tema": "transporte",
+      "bild": "🚇",
+      "beispiele": [
+        {
+          "es": "La parada de metro está al lado del cine.",
+          "de": "Die U-Bahn-Station ist neben dem Kino.",
+          "luecke": "parada de metro",
+          "luecke_akzeptiert": [
+            "parada de metro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag, wo die nächste U-Bahn-Station ist.",
+        "muster": [
+          "¿Dónde está la parada de metro?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-005",
+        "u03-006"
+      ],
+      "distraktoren_de": [
+        "das Ende",
+        "der Tintenfisch",
+        "der Reiseführer (Buch)"
+      ]
+    },
+    {
+      "id": "u03-005",
+      "es": "la parada",
+      "de": "die Haltestelle",
+      "akzeptiert_es": [
+        "la parada"
+      ],
+      "akzeptiert_de": [
+        "die Haltestelle"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "transporte",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La parada está delante del instituto.",
+          "de": "Die Haltestelle ist vor dem Gymnasium.",
+          "luecke": "parada",
+          "luecke_akzeptiert": [
+            "parada"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre, wo die Bushaltestelle bei deiner Schule ist.",
+        "muster": [
+          "La parada está delante del instituto."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Eltern",
+        "der Akzent",
+        "das Museum"
+      ]
+    },
+    {
+      "id": "u03-006",
+      "es": "el metro",
+      "de": "die U-Bahn",
+      "akzeptiert_es": [
+        "el metro"
+      ],
+      "akzeptiert_de": [
+        "die U-Bahn"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "transporte",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En Madrid voy en metro.",
+          "de": "In Madrid fahre ich mit der U-Bahn.",
+          "luecke": "metro",
+          "luecke_akzeptiert": [
+            "metro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie du in Madrid ins Zentrum fährst.",
+        "muster": [
+          "Voy al centro en metro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Museum",
+        "die Familie",
+        "das Schlafzimmer"
+      ]
+    },
+    {
+      "id": "u03-007",
+      "es": "el cine",
+      "de": "das Kino",
+      "akzeptiert_es": [
+        "el cine"
+      ],
+      "akzeptiert_de": [
+        "das Kino"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": "🍿",
+      "beispiele": [
+        {
+          "es": "¿Vamos al cine?",
+          "de": "Gehen wir ins Kino?",
+          "luecke": "cine",
+          "luecke_akzeptiert": [
+            "cine"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Schlag deiner Freundin vor, ins Kino zu gehen.",
+        "muster": [
+          "¿Vamos al cine?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. cinema, frz. le cinéma",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Sohn / die Tochter",
+        "das Möbelstück",
+        "das Jahr"
+      ]
+    },
+    {
+      "id": "u03-008",
+      "es": "la biblioteca",
+      "de": "die Bibliothek",
+      "akzeptiert_es": [
+        "la biblioteca"
+      ],
+      "akzeptiert_de": [
+        "die Bibliothek"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "📚",
+      "beispiele": [
+        {
+          "es": "Estudio en la biblioteca.",
+          "de": "Ich lerne in der Bibliothek.",
+          "luecke": "biblioteca",
+          "luecke_akzeptiert": [
+            "biblioteca"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo du in Ruhe lernst.",
+        "muster": [
+          "Estudio en la biblioteca."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das belegte Brötchen",
+        "die Sache; das Ding",
+        "der Onkel / die Tante"
+      ]
+    },
+    {
+      "id": "u03-009",
+      "es": "la panadería",
+      "de": "die Bäckerei",
+      "akzeptiert_es": [
+        "la panadería"
+      ],
+      "akzeptiert_de": [
+        "die Bäckerei"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🥐",
+      "beispiele": [
+        {
+          "es": "Voy a la panadería.",
+          "de": "Ich gehe zur Bäckerei.",
+          "luecke": "panadería",
+          "luecke_akzeptiert": [
+            "panadería"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag deiner Mutter, dass du zur Bäckerei gehst.",
+        "muster": [
+          "Voy a la panadería."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Rat; der Tipp",
+        "das Wochenende; am Wochenende",
+        "der Akzent"
+      ]
+    },
+    {
+      "id": "u03-010",
+      "es": "el supermercado",
+      "de": "der Supermarkt",
+      "akzeptiert_es": [
+        "el supermercado"
+      ],
+      "akzeptiert_de": [
+        "der Supermarkt"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🛒",
+      "beispiele": [
+        {
+          "es": "El supermercado está lejos de mi casa.",
+          "de": "Der Supermarkt ist weit weg von meinem Haus.",
+          "luecke": "supermercado",
+          "luecke_akzeptiert": [
+            "supermercado"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo der Supermarkt in deinem Viertel ist.",
+        "muster": [
+          "El supermercado está cerca de mi casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Großeltern",
+        "der Schrank",
+        "das Gymnasium"
+      ]
+    },
+    {
+      "id": "u03-011",
+      "es": "el centro comercial",
+      "de": "das Einkaufszentrum",
+      "akzeptiert_es": [
+        "el centro comercial"
+      ],
+      "akzeptiert_de": [
+        "das Einkaufszentrum"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": true,
+      "tema": "lugares",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En el centro comercial hay un cine.",
+          "de": "Im Einkaufszentrum gibt es ein Kino.",
+          "luecke": "centro comercial",
+          "luecke_akzeptiert": [
+            "centro comercial"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was es im Einkaufszentrum gibt.",
+        "muster": [
+          "En el centro comercial hay tiendas y un cine."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Arzt / die Ärztin",
+        "der Churro (frittiertes Spritzgebäck)",
+        "der Sohn / die Tochter"
+      ]
+    },
+    {
+      "id": "u03-012",
+      "es": "el parque",
+      "de": "der Park",
+      "akzeptiert_es": [
+        "el parque"
+      ],
+      "akzeptiert_de": [
+        "der Park"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🌳",
+      "beispiele": [
+        {
+          "es": "Hay un parque detrás de mi casa.",
+          "de": "Hinter meinem Haus gibt es einen Park.",
+          "luecke": "parque",
+          "luecke_akzeptiert": [
+            "parque"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, ob es in deinem Viertel einen Park gibt.",
+        "muster": [
+          "En mi barrio hay un parque."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Rat; der Tipp",
+        "das Haustier",
+        "der Nachmittag; der Abend"
+      ]
+    },
+    {
+      "id": "u03-013",
+      "es": "la cafetería",
+      "de": "das Café; die Cafeteria",
+      "akzeptiert_es": [
+        "la cafetería"
+      ],
+      "akzeptiert_de": [
+        "das Café",
+        "die Cafeteria"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Quedamos en la cafetería.",
+          "de": "Wir treffen uns in der Cafeteria.",
+          "luecke": "cafetería",
+          "luecke_akzeptiert": [
+            "cafetería"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Verabrede dich mit deiner Freundin im Café.",
+        "muster": [
+          "¿Quedamos en la cafetería?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Stadion",
+        "die Fernsehserie",
+        "das (Speise)Eis"
+      ]
+    },
+    {
+      "id": "u03-014",
+      "es": "el restaurante",
+      "de": "das Restaurant",
+      "akzeptiert_es": [
+        "el restaurante"
+      ],
+      "akzeptiert_de": [
+        "das Restaurant"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🍽️",
+      "beispiele": [
+        {
+          "es": "El restaurante es muy bonito.",
+          "de": "Das Restaurant ist sehr schön.",
+          "luecke": "restaurante",
+          "luecke_akzeptiert": [
+            "restaurante"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, dass es in der Altstadt ein typisches Restaurant gibt.",
+        "muster": [
+          "En el centro histórico hay un restaurante típico."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Person",
+        "der Flur",
+        "das Ende"
+      ]
+    },
+    {
+      "id": "u03-015",
+      "es": "hay",
+      "de": "es gibt; da ist/sind",
+      "akzeptiert_es": [
+        "hay"
+      ],
+      "akzeptiert_de": [
+        "es gibt",
+        "da ist/sind"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En mi calle hay dos bares.",
+          "de": "In meiner Straße gibt es zwei Kneipen.",
+          "luecke": "hay",
+          "luecke_akzeptiert": [
+            "hay"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was es in deinem Viertel gibt.",
+        "muster": [
+          "En mi barrio hay un parque y un supermercado."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "er/sie lebt; er/sie wohnt",
+        "er/sie heißt",
+        "telefonieren"
+      ]
+    },
+    {
+      "id": "u03-016",
+      "es": "el piso",
+      "de": "die Wohnung; das Stockwerk",
+      "akzeptiert_es": [
+        "el piso"
+      ],
+      "akzeptiert_de": [
+        "die Wohnung",
+        "das Stockwerk"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El piso de Ana es pequeño.",
+          "de": "Die Wohnung von Ana ist klein.",
+          "luecke": "piso",
+          "luecke_akzeptiert": [
+            "piso"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Wohnung (oder dein Haus) mit einem Adjektiv.",
+        "muster": [
+          "Mi piso es pequeño, pero bonito."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Linie",
+        "die Party; das Fest",
+        "die (Trink)Schokolade"
+      ]
+    },
+    {
+      "id": "u03-017",
+      "es": "la habitación",
+      "de": "das Zimmer",
+      "akzeptiert_es": [
+        "la habitación"
+      ],
+      "akzeptiert_de": [
+        "das Zimmer"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo una habitación grande.",
+          "de": "Ich habe ein großes Zimmer.",
+          "luecke": "habitación",
+          "luecke_akzeptiert": [
+            "habitación"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe dein Zimmer.",
+        "muster": [
+          "Mi habitación es grande y bonita."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-023"
+      ],
+      "distraktoren_de": [
+        "das Foto",
+        "das belegte Brötchen",
+        "die Ferien; der Urlaub"
+      ]
+    },
+    {
+      "id": "u03-018",
+      "es": "el baño",
+      "de": "das Bad; das Badezimmer",
+      "akzeptiert_es": [
+        "el baño"
+      ],
+      "akzeptiert_de": [
+        "das Bad",
+        "das Badezimmer"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🛁",
+      "beispiele": [
+        {
+          "es": "El baño está al lado de mi habitación.",
+          "de": "Das Bad ist neben meinem Zimmer.",
+          "luecke": "baño",
+          "luecke_akzeptiert": [
+            "baño"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Ein Gast fragt nach dem Bad. Antworte.",
+        "muster": [
+          "El baño está a la derecha."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Strand",
+        "der Tag",
+        "das Tor"
+      ]
+    },
+    {
+      "id": "u03-019",
+      "es": "la cocina",
+      "de": "die Küche",
+      "akzeptiert_es": [
+        "la cocina"
+      ],
+      "akzeptiert_de": [
+        "die Küche"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🍳",
+      "beispiele": [
+        {
+          "es": "Mi madre está en la cocina.",
+          "de": "Meine Mutter ist in der Küche.",
+          "luecke": "cocina",
+          "luecke_akzeptiert": [
+            "cocina"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo deine Eltern gerade sind (in der Küche).",
+        "muster": [
+          "Mis padres están en la cocina."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Woche",
+        "das Museum",
+        "die (Trink)Schokolade"
+      ]
+    },
+    {
+      "id": "u03-020",
+      "es": "el salón",
+      "de": "das Wohnzimmer",
+      "akzeptiert_es": [
+        "el salón"
+      ],
+      "akzeptiert_de": [
+        "das Wohnzimmer"
+      ],
+      "unidad": 3,
+      "seite": 190,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🛋️",
+      "beispiele": [
+        {
+          "es": "Por la noche estamos en el salón.",
+          "de": "Abends sind wir im Wohnzimmer.",
+          "luecke": "salón",
+          "luecke_akzeptiert": [
+            "salón"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wo ihr abends zusammen seid.",
+        "muster": [
+          "Por la noche estamos en el salón."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: el salón = das Wohnzimmer (kein Friseursalon).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Hund",
+        "der Platz",
+        "der Papa / die Mama"
+      ]
+    },
+    {
+      "id": "u03-021",
+      "es": "el balcón",
+      "de": "der Balkon",
+      "akzeptiert_es": [
+        "el balcón"
+      ],
+      "akzeptiert_de": [
+        "der Balkon"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El piso tiene un balcón.",
+          "de": "Die Wohnung hat einen Balkon.",
+          "luecke": "balcón",
+          "luecke_akzeptiert": [
+            "balcón"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Traumwohnung: Was hat sie?",
+        "muster": [
+          "Mi piso tiene un balcón grande."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Park",
+        "die Woche",
+        "die Sache; das Ding"
+      ]
+    },
+    {
+      "id": "u03-022",
+      "es": "el pasillo",
+      "de": "der Flur",
+      "akzeptiert_es": [
+        "el pasillo"
+      ],
+      "akzeptiert_de": [
+        "der Flur"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El baño está al final del pasillo.",
+          "de": "Das Bad ist am Ende des Flurs.",
+          "luecke": "pasillo",
+          "luecke_akzeptiert": [
+            "pasillo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre einem Gast, dass das Bad am Ende des Flurs ist.",
+        "muster": [
+          "El baño está al final del pasillo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Tintenfisch",
+        "der Cousin / die Cousine",
+        "die Fernsehserie"
+      ]
+    },
+    {
+      "id": "u03-023",
+      "es": "el dormitorio",
+      "de": "das Schlafzimmer",
+      "akzeptiert_es": [
+        "el dormitorio"
+      ],
+      "akzeptiert_de": [
+        "das Schlafzimmer"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El dormitorio de mis padres es grande.",
+          "de": "Das Schlafzimmer meiner Eltern ist groß.",
+          "luecke": "dormitorio",
+          "luecke_akzeptiert": [
+            "dormitorio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe das Schlafzimmer deiner Eltern.",
+        "muster": [
+          "El dormitorio de mis padres es pequeño."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Freund",
+        "die Katastrophe",
+        "der Rat; der Tipp"
+      ]
+    },
+    {
+      "id": "u03-024",
+      "es": "¡Qué emoción!",
+      "de": "Wie aufregend!",
+      "akzeptiert_es": [
+        "¡Qué emoción!"
+      ],
+      "akzeptiert_de": [
+        "Wie aufregend!"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "PP",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Vamos al estadio? ¡Qué emoción!",
+          "de": "Wir gehen ins Stadion? Wie aufregend!",
+          "luecke": "Qué emoción",
+          "luecke_akzeptiert": [
+            "qué emoción"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin hat Karten für ein Konzert. Reagiere begeistert.",
+        "muster": [
+          "¡Qué emoción!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "zum Schluss; am Ende",
+        "Wie heißt du?",
+        "meine Telefonnummer"
+      ]
+    },
+    {
+      "id": "u03-025",
+      "es": "la mudanza",
+      "de": "der Umzug",
+      "akzeptiert_es": [
+        "la mudanza"
+      ],
+      "akzeptiert_de": [
+        "der Umzug"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "PP",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "📦",
+      "beispiele": [
+        {
+          "es": "La mudanza es un desastre.",
+          "de": "Der Umzug ist eine Katastrophe.",
+          "luecke": "mudanza",
+          "luecke_akzeptiert": [
+            "mudanza"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Familie zieht um. Erzähl, wie der Umzug ist.",
+        "muster": [
+          "La mudanza es un desastre.",
+          "¡La mudanza es fatal!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Sehenswürdigkeit",
+        "der Vater",
+        "der Cousin / die Cousine"
+      ]
+    },
+    {
+      "id": "u03-026",
+      "es": "nuevo, -a",
+      "de": "neu",
+      "akzeptiert_es": [
+        "nuevo, -a",
+        "nuevo",
+        "nuevo/a",
+        "nuevo, nueva"
+      ],
+      "akzeptiert_de": [
+        "neu"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo una bicicleta nueva.",
+          "de": "Ich habe ein neues Fahrrad.",
+          "luecke": "nueva",
+          "luecke_akzeptiert": [
+            "nueva"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl von etwas Neuem, das du hast.",
+        "muster": [
+          "Tengo un móvil nuevo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. neuf, lat. novus",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "genial; super",
+        "viel",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u03-027",
+      "es": "el vecino / la vecina",
+      "de": "der Nachbar / die Nachbarin",
+      "akzeptiert_es": [
+        "el vecino / la vecina",
+        "el vecino/la vecina",
+        "el vecino, la vecina",
+        "el vecino y la vecina"
+      ],
+      "akzeptiert_de": [
+        "der Nachbar / die Nachbarin"
+      ],
+      "fehlantworten_es": {
+        "el vecino": "Fast! Nenne beide Formen: el vecino / la vecina"
+      },
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m/f",
+      "chunk": false,
+      "tema": "personas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi vecina es muy simpática.",
+          "de": "Meine Nachbarin ist sehr nett.",
+          "luecke": "vecina",
+          "luecke_akzeptiert": [
+            "vecina"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Nachbarn oder deine Nachbarin.",
+        "muster": [
+          "Mi vecino es un poco raro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Bäckerei",
+        "das Handy",
+        "der Cousin / die Cousine"
+      ]
+    },
+    {
+      "id": "u03-028",
+      "es": "raro, -a",
+      "de": "seltsam",
+      "akzeptiert_es": [
+        "raro, -a",
+        "raro",
+        "raro/a",
+        "raro, rara"
+      ],
+      "akzeptiert_de": [
+        "seltsam"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El ruido es muy raro.",
+          "de": "Das Geräusch ist sehr seltsam.",
+          "luecke": "raro",
+          "luecke_akzeptiert": [
+            "raro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe etwas Seltsames in deinem Haus.",
+        "muster": [
+          "Mi vecino es muy raro."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: raro = seltsam (nicht „rar“).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "lecker; reich",
+        "viel",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u03-029",
+      "es": "estar",
+      "de": "sich befinden; sein; sich fühlen",
+      "akzeptiert_es": [
+        "estar"
+      ],
+      "akzeptiert_de": [
+        "sich befinden",
+        "sein",
+        "sich fühlen"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Dónde está mi móvil?",
+          "de": "Wo ist mein Handy?",
+          "luecke": "está",
+          "luecke_akzeptiert": [
+            "está"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du suchst deine Freundin in der Wohnung. Ruf: Wo bist du?",
+        "muster": [
+          "¿Dónde estás?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nehmen",
+        "er/sie/es hat",
+        "man schreibt"
+      ]
+    },
+    {
+      "id": "u03-030",
+      "es": "fatal",
+      "de": "sehr schlecht",
+      "akzeptiert_es": [
+        "fatal"
+      ],
+      "akzeptiert_de": [
+        "sehr schlecht"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "saludos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hoy estoy fatal.",
+          "de": "Heute geht es mir sehr schlecht.",
+          "luecke": "fatal",
+          "luecke_akzeptiert": [
+            "fatal"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Jemand fragt: „¿Qué tal?“ Dir geht es sehr schlecht. Antworte.",
+        "muster": [
+          "Fatal.",
+          "Estoy fatal."
+        ]
+      },
+      "falso_amigo": true,
+      "bruecke": "Achtung: fatal = sehr schlecht (nicht „verhängnisvoll“).",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "viel",
+        "interessant",
+        "klein"
+      ]
+    },
+    {
+      "id": "u03-031",
+      "es": "¡Es verdad!",
+      "de": "Das stimmt!",
+      "akzeptiert_es": [
+        "¡Es verdad!"
+      ],
+      "akzeptiert_de": [
+        "Das stimmt!"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—Paco es muy simpático. —¡Es verdad!",
+          "de": "– Paco ist sehr nett. – Das stimmt!",
+          "luecke": "Es verdad",
+          "luecke_akzeptiert": [
+            "es verdad"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin sagt: „Madrid es una ciudad muy bonita.“ Stimm ihr zu.",
+        "muster": [
+          "¡Es verdad!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "meine Telefonnummer",
+        "Wie alt bist du?",
+        "Wie lautet deine Telefonnummer?"
+      ]
+    },
+    {
+      "id": "u03-032",
+      "es": "ya",
+      "de": "schon",
+      "akzeptiert_es": [
+        "ya"
+      ],
+      "akzeptiert_de": [
+        "schon"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mis padres ya están en el piso nuevo.",
+          "de": "Meine Eltern sind schon in der neuen Wohnung.",
+          "luecke": "ya",
+          "luecke_akzeptiert": [
+            "ya"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Schreib deiner Mutter, dass du schon zu Hause bist.",
+        "muster": [
+          "Ya estoy en casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nein; nicht",
+        "auch",
+        "mehr; weitere"
+      ]
+    },
+    {
+      "id": "u03-033",
+      "es": "bonito, -a",
+      "de": "schön",
+      "akzeptiert_es": [
+        "bonito, -a",
+        "bonito",
+        "bonito/a",
+        "bonito, bonita"
+      ],
+      "akzeptiert_de": [
+        "schön"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La plaza es muy bonita.",
+          "de": "Der Platz ist sehr schön.",
+          "luecke": "bonita",
+          "luecke_akzeptiert": [
+            "bonita"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Stadt mit „bonito“ oder „bonita“.",
+        "muster": [
+          "Versmold es una ciudad bonita."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "lecker; reich",
+        "genial; super",
+        "viel"
+      ]
+    },
+    {
+      "id": "u03-034",
+      "es": "pequeño, -a",
+      "de": "klein",
+      "akzeptiert_es": [
+        "pequeño, -a",
+        "pequeño",
+        "pequeño/a",
+        "pequeño, pequeña"
+      ],
+      "akzeptiert_de": [
+        "klein"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El barrio es pequeño, pero bonito.",
+          "de": "Das Viertel ist klein, aber schön.",
+          "luecke": "pequeño",
+          "luecke_akzeptiert": [
+            "pequeño"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe dein Zimmer: groß oder klein?",
+        "muster": [
+          "Mi habitación es pequeña."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-035"
+      ],
+      "distraktoren_de": [
+        "genial; super",
+        "sehr schlecht",
+        "viel"
+      ]
+    },
+    {
+      "id": "u03-035",
+      "es": "grande",
+      "de": "groß",
+      "akzeptiert_es": [
+        "grande"
+      ],
+      "akzeptiert_de": [
+        "groß"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Madrid es una ciudad grande.",
+          "de": "Madrid ist eine große Stadt.",
+          "luecke": "grande",
+          "luecke_akzeptiert": [
+            "grande"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die größte Stadt, die du kennst.",
+        "muster": [
+          "Berlín es una ciudad muy grande."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. grand, -e",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sehr schlecht",
+        "lecker; reich",
+        "typisch"
+      ]
+    },
+    {
+      "id": "u03-036",
+      "es": "además",
+      "de": "außerdem",
+      "akzeptiert_es": [
+        "además"
+      ],
+      "akzeptiert_de": [
+        "außerdem"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi barrio es bonito. Además, hay un parque.",
+          "de": "Mein Viertel ist schön. Außerdem gibt es einen Park.",
+          "luecke": "Además",
+          "luecke_akzeptiert": [
+            "además"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne zwei Vorteile deines Viertels und verbinde sie mit „además“.",
+        "muster": [
+          "Mi barrio es bonito. Además, hay un cine."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ja",
+        "später",
+        "gut"
+      ]
+    },
+    {
+      "id": "u03-037",
+      "es": "ahora mismo",
+      "de": "sofort; im Augenblick",
+      "akzeptiert_es": [
+        "ahora mismo"
+      ],
+      "akzeptiert_de": [
+        "sofort",
+        "im Augenblick"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ahora mismo estoy en el parque.",
+          "de": "Im Augenblick bin ich im Park.",
+          "luecke": "Ahora mismo",
+          "luecke_akzeptiert": [
+            "ahora mismo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Mutter ruft, du sollst kommen. Antworte: sofort!",
+        "muster": [
+          "¡Ahora mismo!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Hallo!",
+        "vielleicht",
+        "Welche Sprachen sprichst du?"
+      ]
+    },
+    {
+      "id": "u03-038",
+      "es": "todo",
+      "de": "alles",
+      "akzeptiert_es": [
+        "todo"
+      ],
+      "akzeptiert_de": [
+        "alles"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "basicos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Todo está en la mesa.",
+          "de": "Alles ist auf dem Tisch.",
+          "luecke": "Todo",
+          "luecke_akzeptiert": [
+            "todo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nach dem Umzug: Sag, dass alles schon in der neuen Wohnung ist.",
+        "muster": [
+          "Todo está ya en el piso nuevo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. tout, lat. totus",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "er",
+        "sie",
+        "wer? (Singular / Plural)"
+      ]
+    },
+    {
+      "id": "u03-039",
+      "es": "el desastre",
+      "de": "die Katastrophe",
+      "akzeptiert_es": [
+        "el desastre"
+      ],
+      "akzeptiert_de": [
+        "die Katastrophe"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Mi habitación es un desastre!",
+          "de": "Mein Zimmer ist eine Katastrophe!",
+          "luecke": "desastre",
+          "luecke_akzeptiert": [
+            "desastre"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe dein Zimmer nach einer Party.",
+        "muster": [
+          "¡Mi habitación es un desastre!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. disaster",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Eltern",
+        "die Straße",
+        "der Hund"
+      ]
+    },
+    {
+      "id": "u03-040",
+      "es": "poco, -a",
+      "de": "wenig",
+      "akzeptiert_es": [
+        "poco, -a",
+        "poco",
+        "poco/a",
+        "poco, poca"
+      ],
+      "akzeptiert_de": [
+        "wenig"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "cantidad",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En mi barrio hay pocas tiendas.",
+          "de": "In meinem Viertel gibt es wenige Geschäfte.",
+          "luecke": "pocas",
+          "luecke_akzeptiert": [
+            "pocas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wovon es in deinem Viertel wenig gibt.",
+        "muster": [
+          "En mi barrio hay pocos restaurantes."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. paucus",
+      "nicht_zusammen_mit": [
+        "u03-053"
+      ],
+      "distraktoren_de": [
+        "wichtig",
+        "typisch",
+        "genial; super"
+      ]
+    },
+    {
+      "id": "u03-041",
+      "es": "el mueble",
+      "de": "das Möbelstück",
+      "akzeptiert_es": [
+        "el mueble"
+      ],
+      "akzeptiert_de": [
+        "das Möbelstück"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En el piso nuevo no hay muebles.",
+          "de": "In der neuen Wohnung gibt es keine Möbel.",
+          "luecke": "muebles",
+          "luecke_akzeptiert": [
+            "muebles"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nach dem Umzug: Sag, dass in deinem Zimmer noch keine Möbel sind.",
+        "muster": [
+          "En mi habitación no hay muebles."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das (Stadt)Zentrum",
+        "die Kneipe; das Lokal",
+        "der Hund"
+      ]
+    },
+    {
+      "id": "u03-042",
+      "es": "pues",
+      "de": "also",
+      "akzeptiert_es": [
+        "pues"
+      ],
+      "akzeptiert_de": [
+        "also"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "conjuncion",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Vamos al cine? —Pues… no sé.",
+          "de": "– Gehen wir ins Kino? – Also … ich weiß nicht.",
+          "luecke": "Pues",
+          "luecke_akzeptiert": [
+            "pues"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Jemand fragt dich etwas Schwieriges. Beginne deine Antwort zögernd mit „also …“.",
+        "muster": [
+          "Pues… no sé."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Flur",
+        "der Sommer",
+        "ich habe"
+      ]
+    },
+    {
+      "id": "u03-043",
+      "es": "cerca de",
+      "de": "in der Nähe von",
+      "akzeptiert_es": [
+        "cerca de",
+        "cerca"
+      ],
+      "akzeptiert_de": [
+        "in der Nähe von"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La biblioteca está cerca del instituto.",
+          "de": "Die Bibliothek ist in der Nähe des Gymnasiums.",
+          "luecke": "cerca del",
+          "luecke_akzeptiert": [
+            "cerca del"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was in der Nähe deiner Schule ist.",
+        "muster": [
+          "El supermercado está cerca del instituto."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-087"
+      ],
+      "distraktoren_de": [
+        "in; auf; an",
+        "mit",
+        "bis"
+      ]
+    },
+    {
+      "id": "u03-044",
+      "es": "al lado de",
+      "de": "neben",
+      "akzeptiert_es": [
+        "al lado de"
+      ],
+      "akzeptiert_de": [
+        "neben"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El baño está al lado de la cocina.",
+          "de": "Das Bad ist neben der Küche.",
+          "luecke": "al lado de",
+          "luecke_akzeptiert": [
+            "al lado de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was neben deinem Haus ist.",
+        "muster": [
+          "Al lado de mi casa hay un parque."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nach",
+        "über",
+        "in; auf; an"
+      ]
+    },
+    {
+      "id": "u03-045",
+      "es": "famoso, -a",
+      "de": "berühmt; bekannt",
+      "akzeptiert_es": [
+        "famoso, -a",
+        "famoso",
+        "famoso/a",
+        "famoso, famosa"
+      ],
+      "akzeptiert_de": [
+        "berühmt",
+        "bekannt"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El museo del Prado es muy famoso.",
+          "de": "Das Prado-Museum ist sehr berühmt.",
+          "luecke": "famoso",
+          "luecke_akzeptiert": [
+            "famoso"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne eine berühmte Person aus Spanien.",
+        "muster": [
+          "Penélope Cruz es una actriz famosa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "lecker; reich",
+        "typisch",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u03-046",
+      "es": "lo mejor",
+      "de": "das Beste",
+      "akzeptiert_es": [
+        "lo mejor"
+      ],
+      "akzeptiert_de": [
+        "das Beste"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Lo mejor del barrio es el parque.",
+          "de": "Das Beste am Viertel ist der Park.",
+          "luecke": "Lo mejor",
+          "luecke_akzeptiert": [
+            "lo mejor"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was das Beste an deiner Stadt ist.",
+        "muster": [
+          "Lo mejor de Versmold es el parque."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-063"
+      ],
+      "distraktoren_de": [
+        "Wie witzig!",
+        "rechts",
+        "Guten Tag!; Guten Abend!"
+      ]
+    },
+    {
+      "id": "u03-047",
+      "es": "¿Qué pasa?",
+      "de": "Was ist los?",
+      "akzeptiert_es": [
+        "¿Qué pasa?"
+      ],
+      "akzeptiert_de": [
+        "Was ist los?"
+      ],
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "preguntas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ana, ¿qué pasa con tu móvil?",
+          "de": "Ana, was ist mit deinem Handy los?",
+          "luecke": "qué pasa",
+          "luecke_akzeptiert": [
+            "qué pasa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin sieht traurig aus. Frag, was los ist.",
+        "muster": [
+          "¿Qué pasa?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Super!; Wie schön!",
+        "Guten Tag!; Guten Abend!",
+        "Welche Sprachen sprichst du?"
+      ]
+    },
+    {
+      "id": "u03-048",
+      "es": "no sé",
+      "de": "ich weiß nicht",
+      "akzeptiert_es": [
+        "no sé"
+      ],
+      "akzeptiert_de": [
+        "ich weiß nicht"
+      ],
+      "fehlantworten_es": {
+        "no se": "sé („ich weiß“) schreibt man mit Akzent: no sé."
+      },
+      "unidad": 3,
+      "seite": 191,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Dónde está el museo? —Lo siento, no sé.",
+          "de": "– Wo ist das Museum? – Tut mir leid, ich weiß nicht.",
+          "luecke": "no sé",
+          "luecke_akzeptiert": [
+            "no sé"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Ein Tourist fragt dich nach einer Straße, die du nicht kennst. Antworte.",
+        "muster": [
+          "Lo siento, no sé."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Guten Tag!; Guten Abend!",
+        "Hallo!",
+        "so lala; es geht"
+      ]
+    },
+    {
+      "id": "u03-049",
+      "es": "normal",
+      "de": "normal",
+      "akzeptiert_es": [
+        "normal"
+      ],
+      "akzeptiert_de": [
+        "normal"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi familia es muy normal.",
+          "de": "Meine Familie ist ganz normal.",
+          "luecke": "normal",
+          "luecke_akzeptiert": [
+            "normal"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Familie: normal oder verrückt?",
+        "muster": [
+          "Mi familia es normal."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-050"
+      ],
+      "distraktoren_de": [
+        "sehr schlecht",
+        "lecker; reich",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u03-050",
+      "es": "loco, -a",
+      "de": "verrückt",
+      "akzeptiert_es": [
+        "loco, -a",
+        "loco",
+        "loco/a",
+        "loco, loca"
+      ],
+      "akzeptiert_de": [
+        "verrückt"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi perro está loco.",
+          "de": "Mein Hund ist verrückt.",
+          "luecke": "loco",
+          "luecke_akzeptiert": [
+            "loco"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine verrückte Person aus einer Serie oder deiner Familie.",
+        "muster": [
+          "Mi tío está un poco loco."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-067"
+      ],
+      "distraktoren_de": [
+        "typisch",
+        "lecker; reich",
+        "viel"
+      ]
+    },
+    {
+      "id": "u03-051",
+      "es": "por la noche",
+      "de": "abends; nachts",
+      "akzeptiert_es": [
+        "por la noche"
+      ],
+      "akzeptiert_de": [
+        "abends",
+        "nachts"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Por la noche estudio en mi habitación.",
+          "de": "Abends lerne ich in meinem Zimmer.",
+          "luecke": "Por la noche",
+          "luecke_akzeptiert": [
+            "por la noche"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du abends machst.",
+        "muster": [
+          "Por la noche hablo por teléfono con mi amiga."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "deswegen; deshalb",
+        "Wer ist das?",
+        "Nicht einmal im Traum!"
+      ]
+    },
+    {
+      "id": "u03-052",
+      "es": "escuchar",
+      "de": "hören",
+      "akzeptiert_es": [
+        "escuchar"
+      ],
+      "akzeptiert_de": [
+        "hören"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Escuchas el ruido?",
+          "de": "Hörst du das Geräusch?",
+          "luecke": "Escuchas",
+          "luecke_akzeptiert": [
+            "escuchas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nachts hörst du ein Geräusch. Frag deine Schwester, ob sie es auch hört.",
+        "muster": [
+          "¿Escuchas el ruido?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "beenden; enden",
+        "er/sie/es hat",
+        "ein Selbstgespräch führen"
+      ]
+    },
+    {
+      "id": "u03-053",
+      "es": "mucho, -a",
+      "de": "viel",
+      "akzeptiert_es": [
+        "mucho, -a",
+        "mucho",
+        "mucho/a",
+        "mucho, mucha"
+      ],
+      "akzeptiert_de": [
+        "viel"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "cantidad",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En el centro hay mucho ruido.",
+          "de": "Im Zentrum gibt es viel Lärm.",
+          "luecke": "mucho",
+          "luecke_akzeptiert": [
+            "mucho"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, wovon es in deiner Stadt viel gibt.",
+        "muster": [
+          "En mi ciudad hay muchos parques."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. much",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "allein",
+        "witzig",
+        "seltsam"
+      ]
+    },
+    {
+      "id": "u03-054",
+      "es": "el ruido",
+      "de": "das Geräusch; der Lärm",
+      "akzeptiert_es": [
+        "el ruido"
+      ],
+      "akzeptiert_de": [
+        "das Geräusch",
+        "der Lärm"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Qué es el ruido?",
+          "de": "Was ist das für ein Geräusch?",
+          "luecke": "ruido",
+          "luecke_akzeptiert": [
+            "ruido"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nachts hörst du ein seltsames Geräusch. Frag deine Eltern, was das ist.",
+        "muster": [
+          "¿Qué es el ruido?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Taxi",
+        "der feste Freund / die feste Freundin",
+        "der Supermarkt"
+      ]
+    },
+    {
+      "id": "u03-055",
+      "es": "a veces",
+      "de": "manchmal",
+      "akzeptiert_es": [
+        "a veces"
+      ],
+      "akzeptiert_de": [
+        "manchmal"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "A veces estudio en la biblioteca.",
+          "de": "Manchmal lerne ich in der Bibliothek.",
+          "luecke": "A veces",
+          "luecke_akzeptiert": [
+            "a veces"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du manchmal am Wochenende machst.",
+        "muster": [
+          "A veces voy al cine."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Guten Abend!; Gute Nacht!",
+        "Das stimmt!",
+        "Welche Sprachen sprichst du?"
+      ]
+    },
+    {
+      "id": "u03-056",
+      "es": "su",
+      "de": "sein/seine; ihr/ihre",
+      "akzeptiert_es": [
+        "su"
+      ],
+      "akzeptiert_de": [
+        "sein/seine",
+        "ihr/ihre"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "familia",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ana habla con su vecina.",
+          "de": "Ana spricht mit ihrer Nachbarin.",
+          "luecke": "su",
+          "luecke_akzeptiert": [
+            "su"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wo dein Freund gerade ist (in seinem Zimmer).",
+        "muster": [
+          "Paco está en su habitación."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich",
+        "wohin?",
+        "du"
+      ]
+    },
+    {
+      "id": "u03-057",
+      "es": "hablar solo",
+      "de": "ein Selbstgespräch führen",
+      "akzeptiert_es": [
+        "hablar solo",
+        "hablar sola",
+        "hablar solo, -a"
+      ],
+      "akzeptiert_de": [
+        "ein Selbstgespräch führen"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": true,
+      "tema": "personas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi abuelo a veces habla solo.",
+          "de": "Mein Großvater führt manchmal Selbstgespräche.",
+          "luecke": "habla solo",
+          "luecke_akzeptiert": [
+            "habla solo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine seltsame Angewohnheit deines Nachbarn.",
+        "muster": [
+          "Mi vecino habla solo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-058"
+      ],
+      "distraktoren_de": [
+        "hören",
+        "(an)schauen",
+        "sprechen; reden"
+      ]
+    },
+    {
+      "id": "u03-058",
+      "es": "solo, -a",
+      "de": "allein",
+      "akzeptiert_es": [
+        "solo, -a",
+        "solo",
+        "solo/a",
+        "solo, sola"
+      ],
+      "akzeptiert_de": [
+        "allein"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hoy estoy solo en casa.",
+          "de": "Heute bin ich allein zu Hause.",
+          "luecke": "solo",
+          "luecke_akzeptiert": [
+            "solo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Eltern sind weg. Schreib deiner Freundin, dass du allein zu Hause bist.",
+        "muster": [
+          "Estoy sola en casa.",
+          "Hoy estoy solo en casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. seul, lat. solus",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "lecker; reich",
+        "typisch",
+        "viel"
+      ]
+    },
+    {
+      "id": "u03-059",
+      "es": "¡Qué miedo!",
+      "de": "Was für eine Angst!",
+      "akzeptiert_es": [
+        "¡Qué miedo!"
+      ],
+      "akzeptiert_de": [
+        "Was für eine Angst!"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Un ruido en el pasillo… ¡Qué miedo!",
+          "de": "Ein Geräusch im Flur … Was für eine Angst!",
+          "luecke": "Qué miedo",
+          "luecke_akzeptiert": [
+            "qué miedo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du siehst nachts im Park einen Schatten. Reagiere.",
+        "muster": [
+          "¡Qué miedo!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-060"
+      ],
+      "distraktoren_de": [
+        "zum Schluss; am Ende",
+        "Hallo!",
+        "Welche Sprachen sprichst du?"
+      ]
+    },
+    {
+      "id": "u03-060",
+      "es": "el miedo",
+      "de": "die Angst",
+      "akzeptiert_es": [
+        "el miedo"
+      ],
+      "akzeptiert_de": [
+        "die Angst"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "sentimientos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi perro tiene miedo del gato.",
+          "de": "Mein Hund hat Angst vor der Katze.",
+          "luecke": "miedo",
+          "luecke_akzeptiert": [
+            "miedo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wovor du Angst hast.",
+        "muster": [
+          "Tengo miedo de los perros."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Jahr",
+        "der Nachname",
+        "der Reiseführer (Buch)"
+      ]
+    },
+    {
+      "id": "u03-061",
+      "es": "la serie",
+      "de": "die Fernsehserie",
+      "akzeptiert_es": [
+        "la serie"
+      ],
+      "akzeptiert_de": [
+        "die Fernsehserie"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": "📺",
+      "beispiele": [
+        {
+          "es": "La serie es muy interesante.",
+          "de": "Die Serie ist sehr interessant.",
+          "luecke": "serie",
+          "luecke_akzeptiert": [
+            "serie"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl von einer Serie: Ist sie interessant?",
+        "muster": [
+          "La serie es muy interesante."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Großeltern",
+        "das Telefon",
+        "der Nachmittag; der Abend"
+      ]
+    },
+    {
+      "id": "u03-062",
+      "es": "hoy",
+      "de": "heute",
+      "akzeptiert_es": [
+        "hoy"
+      ],
+      "akzeptiert_de": [
+        "heute"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hoy hay una fiesta en mi casa.",
+          "de": "Heute gibt es eine Party bei mir.",
+          "luecke": "Hoy",
+          "luecke_akzeptiert": [
+            "hoy"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was heute los ist.",
+        "muster": [
+          "Hoy estoy en casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "dort",
+        "hier",
+        "mehr; weitere"
+      ]
+    },
+    {
+      "id": "u03-063",
+      "es": "a lo mejor",
+      "de": "vielleicht",
+      "akzeptiert_es": [
+        "a lo mejor"
+      ],
+      "akzeptiert_de": [
+        "vielleicht"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "A lo mejor vamos al cine.",
+          "de": "Vielleicht gehen wir ins Kino.",
+          "luecke": "A lo mejor",
+          "luecke_akzeptiert": [
+            "a lo mejor"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin fragt: „¿Quedamos esta tarde?“ Du weißt es noch nicht. Antworte.",
+        "muster": [
+          "A lo mejor."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Wie heißt du?",
+        "Bis später!",
+        "Woher kommst du?"
+      ]
+    },
+    {
+      "id": "u03-064",
+      "es": "simpático, -a",
+      "de": "sympathisch; nett",
+      "akzeptiert_es": [
+        "simpático, -a",
+        "simpático",
+        "simpático/a",
+        "simpático, simpática"
+      ],
+      "akzeptiert_de": [
+        "sympathisch",
+        "nett"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La profesora es muy simpática.",
+          "de": "Die Lehrerin ist sehr nett.",
+          "luecke": "simpática",
+          "luecke_akzeptiert": [
+            "simpática"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe eine nette Person aus deiner Klasse.",
+        "muster": [
+          "Mi amiga Lena es muy simpática."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "wenig",
+        "viel",
+        "sehr schlecht"
+      ]
+    },
+    {
+      "id": "u03-065",
+      "es": "¡Qué gracioso!",
+      "de": "Wie witzig!",
+      "akzeptiert_es": [
+        "¡Qué gracioso!"
+      ],
+      "akzeptiert_de": [
+        "Wie witzig!"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Tu gato habla? ¡Qué gracioso!",
+          "de": "Deine Katze spricht? Wie witzig!",
+          "luecke": "Qué gracioso",
+          "luecke_akzeptiert": [
+            "qué gracioso"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Freund zeigt dir ein lustiges Foto. Reagiere.",
+        "muster": [
+          "¡Qué gracioso!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-066"
+      ],
+      "distraktoren_de": [
+        "Auf Wiedersehen!; Tschüs!",
+        "Was ist los?",
+        "deswegen; deshalb"
+      ]
+    },
+    {
+      "id": "u03-066",
+      "es": "gracioso, -a",
+      "de": "witzig",
+      "akzeptiert_es": [
+        "gracioso, -a",
+        "gracioso",
+        "gracioso/a",
+        "gracioso, graciosa"
+      ],
+      "akzeptiert_de": [
+        "witzig"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi hermano es muy gracioso.",
+          "de": "Mein Bruder ist sehr witzig.",
+          "luecke": "gracioso",
+          "luecke_akzeptiert": [
+            "gracioso"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe die witzigste Person in deiner Familie.",
+        "muster": [
+          "Mi tía es muy graciosa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "wenig",
+        "lecker; reich",
+        "typisch"
+      ]
+    },
+    {
+      "id": "u03-067",
+      "es": "¡Ni loco!",
+      "de": "Nicht einmal im Traum!",
+      "akzeptiert_es": [
+        "¡Ni loco!",
+        "¡Ni loca!"
+      ],
+      "akzeptiert_de": [
+        "Nicht einmal im Traum!"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Hablas con el vecino raro? —¡Ni loca!",
+          "de": "– Redest du mit dem seltsamen Nachbarn? – Nicht einmal im Traum!",
+          "luecke": "Ni loca",
+          "luecke_akzeptiert": [
+            "ni loca",
+            "ni loco"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin fragt: „¿Estudias todo el fin de semana?“ Antworte: auf keinen Fall!",
+        "muster": [
+          "¡Ni loco!",
+          "¡Ni loca!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "jeden Tag",
+        "Was ist los?",
+        "Wie heißt du?"
+      ]
+    },
+    {
+      "id": "u03-068",
+      "es": "quedar",
+      "de": "sich verabreden; sich treffen",
+      "akzeptiert_es": [
+        "quedar"
+      ],
+      "akzeptiert_de": [
+        "sich verabreden",
+        "sich treffen"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Quedamos en la plaza.",
+          "de": "Wir treffen uns auf dem Platz.",
+          "luecke": "Quedamos",
+          "luecke_akzeptiert": [
+            "quedamos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Verabrede dich mit deinem Freund vor dem Kino.",
+        "muster": [
+          "¿Quedamos delante del cine?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Hunger haben",
+        "gehen; fahren",
+        "ich bin"
+      ]
+    },
+    {
+      "id": "u03-069",
+      "es": "esta tarde",
+      "de": "heute Nachmittag",
+      "akzeptiert_es": [
+        "esta tarde"
+      ],
+      "akzeptiert_de": [
+        "heute Nachmittag"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Esta tarde voy a la biblioteca.",
+          "de": "Heute Nachmittag gehe ich in die Bibliothek.",
+          "luecke": "Esta tarde",
+          "luecke_akzeptiert": [
+            "esta tarde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du heute Nachmittag machst.",
+        "muster": [
+          "Esta tarde estoy en casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Es tut mir leid.",
+        "Wie alt bist du?",
+        "Wie witzig!"
+      ]
+    },
+    {
+      "id": "u03-070",
+      "es": "Vale.",
+      "de": "Einverstanden.; O.K.",
+      "akzeptiert_es": [
+        "Vale."
+      ],
+      "akzeptiert_de": [
+        "Einverstanden.",
+        "O.K."
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": false,
+      "tema": "reacciones",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Vamos al parque? —Vale.",
+          "de": "– Gehen wir in den Park? – O.K.",
+          "luecke": "Vale",
+          "luecke_akzeptiert": [
+            "vale"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin schlägt vor, ins Kino zu gehen. Sag zu.",
+        "muster": [
+          "¡Vale!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "jeden Tag",
+        "rechts",
+        "manchmal"
+      ]
+    },
+    {
+      "id": "u03-071",
+      "es": "vive",
+      "de": "er/sie lebt; er/sie wohnt",
+      "akzeptiert_es": [
+        "vive"
+      ],
+      "akzeptiert_de": [
+        "er/sie lebt",
+        "er/sie wohnt"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "presentarse",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi abuela vive en Sevilla.",
+          "de": "Meine Großmutter wohnt in Sevilla.",
+          "luecke": "vive",
+          "luecke_akzeptiert": [
+            "vive"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wo deine beste Freundin wohnt.",
+        "muster": [
+          "Mi mejor amiga vive en Versmold."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "er/sie/es hat",
+        "haben",
+        "ich habe"
+      ]
+    },
+    {
+      "id": "u03-072",
+      "es": "la cama",
+      "de": "das Bett",
+      "akzeptiert_es": [
+        "la cama"
+      ],
+      "akzeptiert_de": [
+        "das Bett"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🛏️",
+      "beispiele": [
+        {
+          "es": "En mi habitación hay una cama y una mesa.",
+          "de": "In meinem Zimmer gibt es ein Bett und einen Tisch.",
+          "luecke": "cama",
+          "luecke_akzeptiert": [
+            "cama"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, was in deinem Zimmer steht.",
+        "muster": [
+          "En mi habitación hay una cama, una mesa y un armario."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Telefon",
+        "die Stunde; die Uhrzeit",
+        "der feste Freund / die feste Freundin"
+      ]
+    },
+    {
+      "id": "u03-073",
+      "es": "la mesa",
+      "de": "der Tisch",
+      "akzeptiert_es": [
+        "la mesa"
+      ],
+      "akzeptiert_de": [
+        "der Tisch"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi ordenador está en la mesa.",
+          "de": "Mein Computer steht auf dem Tisch.",
+          "luecke": "mesa",
+          "luecke_akzeptiert": [
+            "mesa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Freund sucht sein Handy. Sag ihm, dass es auf dem Tisch liegt.",
+        "muster": [
+          "Tu móvil está en la mesa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Ende",
+        "der Papa / die Mama",
+        "die (Trink)Schokolade"
+      ]
+    },
+    {
+      "id": "u03-074",
+      "es": "el armario",
+      "de": "der Schrank",
+      "akzeptiert_es": [
+        "el armario"
+      ],
+      "akzeptiert_de": [
+        "der Schrank"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El gato está en el armario.",
+          "de": "Die Katze ist im Schrank.",
+          "luecke": "armario",
+          "luecke_akzeptiert": [
+            "armario"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo der Schrank in deinem Zimmer steht.",
+        "muster": [
+          "El armario está al lado de la puerta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’armoire",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Feind / die Feindin",
+        "das Gymnasium",
+        "das Wochenende; am Wochenende"
+      ]
+    },
+    {
+      "id": "u03-075",
+      "es": "el ordenador",
+      "de": "der Computer",
+      "akzeptiert_es": [
+        "el ordenador"
+      ],
+      "akzeptiert_de": [
+        "der Computer"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "💻",
+      "beispiele": [
+        {
+          "es": "El ordenador es nuevo.",
+          "de": "Der Computer ist neu.",
+          "luecke": "ordenador",
+          "luecke_akzeptiert": [
+            "ordenador"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo der Computer bei euch zu Hause steht.",
+        "muster": [
+          "El ordenador está en el salón."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’ordinateur",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Tier",
+        "die Linie",
+        "das Einkaufszentrum"
+      ]
+    },
+    {
+      "id": "u03-076",
+      "es": "la puerta",
+      "de": "die Tür; das Tor",
+      "akzeptiert_es": [
+        "la puerta"
+      ],
+      "akzeptiert_de": [
+        "die Tür",
+        "das Tor"
+      ],
+      "unidad": 3,
+      "seite": 192,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🚪",
+      "beispiele": [
+        {
+          "es": "El perro está delante de la puerta.",
+          "de": "Der Hund ist vor der Tür.",
+          "luecke": "puerta",
+          "luecke_akzeptiert": [
+            "puerta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo dein Fahrrad steht (vor der Tür).",
+        "muster": [
+          "Mi bicicleta está delante de la puerta."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. porta, frz. la porte",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Vater",
+        "der Herr",
+        "die Stunde; die Uhrzeit"
+      ]
+    },
+    {
+      "id": "u03-077",
+      "es": "la silla",
+      "de": "der Stuhl",
+      "akzeptiert_es": [
+        "la silla"
+      ],
+      "akzeptiert_de": [
+        "der Stuhl"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🪑",
+      "beispiele": [
+        {
+          "es": "Hay tres sillas en la cocina.",
+          "de": "In der Küche gibt es drei Stühle.",
+          "luecke": "sillas",
+          "luecke_akzeptiert": [
+            "sillas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie viele Stühle es in eurer Küche gibt.",
+        "muster": [
+          "En la cocina hay cuatro sillas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Katze",
+        "die U-Bahn",
+        "der Vater"
+      ]
+    },
+    {
+      "id": "u03-078",
+      "es": "debajo de",
+      "de": "unter",
+      "akzeptiert_es": [
+        "debajo de"
+      ],
+      "akzeptiert_de": [
+        "unter"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El gato está debajo de la mesa.",
+          "de": "Die Katze ist unter dem Tisch.",
+          "luecke": "debajo de",
+          "luecke_akzeptiert": [
+            "debajo de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo deine Katze schläft (unter dem Bett).",
+        "muster": [
+          "Mi gato está debajo de la cama."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-079"
+      ],
+      "distraktoren_de": [
+        "in; auf; an",
+        "bis",
+        "nach"
+      ]
+    },
+    {
+      "id": "u03-079",
+      "es": "encima de",
+      "de": "auf",
+      "akzeptiert_es": [
+        "encima de",
+        "encima"
+      ],
+      "akzeptiert_de": [
+        "auf"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La foto está encima del armario.",
+          "de": "Das Foto liegt auf dem Schrank.",
+          "luecke": "encima del",
+          "luecke_akzeptiert": [
+            "encima del"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Bruder sucht seinen Computer. Sag, dass er auf dem Tisch steht.",
+        "muster": [
+          "Tu ordenador está encima de la mesa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "bis",
+        "über",
+        "mit"
+      ]
+    },
+    {
+      "id": "u03-080",
+      "es": "detrás de",
+      "de": "hinter",
+      "akzeptiert_es": [
+        "detrás de",
+        "detrás"
+      ],
+      "akzeptiert_de": [
+        "hinter"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El parque está detrás del instituto.",
+          "de": "Der Park ist hinter dem Gymnasium.",
+          "luecke": "detrás del",
+          "luecke_akzeptiert": [
+            "detrás del"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was hinter deinem Haus ist.",
+        "muster": [
+          "Detrás de mi casa hay un jardín."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-082"
+      ],
+      "distraktoren_de": [
+        "bis",
+        "in; auf; an",
+        "nach"
+      ]
+    },
+    {
+      "id": "u03-081",
+      "es": "entre",
+      "de": "zwischen",
+      "akzeptiert_es": [
+        "entre"
+      ],
+      "akzeptiert_de": [
+        "zwischen"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi casa está entre el parque y la farmacia.",
+          "de": "Mein Haus ist zwischen dem Park und der Apotheke.",
+          "luecke": "entre",
+          "luecke_akzeptiert": [
+            "entre"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe, zwischen welchen Gebäuden deine Schule liegt.",
+        "muster": [
+          "El instituto está entre el parque y el supermercado."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. inter, frz. entre",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nach",
+        "mit",
+        "in; auf; an"
+      ]
+    },
+    {
+      "id": "u03-082",
+      "es": "delante de",
+      "de": "vor",
+      "akzeptiert_es": [
+        "delante de"
+      ],
+      "akzeptiert_de": [
+        "vor"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Hay un taxi delante de la casa.",
+          "de": "Vor dem Haus steht ein Taxi.",
+          "luecke": "delante de",
+          "luecke_akzeptiert": [
+            "delante de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Verabrede dich vor dem Museum.",
+        "muster": [
+          "¿Quedamos delante del museo?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nach",
+        "bis",
+        "von; aus"
+      ]
+    },
+    {
+      "id": "u03-083",
+      "es": "a la derecha",
+      "de": "rechts",
+      "akzeptiert_es": [
+        "a la derecha",
+        "a la derecha de"
+      ],
+      "akzeptiert_de": [
+        "rechts"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El baño está a la derecha.",
+          "de": "Das Bad ist rechts.",
+          "luecke": "a la derecha",
+          "luecke_akzeptiert": [
+            "a la derecha"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre einem Gast, dass die Küche rechts ist.",
+        "muster": [
+          "La cocina está a la derecha."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-084"
+      ],
+      "distraktoren_de": [
+        "Wie heißt du?",
+        "Bis später!",
+        "Nicht einmal im Traum!"
+      ]
+    },
+    {
+      "id": "u03-084",
+      "es": "a la izquierda",
+      "de": "links",
+      "akzeptiert_es": [
+        "a la izquierda",
+        "a la izquierda de"
+      ],
+      "akzeptiert_de": [
+        "links"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La farmacia está a la izquierda del cine.",
+          "de": "Die Apotheke ist links vom Kino.",
+          "luecke": "a la izquierda",
+          "luecke_akzeptiert": [
+            "a la izquierda"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre, dass die Bäckerei links von der Bibliothek ist.",
+        "muster": [
+          "La panadería está a la izquierda de la biblioteca."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Nicht einmal im Traum!",
+        "mit dem Fahrrad",
+        "das Beste"
+      ]
+    },
+    {
+      "id": "u03-085",
+      "es": "el señor",
+      "de": "der Herr",
+      "akzeptiert_es": [
+        "el señor"
+      ],
+      "akzeptiert_de": [
+        "der Herr"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "A",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "personas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El señor García es mi vecino.",
+          "de": "Herr García ist mein Nachbar.",
+          "luecke": "señor",
+          "luecke_akzeptiert": [
+            "señor"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell deinen älteren Nachbarn höflich vor.",
+        "muster": [
+          "El señor Müller es mi vecino."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Wohnung; das Stockwerk",
+        "das Gymnasium",
+        "die Geschwister"
+      ]
+    },
+    {
+      "id": "u03-086",
+      "es": "moderno, -a",
+      "de": "modern",
+      "akzeptiert_es": [
+        "moderno, -a",
+        "moderno",
+        "moderno/a",
+        "moderno, moderna"
+      ],
+      "akzeptiert_de": [
+        "modern"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi instituto es muy moderno.",
+          "de": "Meine Schule ist sehr modern.",
+          "luecke": "moderno",
+          "luecke_akzeptiert": [
+            "moderno"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Schule: modern oder alt?",
+        "muster": [
+          "Mi instituto es moderno."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u03-107"
+      ],
+      "distraktoren_de": [
+        "lecker; reich",
+        "viel",
+        "genial; super"
+      ]
+    },
+    {
+      "id": "u03-087",
+      "es": "lejos de",
+      "de": "weit entfernt von",
+      "akzeptiert_es": [
+        "lejos de",
+        "lejos"
+      ],
+      "akzeptiert_de": [
+        "weit entfernt von"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El estadio está lejos del centro.",
+          "de": "Das Stadion ist weit vom Zentrum entfernt.",
+          "luecke": "lejos del",
+          "luecke_akzeptiert": [
+            "lejos del"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, ob deine Schule weit von deinem Haus entfernt ist.",
+        "muster": [
+          "El instituto está lejos de mi casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "mit",
+        "nach",
+        "über"
+      ]
+    },
+    {
+      "id": "u03-088",
+      "es": "interesante",
+      "de": "interessant",
+      "akzeptiert_es": [
+        "interesante"
+      ],
+      "akzeptiert_de": [
+        "interessant"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El museo es muy interesante.",
+          "de": "Das Museum ist sehr interessant.",
+          "luecke": "interesante",
+          "luecke_akzeptiert": [
+            "interesante"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Empfiehl einen interessanten Ort in deiner Stadt.",
+        "muster": [
+          "El museo de mi ciudad es muy interesante."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "typisch",
+        "wenig",
+        "genial; super"
+      ]
+    },
+    {
+      "id": "u03-089",
+      "es": "el paseo",
+      "de": "der Spaziergang",
+      "akzeptiert_es": [
+        "el paseo"
+      ],
+      "akzeptiert_de": [
+        "der Spaziergang"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": "🚶",
+      "beispiele": [
+        {
+          "es": "Hoy hay un paseo por el centro histórico.",
+          "de": "Heute gibt es einen Spaziergang durch die Altstadt.",
+          "luecke": "paseo",
+          "luecke_akzeptiert": [
+            "paseo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Schlag deinen Eltern einen Spaziergang im Park vor.",
+        "muster": [
+          "¿Un paseo por el parque?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Name",
+        "die Eltern",
+        "der Tintenfisch"
+      ]
+    },
+    {
+      "id": "u03-090",
+      "es": "por",
+      "de": "durch; über; entlang; in",
+      "akzeptiert_es": [
+        "por"
+      ],
+      "akzeptiert_de": [
+        "durch",
+        "über",
+        "entlang",
+        "in"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Voy al instituto por el parque.",
+          "de": "Ich gehe durch den Park zur Schule.",
+          "luecke": "por",
+          "luecke_akzeptiert": [
+            "por"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deinen Schulweg: Wodurch gehst du?",
+        "muster": [
+          "Voy al instituto por la plaza."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "von; aus",
+        "mit",
+        "in; auf; an"
+      ]
+    },
+    {
+      "id": "u03-091",
+      "es": "preparar",
+      "de": "zubereiten; vorbereiten",
+      "akzeptiert_es": [
+        "preparar"
+      ],
+      "akzeptiert_de": [
+        "zubereiten",
+        "vorbereiten"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi padre prepara la comida.",
+          "de": "Mein Vater bereitet das Essen zu.",
+          "luecke": "prepara",
+          "luecke_akzeptiert": [
+            "prepara"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, wer bei euch das Essen zubereitet.",
+        "muster": [
+          "Mi madre prepara la comida."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. to prepare",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "sich befinden; sein; sich fühlen",
+        "abbiegen",
+        "fragen"
+      ]
+    },
+    {
+      "id": "u03-092",
+      "es": "por eso",
+      "de": "deswegen; deshalb",
+      "akzeptiert_es": [
+        "por eso"
+      ],
+      "akzeptiert_de": [
+        "deswegen",
+        "deshalb"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo hambre. Por eso voy a la cafetería.",
+          "de": "Ich habe Hunger. Deshalb gehe ich in die Cafeteria.",
+          "luecke": "Por eso",
+          "luecke_akzeptiert": [
+            "por eso"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Dein Zimmer ist eine Katastrophe. Sag, was du deshalb machst.",
+        "muster": [
+          "Mi habitación es un desastre. Por eso estoy en el salón."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "geradeaus (weiter)",
+        "Was ist los?",
+        "Bis später!"
+      ]
+    },
+    {
+      "id": "u03-093",
+      "es": "el centro histórico",
+      "de": "die Altstadt",
+      "akzeptiert_es": [
+        "el centro histórico"
+      ],
+      "akzeptiert_de": [
+        "die Altstadt"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": true,
+      "tema": "lugares",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El centro histórico de Sevilla es muy bonito.",
+          "de": "Die Altstadt von Sevilla ist sehr schön.",
+          "luecke": "centro histórico",
+          "luecke_akzeptiert": [
+            "centro histórico"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Empfiehl einem Touristen die Altstadt.",
+        "muster": [
+          "El centro histórico es muy bonito."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Bad; das Badezimmer",
+        "das Stadion",
+        "die (Trink)Schokolade"
+      ]
+    },
+    {
+      "id": "u03-094",
+      "es": "mirar",
+      "de": "(an)schauen",
+      "akzeptiert_es": [
+        "mirar"
+      ],
+      "akzeptiert_de": [
+        "(an)schauen"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Miro la serie con mi hermana.",
+          "de": "Ich schaue die Serie mit meiner Schwester.",
+          "luecke": "Miro",
+          "luecke_akzeptiert": [
+            "miro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was du dir abends gern anschaust.",
+        "muster": [
+          "Por la noche miro una serie."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "verbringen",
+        "er/sie heißt",
+        "telefonieren"
+      ]
+    },
+    {
+      "id": "u03-095",
+      "es": "la guía",
+      "de": "der Reiseführer (Buch)",
+      "akzeptiert_es": [
+        "la guía"
+      ],
+      "akzeptiert_de": [
+        "der Reiseführer (Buch)"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "viajes",
+      "bild": "📖",
+      "beispiele": [
+        {
+          "es": "Tengo una guía de Sevilla.",
+          "de": "Ich habe einen Reiseführer über Sevilla.",
+          "luecke": "guía",
+          "luecke_akzeptiert": [
+            "guía"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, dass du einen Reiseführer über Barcelona hast.",
+        "muster": [
+          "Tengo una guía de Barcelona."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Essen",
+        "das Zimmer",
+        "die Person"
+      ]
+    },
+    {
+      "id": "u03-096",
+      "es": "sobre",
+      "de": "über",
+      "akzeptiert_es": [
+        "sobre"
+      ],
+      "akzeptiert_de": [
+        "über"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Es una serie sobre una familia loca.",
+          "de": "Das ist eine Serie über eine verrückte Familie.",
+          "luecke": "sobre",
+          "luecke_akzeptiert": [
+            "sobre"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, worum es in deiner Lieblingsserie geht.",
+        "muster": [
+          "Es una serie sobre un perro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nach; (hin) zu",
+        "bis",
+        "hinter"
+      ]
+    },
+    {
+      "id": "u03-097",
+      "es": "usted / ustedes",
+      "de": "Sie (Höflichkeitsform)",
+      "akzeptiert_es": [
+        "usted / ustedes",
+        "usted/ustedes",
+        "usted",
+        "ustedes"
+      ],
+      "akzeptiert_de": [
+        "Sie (Höflichkeitsform)"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "personas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Es usted el señor García?",
+          "de": "Sind Sie Herr García?",
+          "luecke": "usted",
+          "luecke_akzeptiert": [
+            "usted"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag eine ältere Dame höflich, ob sie Deutsch spricht.",
+        "muster": [
+          "¿Habla usted alemán?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "deine (Plural)",
+        "wie?",
+        "mein/meine"
+      ]
+    },
+    {
+      "id": "u03-098",
+      "es": "tomar",
+      "de": "nehmen",
+      "akzeptiert_es": [
+        "tomar"
+      ],
+      "akzeptiert_de": [
+        "nehmen"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "transporte",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tomo el metro.",
+          "de": "Ich nehme die U-Bahn.",
+          "luecke": "Tomo",
+          "luecke_akzeptiert": [
+            "tomo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie du in Madrid zum Museum kommst.",
+        "muster": [
+          "Tomo el metro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "haben",
+        "sein",
+        "verbringen"
+      ]
+    },
+    {
+      "id": "u03-099",
+      "es": "ir",
+      "de": "gehen; fahren",
+      "akzeptiert_es": [
+        "ir"
+      ],
+      "akzeptiert_de": [
+        "gehen",
+        "fahren"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "verbos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Vamos al parque.",
+          "de": "Wir gehen in den Park.",
+          "luecke": "Vamos",
+          "luecke_akzeptiert": [
+            "vamos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wohin du nach der Schule gehst.",
+        "muster": [
+          "Después del instituto voy a casa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "man schreibt",
+        "er/sie lebt; er/sie wohnt",
+        "abbiegen"
+      ]
+    },
+    {
+      "id": "u03-100",
+      "es": "todo recto",
+      "de": "geradeaus (weiter)",
+      "akzeptiert_es": [
+        "todo recto"
+      ],
+      "akzeptiert_de": [
+        "geradeaus (weiter)"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Vas todo recto y el museo está a la derecha.",
+          "de": "Du gehst geradeaus, und das Museum ist rechts.",
+          "luecke": "todo recto",
+          "luecke_akzeptiert": [
+            "todo recto"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Ein Tourist fragt nach dem Park. Erkläre: immer geradeaus.",
+        "muster": [
+          "Vas todo recto."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Einverstanden.; O.K.",
+        "Wie heißt du?",
+        "manchmal"
+      ]
+    },
+    {
+      "id": "u03-101",
+      "es": "el teatro",
+      "de": "das Theater",
+      "akzeptiert_es": [
+        "el teatro"
+      ],
+      "akzeptiert_de": [
+        "das Theater"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo_libre",
+      "bild": "🎭",
+      "beispiele": [
+        {
+          "es": "El teatro está en la plaza.",
+          "de": "Das Theater ist auf dem Platz.",
+          "luecke": "teatro",
+          "luecke_akzeptiert": [
+            "teatro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Schlag vor, ins Theater zu gehen.",
+        "muster": [
+          "¿Vamos al teatro?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Schauspieler / die Schauspielerin",
+        "der Churro (frittiertes Spritzgebäck)",
+        "das Tier"
+      ]
+    },
+    {
+      "id": "u03-102",
+      "es": "importante",
+      "de": "wichtig",
+      "akzeptiert_es": [
+        "importante"
+      ],
+      "akzeptiert_de": [
+        "wichtig"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": false,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Es importante estudiar.",
+          "de": "Es ist wichtig zu lernen.",
+          "luecke": "importante",
+          "luecke_akzeptiert": [
+            "importante"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, was für dich wichtig ist.",
+        "muster": [
+          "Es importante hablar idiomas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl./frz. important",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "genial; super",
+        "lecker; reich",
+        "viel"
+      ]
+    },
+    {
+      "id": "u03-103",
+      "es": "el jardín",
+      "de": "der Garten",
+      "akzeptiert_es": [
+        "el jardín"
+      ],
+      "akzeptiert_de": [
+        "der Garten"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "casa",
+      "bild": "🌷",
+      "beispiele": [
+        {
+          "es": "Mi abuela está en el jardín.",
+          "de": "Meine Großmutter ist im Garten.",
+          "luecke": "jardín",
+          "luecke_akzeptiert": [
+            "jardín"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe dein (Traum-)Haus: Hat es einen Garten?",
+        "muster": [
+          "Mi casa tiene un jardín pequeño."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Party; das Fest",
+        "die Sehenswürdigkeit",
+        "der Laden; das Geschäft"
+      ]
+    },
+    {
+      "id": "u03-104",
+      "es": "el palacio",
+      "de": "der Palast",
+      "akzeptiert_es": [
+        "el palacio"
+      ],
+      "akzeptiert_de": [
+        "der Palast"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🏰",
+      "beispiele": [
+        {
+          "es": "El palacio está en el centro histórico.",
+          "de": "Der Palast ist in der Altstadt.",
+          "luecke": "palacio",
+          "luecke_akzeptiert": [
+            "palacio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl, was es in Madrid Berühmtes gibt (einen Palast).",
+        "muster": [
+          "En Madrid hay un palacio famoso."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der beste Freund / die beste Freundin",
+        "das Essen",
+        "die Mutter"
+      ]
+    },
+    {
+      "id": "u03-105",
+      "es": "desde",
+      "de": "von … aus",
+      "akzeptiert_es": [
+        "desde"
+      ],
+      "akzeptiert_de": [
+        "von … aus"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Desde mi habitación miro el parque.",
+          "de": "Von meinem Zimmer aus schaue ich auf den Park.",
+          "luecke": "Desde",
+          "luecke_akzeptiert": [
+            "desde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, worauf du von deinem Zimmer aus schaust.",
+        "muster": [
+          "Desde mi habitación miro la calle."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "mit",
+        "von; aus",
+        "nach"
+      ]
+    },
+    {
+      "id": "u03-106",
+      "es": "girar",
+      "de": "abbiegen",
+      "akzeptiert_es": [
+        "girar"
+      ],
+      "akzeptiert_de": [
+        "abbiegen"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Giras a la derecha en la plaza.",
+          "de": "Am Platz biegst du rechts ab.",
+          "luecke": "Giras",
+          "luecke_akzeptiert": [
+            "giras"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre einem Freund den Weg: am Kino links abbiegen.",
+        "muster": [
+          "Giras a la izquierda en el cine."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "verbringen",
+        "ich bin",
+        "nehmen"
+      ]
+    },
+    {
+      "id": "u03-107",
+      "es": "antiguo, -a",
+      "de": "alt; altertümlich",
+      "akzeptiert_es": [
+        "antiguo, -a",
+        "antiguo",
+        "antiguo/a",
+        "antiguo, antigua"
+      ],
+      "akzeptiert_de": [
+        "alt",
+        "altertümlich"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "descripcion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El palacio es muy antiguo.",
+          "de": "Der Palast ist sehr alt.",
+          "luecke": "antiguo",
+          "luecke_akzeptiert": [
+            "antiguo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe ein altes Gebäude in deiner Stadt.",
+        "muster": [
+          "El museo es muy antiguo."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "typisch",
+        "sehr schlecht",
+        "wenig"
+      ]
+    },
+    {
+      "id": "u03-108",
+      "es": "al final",
+      "de": "zum Schluss; am Ende",
+      "akzeptiert_es": [
+        "al final"
+      ],
+      "akzeptiert_de": [
+        "zum Schluss",
+        "am Ende"
+      ],
+      "unidad": 3,
+      "seite": 193,
+      "bloque": "B",
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Al final del paseo hay un restaurante.",
+          "de": "Am Ende des Spaziergangs gibt es ein Restaurant.",
+          "luecke": "Al final",
+          "luecke_akzeptiert": [
+            "al final"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre den Weg: Am Ende der Straße ist das Kino.",
+        "muster": [
+          "Al final de la calle está el cine."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich weiß nicht",
+        "mit dem Fahrrad",
+        "Bis später!"
+      ]
+    },
+    {
+      "id": "u03-109",
+      "es": "aquí",
+      "de": "hier",
+      "akzeptiert_es": [
+        "aquí"
+      ],
+      "akzeptiert_de": [
+        "hier"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Aquí está mi casa.",
+          "de": "Hier ist mein Haus.",
+          "luecke": "Aquí",
+          "luecke_akzeptiert": [
+            "aquí"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du zeigst deinem Austauschpartner dein Zimmer. Sag: Hier ist mein Zimmer.",
+        "muster": [
+          "Aquí está mi habitación."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ja",
+        "dort",
+        "bald"
+      ]
+    },
+    {
+      "id": "u03-110",
+      "es": "terminar",
+      "de": "beenden; enden",
+      "akzeptiert_es": [
+        "terminar"
+      ],
+      "akzeptiert_de": [
+        "beenden",
+        "enden"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "El paseo termina en la plaza.",
+          "de": "Der Spaziergang endet auf dem Platz.",
+          "luecke": "termina",
+          "luecke_akzeptiert": [
+            "termina"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wo die Stadtführung endet.",
+        "muster": [
+          "El paseo termina delante del palacio."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. terminer",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich bin",
+        "nehmen",
+        "lustig sein"
+      ]
+    },
+    {
+      "id": "u03-111",
+      "es": "la comida",
+      "de": "das Essen",
+      "akzeptiert_es": [
+        "la comida"
+      ],
+      "akzeptiert_de": [
+        "das Essen"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "🍲",
+      "beispiele": [
+        {
+          "es": "La comida de mi abuela es muy rica.",
+          "de": "Das Essen meiner Großmutter ist sehr lecker.",
+          "luecke": "comida",
+          "luecke_akzeptiert": [
+            "comida"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wessen Essen du am liebsten magst.",
+        "muster": [
+          "La comida de mi madre es muy rica."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der feste Freund / die feste Freundin",
+        "das Wohnzimmer",
+        "der Sohn / die Tochter"
+      ]
+    },
+    {
+      "id": "u03-112",
+      "es": "típico, -a",
+      "de": "typisch",
+      "akzeptiert_es": [
+        "típico, -a",
+        "típico",
+        "típico/a",
+        "típico, típica"
+      ],
+      "akzeptiert_de": [
+        "typisch"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Los churros son típicos de España.",
+          "de": "Churros sind typisch für Spanien.",
+          "luecke": "típicos",
+          "luecke_akzeptiert": [
+            "típicos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Nenne ein typisches Essen aus Deutschland.",
+        "muster": [
+          "La Currywurst es típica de Alemania."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "klein",
+        "seltsam",
+        "sympathisch; nett"
+      ]
+    },
+    {
+      "id": "u03-113",
+      "es": "el calamar",
+      "de": "der Tintenfisch",
+      "akzeptiert_es": [
+        "el calamar"
+      ],
+      "akzeptiert_de": [
+        "der Tintenfisch"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "🦑",
+      "beispiele": [
+        {
+          "es": "Tengo un bocadillo de calamares.",
+          "de": "Ich habe ein Brötchen mit Tintenfischringen.",
+          "luecke": "calamares",
+          "luecke_akzeptiert": [
+            "calamares"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "In einer Bar in Madrid: Sag, was du isst (ein Brötchen mit Tintenfisch).",
+        "muster": [
+          "Un bocadillo de calamares."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Familie",
+        "der Palast",
+        "das (Stadt)Viertel"
+      ]
+    },
+    {
+      "id": "u03-114",
+      "es": "el churro",
+      "de": "der Churro (frittiertes Spritzgebäck)",
+      "akzeptiert_es": [
+        "el churro"
+      ],
+      "akzeptiert_de": [
+        "der Churro (frittiertes Spritzgebäck)"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "En la cafetería hay churros.",
+          "de": "In der Cafeteria gibt es Churros.",
+          "luecke": "churros",
+          "luecke_akzeptiert": [
+            "churros"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl deinem Freund, was es in Madrid Typisches zu essen gibt.",
+        "muster": [
+          "En Madrid hay churros con chocolate."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Geräusch; der Lärm",
+        "der Lehrer",
+        "der Umzug"
+      ]
+    },
+    {
+      "id": "u03-115",
+      "es": "el chocolate",
+      "de": "die (Trink)Schokolade",
+      "akzeptiert_es": [
+        "el chocolate"
+      ],
+      "akzeptiert_de": [
+        "die (Trink)Schokolade"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "comida",
+      "bild": "🍫",
+      "beispiele": [
+        {
+          "es": "Tomo chocolate con churros.",
+          "de": "Ich nehme Trinkschokolade mit Churros.",
+          "luecke": "chocolate",
+          "luecke_akzeptiert": [
+            "chocolate"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Bestell im Café etwas Typisches.",
+        "muster": [
+          "Tomo chocolate con churros."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Küche",
+        "das Taxi",
+        "die Stunde; die Uhrzeit"
+      ]
+    },
+    {
+      "id": "u03-116",
+      "es": "rico, -a",
+      "de": "lecker; reich",
+      "akzeptiert_es": [
+        "rico, -a",
+        "rico",
+        "rico/a",
+        "rico, rica"
+      ],
+      "akzeptiert_de": [
+        "lecker",
+        "reich"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "adjetivo",
+      "genero": null,
+      "chunk": true,
+      "tema": "comida",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Los churros están muy ricos!",
+          "de": "Die Churros sind sehr lecker!",
+          "luecke": "ricos",
+          "luecke_akzeptiert": [
+            "ricos"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du probierst Churros zum ersten Mal. Sag, wie sie schmecken.",
+        "muster": [
+          "¡Están muy ricos!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "rico = lecker (Essen) oder reich (Person)",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "neu",
+        "verrückt",
+        "sympathisch; nett"
+      ]
+    },
+    {
+      "id": "u03-117",
+      "es": "el consejo",
+      "de": "der Rat; der Tipp",
+      "akzeptiert_es": [
+        "el consejo"
+      ],
+      "akzeptiert_de": [
+        "der Rat",
+        "der Tipp"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "comunicacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Tienes un consejo?",
+          "de": "Hast du einen Tipp?",
+          "luecke": "consejo",
+          "luecke_akzeptiert": [
+            "consejo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du bist neu in Madrid. Frag einen Freund nach einem Tipp.",
+        "muster": [
+          "¿Tienes un consejo?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Eltern",
+        "das Fahrrad",
+        "die Stunde; die Uhrzeit"
+      ]
+    },
+    {
+      "id": "u03-118",
+      "es": "la tienda",
+      "de": "der Laden; das Geschäft",
+      "akzeptiert_es": [
+        "la tienda"
+      ],
+      "akzeptiert_de": [
+        "der Laden",
+        "das Geschäft"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🏪",
+      "beispiele": [
+        {
+          "es": "En mi calle hay muchas tiendas.",
+          "de": "In meiner Straße gibt es viele Geschäfte.",
+          "luecke": "tiendas",
+          "luecke_akzeptiert": [
+            "tiendas"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beschreibe deine Straße.",
+        "muster": [
+          "En mi calle hay dos tiendas y una panadería."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Tintenfisch",
+        "der Freund",
+        "der feste Freund / die feste Freundin"
+      ]
+    },
+    {
+      "id": "u03-119",
+      "es": "la línea",
+      "de": "die Linie",
+      "akzeptiert_es": [
+        "la línea"
+      ],
+      "akzeptiert_de": [
+        "die Linie"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "transporte",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tomo la línea 2 del metro.",
+          "de": "Ich nehme die U-Bahn-Linie 2.",
+          "luecke": "línea",
+          "luecke_akzeptiert": [
+            "línea"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erkläre, welche U-Bahn-Linie man zum Stadion nimmt.",
+        "muster": [
+          "Tomas la línea 3."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Onkel / die Tante",
+        "das Foto",
+        "der Nachbar / die Nachbarin"
+      ]
+    },
+    {
+      "id": "u03-120",
+      "es": "a",
+      "de": "nach; (hin) zu",
+      "akzeptiert_es": [
+        "a"
+      ],
+      "akzeptiert_de": [
+        "nach",
+        "(hin) zu"
+      ],
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "orientacion",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Voy a Sevilla con mi familia.",
+          "de": "Ich fahre mit meiner Familie nach Sevilla.",
+          "luecke": "a",
+          "luecke_akzeptiert": [
+            "a"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wohin du in den Ferien fährst.",
+        "muster": [
+          "En verano voy a España."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "nach",
+        "von; aus",
+        "mit"
+      ]
+    },
+    {
+      "id": "u03-121",
+      "es": "¿adónde?",
+      "de": "wohin?",
+      "akzeptiert_es": [
+        "¿adónde?",
+        "adónde"
+      ],
+      "akzeptiert_de": [
+        "wohin?"
+      ],
+      "fehlantworten_es": {
+        "adonde": "Als Fragewort schreibt man adónde mit Akzent."
+      },
+      "unidad": 3,
+      "seite": 194,
+      "bloque": "B",
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "preguntas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Adónde vamos esta tarde?",
+          "de": "Wohin gehen wir heute Nachmittag?",
+          "luecke": "Adónde",
+          "luecke_akzeptiert": [
+            "adónde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin will gerade weggehen. Frag, wohin sie geht.",
+        "muster": [
+          "¿Adónde vas?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "mein/meine",
+        "sie",
+        "sein/seine; ihr/ihre"
+      ]
+    }
+  ]
+}
