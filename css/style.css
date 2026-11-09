@@ -79,24 +79,44 @@ h2 { font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
 .link { font: inherit; background: none; border: 0; color: var(--primaer); text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0; }
 
 /* Startseite */
-.kacheln { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; }
-.kachel {
-  font: inherit; font-size: 1.6rem; display: flex; flex-direction: column; align-items: center; gap: .3rem;
-  padding: 1rem .5rem; min-height: 110px; border-radius: var(--radius);
-  border: 1px solid var(--linie); background: var(--karte); color: var(--text); cursor: pointer;
+.bereiche { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 1.25rem 0 1.5rem; }
+.bereich {
+  font: inherit; display: flex; flex-direction: column; align-items: flex-start; gap: .35rem;
+  padding: 1.5rem 1.5rem 1.35rem; min-height: 190px; text-align: left; cursor: pointer;
+  border-radius: 20px; border: 2px solid var(--linie); background: var(--karte); color: var(--text);
+  box-shadow: 0 1px 0 var(--linie); touch-action: manipulation;
 }
-.kachel span { font-size: 1rem; font-weight: 600; }
-.kachel small { font-size: .8rem; color: var(--text-leise); }
-.kachel:disabled { opacity: .55; cursor: not-allowed; }
+.bereich:hover, .bereich:focus-visible { border-color: var(--primaer); }
+.bereich:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.bereich-symbol { font-size: 2.6rem; line-height: 1; margin-bottom: .5rem; }
+.bereich-titel { font-size: 1.6rem; font-weight: 800; }
+.bereich-info { color: var(--text-leise); }
+.nebenlinks { display: flex; flex-wrap: wrap; gap: .6rem; }
+.nebenlinks .knopf { flex: 1 1 12rem; }
+
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: .5rem 0 .25rem; }
+.chip {
+  font: inherit; font-weight: 600; min-height: 48px; padding: .4rem 1.1rem; border-radius: 999px;
+  border: 2px solid var(--linie); background: var(--karte); color: var(--text); cursor: pointer; touch-action: manipulation;
+}
+.chip[aria-pressed="true"] { border-color: var(--primaer); background: var(--primaer); color: var(--primaer-text); }
+.chip[aria-pressed="true"]::before { content: "✓ "; }
+.chip:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.hinweis-box { background: var(--info-bg); border: 2px solid var(--info); border-radius: var(--radius); padding: .75rem 1rem; }
+.themenbereich h2 { margin-top: 1.25rem; }
+.themenbereich .liste { margin: .5rem 0; }
+.listeneintrag:disabled { cursor: default; opacity: .75; }
+.listeneintrag:disabled span { font-size: .85rem; }
 .fusszeile { margin-top: 2rem; color: var(--text-leise); font-size: .9rem; }
+
 
 .liste { display: grid; gap: .6rem; margin: 1rem 0; }
 .listeneintrag {
-  font: inherit; display: flex; justify-content: space-between; align-items: center;
+  font: inherit; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
   min-height: var(--ziel); padding: .75rem 1rem; border-radius: var(--radius);
   border: 1px solid var(--linie); background: var(--karte); color: var(--text); cursor: pointer; text-align: left;
 }
-.listeneintrag span { color: var(--text-leise); }
+.listeneintrag span { color: var(--text-leise); white-space: nowrap; }
 
 /* Übung */
 .uebungskopf { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }

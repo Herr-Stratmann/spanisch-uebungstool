@@ -1,7 +1,264 @@
 {
-  "lehrwerk": "¡Vamos! ¡Adelante! Curso intensivo 1 (Klett) – nur Wortliste, Beispielsätze selbst formuliert",
+  "lehrwerk": "¡Vamos! ¡Adelante! Curso intensivo 1 (Klett) – nur Wort- und Themenliste, Beispielsätze selbst formuliert",
   "unidades": [
-    { "nr": 1, "titel": "Unidad 1", "vocab": "vocab/unidad-01.json" }
+    {
+      "nr": 1,
+      "titel": "Unidad 1",
+      "vocab": "vocab/unidad-01.json"
+    }
   ],
-  "grammar": []
+  "grammar": [
+    {
+      "id": "g-verben-ar",
+      "titel": "Verben auf -ar (hablar)",
+      "bereich": "Verben im Präsens",
+      "unidad": 2,
+      "datei": null
+    },
+    {
+      "id": "g-verben-er-ir",
+      "titel": "Verben auf -er und -ir (comer, escribir)",
+      "bereich": "Verben im Präsens",
+      "unidad": 4,
+      "datei": null
+    },
+    {
+      "id": "g-ser",
+      "titel": "Das Verb ser",
+      "bereich": "Verben im Präsens",
+      "unidad": 2,
+      "datei": null
+    },
+    {
+      "id": "g-tener",
+      "titel": "Das Verb tener",
+      "bereich": "Verben im Präsens",
+      "unidad": 2,
+      "datei": null
+    },
+    {
+      "id": "g-estar",
+      "titel": "Das Verb estar",
+      "bereich": "Verben im Präsens",
+      "unidad": 3,
+      "datei": null
+    },
+    {
+      "id": "g-ir",
+      "titel": "Das Verb ir",
+      "bereich": "Verben im Präsens",
+      "unidad": 3,
+      "datei": null
+    },
+    {
+      "id": "g-ver-hacer",
+      "titel": "Die Verben ver und hacer",
+      "bereich": "Verben im Präsens",
+      "unidad": 4,
+      "datei": null
+    },
+    {
+      "id": "g-stammwechsel",
+      "titel": "Stammwechsel: querer, poder, jugar",
+      "bereich": "Verben im Präsens",
+      "unidad": 4,
+      "datei": null
+    },
+    {
+      "id": "g-pedir",
+      "titel": "Das Verb pedir",
+      "bereich": "Verben im Präsens",
+      "unidad": 6,
+      "datei": null
+    },
+    {
+      "id": "g-venir",
+      "titel": "Das Verb venir",
+      "bereich": "Verben im Präsens",
+      "unidad": 7,
+      "datei": null
+    },
+    {
+      "id": "g-decir-dar-saber",
+      "titel": "Die Verben decir, dar, saber",
+      "bereich": "Verben im Präsens",
+      "unidad": 8,
+      "datei": null
+    },
+    {
+      "id": "g-reflexiv",
+      "titel": "Reflexive Verben (lavarse, levantarse)",
+      "bereich": "Verben im Präsens",
+      "unidad": 5,
+      "datei": null
+    },
+    {
+      "id": "g-ser-estar-hay",
+      "titel": "ser, estar oder hay?",
+      "bereich": "Verwendung und Kontraste",
+      "unidad": 3,
+      "datei": null
+    },
+    {
+      "id": "g-gustar",
+      "titel": "me gusta / te gusta / le gusta",
+      "bereich": "Verwendung und Kontraste",
+      "unidad": 4,
+      "datei": null
+    },
+    {
+      "id": "g-ir-a",
+      "titel": "Die nahe Zukunft: ir a + Infinitiv",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 4,
+      "datei": null
+    },
+    {
+      "id": "g-tener-que",
+      "titel": "tener que + Infinitiv",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 4,
+      "datei": null
+    },
+    {
+      "id": "g-gerundio",
+      "titel": "Die Verlaufsform: estar + gerundio",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 5,
+      "datei": null
+    },
+    {
+      "id": "g-imperativo",
+      "titel": "Der bejahte Imperativ (tú, vosotros)",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 6,
+      "datei": null
+    },
+    {
+      "id": "g-indefinido-regular",
+      "titel": "Pretérito indefinido: regelmäßige Formen",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 7,
+      "datei": null
+    },
+    {
+      "id": "g-indefinido-irregular-1",
+      "titel": "Pretérito indefinido: unregelmäßige Formen I (ser/ir, hacer, tener)",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 7,
+      "datei": null
+    },
+    {
+      "id": "g-indefinido-irregular-2",
+      "titel": "Pretérito indefinido: unregelmäßige Formen II (decir, estar, querer …)",
+      "bereich": "Zeiten und Verbformen",
+      "unidad": 8,
+      "datei": null
+    },
+    {
+      "id": "g-articulos",
+      "titel": "Bestimmter und unbestimmter Artikel",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 1,
+      "datei": null
+    },
+    {
+      "id": "g-plural",
+      "titel": "Der Plural",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 1,
+      "datei": null
+    },
+    {
+      "id": "g-adjetivos",
+      "titel": "Adjektive: Angleichung",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 3,
+      "datei": null
+    },
+    {
+      "id": "g-adjetivos-cortos",
+      "titel": "Verkürzte Adjektive: buen, gran, primer",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 8,
+      "datei": null
+    },
+    {
+      "id": "g-posesivos",
+      "titel": "Possessivbegleiter (mi, tu, su …)",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 5,
+      "datei": null
+    },
+    {
+      "id": "g-demostrativos",
+      "titel": "Demonstrativbegleiter und -pronomen (este, ese, aquel)",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 8,
+      "datei": null
+    },
+    {
+      "id": "g-comparativo",
+      "titel": "Der Komparativ",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 7,
+      "datei": null
+    },
+    {
+      "id": "g-superlativo",
+      "titel": "Der Superlativ",
+      "bereich": "Nomen, Artikel und Begleiter",
+      "unidad": 7,
+      "datei": null
+    },
+    {
+      "id": "g-negacion",
+      "titel": "Die Verneinung mit no",
+      "bereich": "Pronomen und Satzbau",
+      "unidad": 2,
+      "datei": null
+    },
+    {
+      "id": "g-objeto-directo",
+      "titel": "Direkte Objektpronomen (lo, la, los, las)",
+      "bereich": "Pronomen und Satzbau",
+      "unidad": 6,
+      "datei": null
+    },
+    {
+      "id": "g-objeto-indirecto",
+      "titel": "Indirekte Objektpronomen (le, les)",
+      "bereich": "Pronomen und Satzbau",
+      "unidad": 6,
+      "datei": null
+    },
+    {
+      "id": "g-pronombres-preposicion",
+      "titel": "Pronomen nach Präpositionen (conmigo, contigo)",
+      "bereich": "Pronomen und Satzbau",
+      "unidad": 7,
+      "datei": null
+    },
+    {
+      "id": "g-numeros-20",
+      "titel": "Die Zahlen von 0 bis 20",
+      "bereich": "Zahlen",
+      "unidad": 1,
+      "datei": null
+    },
+    {
+      "id": "g-numeros-100",
+      "titel": "Die Zahlen bis 100",
+      "bereich": "Zahlen",
+      "unidad": 2,
+      "datei": null
+    },
+    {
+      "id": "g-ordinales",
+      "titel": "Die Ordnungszahlen",
+      "bereich": "Zahlen",
+      "unidad": 3,
+      "datei": null
+    }
+  ]
 }

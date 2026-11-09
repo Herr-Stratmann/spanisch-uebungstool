@@ -68,6 +68,7 @@ function pruefeItem(it, datei, unidadNr) {
 
 const index = await json('index.json');
 const alleItems = new Map();
+const themen = new Set();
 
 if (index) {
   for (const u of index.unidades ?? []) {
@@ -81,6 +82,15 @@ if (index) {
       pruefeItem(it, u.vocab, u.nr);
     }
   }
+  for (const g of index.grammar ?? []) {
+    const ort = `index.json › grammar › ${g.id ?? '(ohne id)'}`;
+    if (!/^g-[a-z0-9-]+$/.test(g.id ?? '')) melde(ort, 'id muss mit g- beginnen (Kleinbuchstaben, Ziffern, -)');
+    if (themen.has(g.id)) melde(ort, 'doppelte id');
+    themen.add(g.id);
+    if (!istText(g.titel)) melde(ort, 'titel fehlt');
+    if (!istText(g.bereich)) melde(ort, 'bereich fehlt');
+    if (g.datei !== null && g.datei !== undefined) await json(g.datei);
+  }
   for (const { it, datei } of alleItems.values()) {
     for (const ref of it.nicht_zusammen_mit ?? []) {
       if (!alleItems.has(ref)) melde(`${datei} › ${it.id}`, `nicht_zusammen_mit verweist auf unbekannte id ${ref}`);
@@ -90,5 +100,5 @@ if (index) {
 
 for (const w of warnungen) console.warn(`Warnung  ${w}`);
 for (const f of fehler) console.error(`Fehler   ${f}`);
-console.log(`${alleItems.size} Wortschatz-Items geprüft, ${fehler.length} Fehler, ${warnungen.length} Warnungen.`);
+console.log(`${alleItems.size} Wortschatz-Items und ${themen.size} Grammatikthemen geprüft, ${fehler.length} Fehler, ${warnungen.length} Warnungen.`);
 process.exit(fehler.length ? 1 : 0);

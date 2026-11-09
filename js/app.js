@@ -36,32 +36,38 @@ function setzeBeamer(an) {
   history.replaceState(null, '', url);
 }
 
-function heutigeSitzung() {
+function sitzung({ unidades = null, auffuellen = false } = {}) {
   return stelleSitzungZusammen({
     items: app.daten.items,
     fortschritt: app.stand.items,
     heute: app.heute(),
-    neueMax: app.stand.einstellungen.neueProSitzung
+    neueMax: app.stand.einstellungen.neueProSitzung,
+    filter: unidades ? (it) => unidades.includes(it.unidad) : () => true,
+    auffuellen
   });
 }
 
+const minuten = (n) => Math.max(1, Math.round(n * 0.6));
+
 function zeigeStart(el) {
   if (app.beamer) return zeigeBeamerStart(el);
-  const anzahl = heutigeSitzung().length;
+  const faellig = sitzung().length;
+  const themen = app.daten.grammatik.length;
   el.append(
     h('section', { class: 'start' },
-      h('h1', {}, anzahl ? `Heute fällig: ${anzahl} Aufgaben` : 'Für heute ist alles erledigt 🎉'),
-      h('p', { class: 'unterzeile' }, anzahl ? `Etwa ${Math.max(1, Math.round(anzahl * 0.6))} Minuten. Ohne Zeitdruck.` : 'Du kannst trotzdem eine Unidad üben.'),
-      h('button', {
-        type: 'button', class: 'knopf primaer gross', disabled: !anzahl,
-        onclick: () => app.zeige(zeigeUeben, { titel: 'Täglich üben', aufgaben: heutigeSitzung() })
-      }, '▶ Täglich üben'),
-      h('div', { class: 'kacheln' },
-        h('button', { type: 'button', class: 'kachel', onclick: () => app.zeige(zeigeUnidadWahl) }, '📚', h('span', {}, 'Unidad üben')),
-        h('button', { type: 'button', class: 'kachel', disabled: true, title: 'kommt in Version 2' }, '🧩', h('span', {}, 'Grammatik üben'), h('small', {}, 'kommt bald')),
-        h('button', { type: 'button', class: 'kachel', onclick: () => app.zeige(zeigeFortschritt) }, '📈', h('span', {}, 'Mein Fortschritt')),
-        h('button', { type: 'button', class: 'kachel', onclick: () => app.zeige(zeigeSaetze) }, '✍️', h('span', {}, 'Meine Sätze'))
-      ),
+      h('h1', {}, '¡Hola! Was möchtest du üben?'),
+      h('div', { class: 'bereiche' },
+        h('button', { type: 'button', class: 'bereich', onclick: () => app.zeige(zeigeVokabeln) },
+          h('span', { class: 'bereich-symbol', 'aria-hidden': 'true' }, '📚'),
+          h('span', { class: 'bereich-titel' }, 'Vokabeln'),
+          h('span', { class: 'bereich-info' }, faellig ? `Heute fällig: ${faellig} Aufgaben` : 'Heute ist alles erledigt ✓')),
+        h('button', { type: 'button', class: 'bereich', onclick: () => app.zeige(zeigeGrammatik) },
+          h('span', { class: 'bereich-symbol', 'aria-hidden': 'true' }, '🧩'),
+          h('span', { class: 'bereich-titel' }, 'Grammatik'),
+          h('span', { class: 'bereich-info' }, `${themen} Themen`))),
+      h('nav', { class: 'nebenlinks', 'aria-label': 'Weitere Bereiche' },
+        h('button', { type: 'button', class: 'knopf', onclick: () => app.zeige(zeigeFortschritt) }, '📈 Mein Fortschritt'),
+        h('button', { type: 'button', class: 'knopf', onclick: () => app.zeige(zeigeSaetze) }, '✍️ Meine Sätze')),
       h('p', { class: 'fusszeile' },
         'Dein Fortschritt bleibt auf diesem Gerät. ',
         h('button', { type: 'button', class: 'link', onclick: () => { setzeBeamer(true); app.start(); } }, 'Beamermodus'))
@@ -69,21 +75,76 @@ function zeigeStart(el) {
   );
 }
 
-function zeigeUnidadWahl(el) {
+function zeigeVokabeln(el) {
+  const alle = app.daten.unidades.map((u) => u.nr);
+  let auswahl = [...alle];
+  const knopf = h('button', { type: 'button', class: 'knopf primaer gross' });
+  const info = h('p', { class: 'unterzeile', role: 'status' });
+
+  const aufgaben = () => {
+    const alleGewaehlt = auswahl.length === alle.length;
+    const faellige = sitzung({ unidades: alleGewaehlt ? null : auswahl });
+    if (alleGewaehlt && faellige.length) return { liste: faellige, frei: false };
+    return { liste: sitzung({ unidades: auswahl, auffuellen: true }), frei: true };
+  };
+
+  const chips = [
+    h('button', { type: 'button', class: 'chip', dataset: { wert: 'alle' }, onclick: () => setze(alle) }, 'Alle Unidades gemischt'),
+    ...app.daten.unidades.map((u) => h('button', {
+      type: 'button', class: 'chip', dataset: { wert: String(u.nr) },
+      onclick: () => setze(auswahl.length === alle.length ? [u.nr] : umschalten(u.nr))
+    }, u.titel))
+  ];
+
+  function umschalten(nr) {
+    const neu = auswahl.includes(nr) ? auswahl.filter((x) => x !== nr) : [...auswahl, nr];
+    return neu.length ? neu : alle;
+  }
+
+  function setze(neu) {
+    auswahl = [...neu].sort((a, b) => a - b);
+    const alleGewaehlt = auswahl.length === alle.length;
+    for (const c of chips) {
+      const an = c.dataset.wert === 'alle' ? alleGewaehlt : !alleGewaehlt && auswahl.includes(Number(c.dataset.wert));
+      c.setAttribute('aria-pressed', String(an));
+    }
+    const { liste, frei } = aufgaben();
+    knopf.disabled = !liste.length;
+    knopf.textContent = liste.length ? `▶ Üben (${liste.length} Aufgaben, ca. ${minuten(liste.length)} Min.)` : 'Keine Wörter vorhanden';
+    info.textContent = frei
+      ? 'Zuerst Fälliges und Neues, dann Wiederholung. Noch nicht fällige Wörter rücken nicht vor – Fehler zählen aber.'
+      : 'Fällige Wörter aus allen Unidades, dazu bis zu ' + app.stand.einstellungen.neueProSitzung + ' neue.';
+    knopf.onclick = () => app.zeige(zeigeUeben, {
+      titel: alleGewaehlt ? 'Vokabeln · alle Unidades' : `Vokabeln · ${auswahl.map((n) => `U${n}`).join(', ')}`,
+      aufgaben: aufgaben().liste
+    });
+  }
+
   el.append(
-    h('h1', {}, 'Unidad üben'),
-    h('p', { class: 'unterzeile' }, 'Fällige und neue Wörter zuerst, dann Wiederholung. Wörter, die noch nicht fällig sind, rücken nicht vor – Fehler zählen aber.'),
-    h('div', { class: 'liste' }, app.daten.unidades.map((u) =>
-      h('button', {
-        type: 'button', class: 'listeneintrag',
-        onclick: () => app.zeige(zeigeUeben, {
-          titel: u.titel,
-          aufgaben: stelleSitzungZusammen({
-            items: app.daten.items, fortschritt: app.stand.items, heute: app.heute(),
-            neueMax: app.stand.einstellungen.neueProSitzung, filter: (it) => it.unidad === u.nr, auffuellen: true
-          })
-        })
-      }, h('strong', {}, u.titel), h('span', {}, `${u.anzahl} Wörter`)))),
+    h('h1', {}, 'Vokabeln'),
+    h('h2', {}, 'Was möchtest du üben?'),
+    h('div', { class: 'chips', role: 'group', 'aria-label': 'Unidades wählen' }, chips),
+    knopf, info,
+    h('button', { type: 'button', class: 'knopf', onclick: app.start }, '← Zurück')
+  );
+  setze(alle);
+}
+
+function zeigeGrammatik(el) {
+  const bereiche = new Map();
+  for (const g of app.daten.grammatik) {
+    if (!bereiche.has(g.bereich)) bereiche.set(g.bereich, []);
+    bereiche.get(g.bereich).push(g);
+  }
+  const verfuegbar = app.daten.grammatik.some((g) => g.verfuegbar);
+  el.append(
+    h('h1', {}, 'Grammatik'),
+    verfuegbar ? null : h('p', { class: 'hinweis-box' }, 'Die Grammatikübungen sind in Arbeit. Hier siehst du schon, welche Themen kommen.'),
+    ...[...bereiche].map(([bereich, themen]) => h('section', { class: 'themenbereich' },
+      h('h2', {}, bereich),
+      h('div', { class: 'liste' }, themen.map((g) => h('button', {
+        type: 'button', class: 'listeneintrag', disabled: !g.verfuegbar
+      }, h('strong', {}, g.titel), h('span', {}, g.verfuegbar ? '▶' : 'folgt')))))),
     h('button', { type: 'button', class: 'knopf', onclick: app.start }, '← Zurück')
   );
 }

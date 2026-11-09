@@ -16,5 +16,7 @@ export async function ladeDaten(basis = 'data/') {
     items.push(...datei.items);
   }
   const nachId = new Map(items.map((it) => [it.id, it]));
-  return { index, unidades, items, nachId };
+  // Grammatikthemen (V2): Einträge ohne „datei“ haben noch keine Übungen.
+  const grammatik = (index.grammar ?? []).map((g) => ({ ...g, verfuegbar: Boolean(g.datei) }));
+  return { index, unidades, items, nachId, grammatik };
 }
