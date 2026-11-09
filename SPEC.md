@@ -305,3 +305,13 @@ Markierung der Zielform in Beispielen mit `**…**` (wird farbig hervorgehoben d
 - Liste der Grammatikphänomene für V2 (aus dem Projektkontext)
 - Anzahl neuer Items pro Sitzung (Standard 5) – nach erster Erprobung anpassen
 - Name des Tools
+
+## 14. Entscheidungen (Stand 09.11.2026)
+
+Ergänzungen nach Rückfrage, verbindlich wie die übrigen Abschnitte.
+
+1. **Fach 4 → 5 nur über einen eigenen Satz** (löst den Widerspruch zwischen Prämisse 3 und §5): Eine richtige Stufe-3-Aufgabe in Fach 4 hält das Fach, die nächste Abfrage ist Stufe 4. Erst „passt“ befördert nach Fach 5. „Gelernt“ = mindestens einmal „passt“; die Markierung bleibt auch bei späterem Zurückfallen.
+2. **„Unidad üben“ mit nicht fälligen Items:** Fehler stufen normal zurück, Erfolge befördern nicht (Abstände bleiben erhalten). Die Sitzung füllt nach fälligen und neuen Items mit den als Nächstes fälligen auf.
+3. **Daten:** Die Wortliste aus ¡Vamos! ¡Adelante! Curso intensivo 1 darf öffentlich auf GitHub Pages liegen. Beispielsätze, Situationen und Bilder werden selbst erstellt (§8.1).
+4. **Erneute Abfrage in derselben Sitzung** (§5 „falsch“) ist reine Übung und wird nicht noch einmal im Fach verbucht.
+5. **Datenmodell-Ergänzung** `fehlantworten_es` (optional) im Wortschatz-Item: `{ "tu": "Hinweistext" }` für bedeutungsunterscheidende Akzente (tú/tu, él/el, sí/si …). Hinterlegte Fehlantworten haben Vorrang vor der Akzent-Toleranz aus §6.2.

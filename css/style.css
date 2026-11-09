@@ -1,0 +1,225 @@
+/* ¡Practica! – ruhig, kontrastreich, große Touch-Ziele (≥ 44 px), keine externen Schriften. */
+
+:root {
+  --text: #1b1f24;
+  --text-leise: #4a5562;
+  --flaeche: #f6f4ef;
+  --karte: #ffffff;
+  --linie: #d9d4c7;
+  --primaer: #1f5f8b;
+  --primaer-text: #ffffff;
+  --mark: #ffe08a;
+  --richtig: #17692f; --richtig-bg: #e5f4ea;
+  --hinweis: #7a4b00; --hinweis-bg: #fff3d1;
+  --falsch: #a3221a;  --falsch-bg: #fdeae8;
+  --info: #1f5f8b;    --info-bg: #e8f1f8;
+  --fach-0: #c9c4b8; --fach-1: #d9e6f2; --fach-2: #b3d0e8; --fach-3: #86b5d8; --fach-4: #4f93c2; --fach-5: #1d6a4f;
+  --radius: 14px;
+  --ziel: 52px;
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ece9e2; --text-leise: #b4b0a6; --flaeche: #16181b; --karte: #22252a; --linie: #3a3e45;
+    --primaer: #6fb1e0; --primaer-text: #0d1b26; --mark: #6b5a17;
+    --richtig: #8fdba5; --richtig-bg: #173322; --hinweis: #f3c86b; --hinweis-bg: #3a2e12;
+    --falsch: #f4a29a; --falsch-bg: #3d1a17; --info: #9fcbec; --info-bg: #162a3a;
+    --fach-0: #4a4740; --fach-1: #2a3f52; --fach-2: #2f5878; --fach-3: #3b72a0; --fach-4: #4f93c2; --fach-5: #3fa37e;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--flaeche);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.kopfleiste {
+  display: flex; align-items: center; gap: 1rem;
+  padding: calc(env(safe-area-inset-top) + .5rem) 1rem .5rem;
+  border-bottom: 1px solid var(--linie);
+  background: var(--karte);
+}
+.marke {
+  font: inherit; font-weight: 800; font-size: 1.15rem; color: var(--primaer);
+  background: none; border: 0; min-height: 44px; padding: 0 .25rem; cursor: pointer;
+}
+.beamer-hinweis { color: var(--text-leise); font-size: .85rem; }
+
+main { max-width: 760px; margin: 0 auto; padding: 1.25rem 1rem 3rem; outline: none; }
+
+h1 { font-size: 1.6rem; line-height: 1.2; margin: .5rem 0 .5rem; }
+h2 { font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
+.unterzeile { color: var(--text-leise); margin-top: 0; }
+
+/* Knöpfe */
+.knopf {
+  font: inherit; font-weight: 600;
+  min-height: var(--ziel); padding: .6rem 1.1rem;
+  border-radius: var(--radius); border: 2px solid var(--primaer);
+  background: var(--karte); color: var(--primaer);
+  cursor: pointer; touch-action: manipulation;
+}
+.knopf.primaer { background: var(--primaer); color: var(--primaer-text); }
+.knopf.gross { width: 100%; font-size: 1.25rem; min-height: 64px; margin: 1rem 0; }
+.knopf.klein { min-height: 44px; padding: .3rem .8rem; font-size: .9rem; }
+.knopf:disabled { opacity: .45; cursor: not-allowed; }
+.knopf:focus-visible, .option:focus-visible, .kachel:focus-visible, .eingabe:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.knopf[aria-checked="true"] { background: var(--primaer); color: var(--primaer-text); }
+.knopfreihe { display: flex; flex-wrap: wrap; gap: .6rem; margin: .75rem 0; }
+.knopfreihe.pruefen .knopf, .knopfreihe.selbst .knopf { flex: 1 1 12rem; }
+.link { font: inherit; background: none; border: 0; color: var(--primaer); text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0; }
+
+/* Startseite */
+.kacheln { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; }
+.kachel {
+  font: inherit; font-size: 1.6rem; display: flex; flex-direction: column; align-items: center; gap: .3rem;
+  padding: 1rem .5rem; min-height: 110px; border-radius: var(--radius);
+  border: 1px solid var(--linie); background: var(--karte); color: var(--text); cursor: pointer;
+}
+.kachel span { font-size: 1rem; font-weight: 600; }
+.kachel small { font-size: .8rem; color: var(--text-leise); }
+.kachel:disabled { opacity: .55; cursor: not-allowed; }
+.fusszeile { margin-top: 2rem; color: var(--text-leise); font-size: .9rem; }
+
+.liste { display: grid; gap: .6rem; margin: 1rem 0; }
+.listeneintrag {
+  font: inherit; display: flex; justify-content: space-between; align-items: center;
+  min-height: var(--ziel); padding: .75rem 1rem; border-radius: var(--radius);
+  border: 1px solid var(--linie); background: var(--karte); color: var(--text); cursor: pointer; text-align: left;
+}
+.listeneintrag span { color: var(--text-leise); }
+
+/* Übung */
+.uebungskopf { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
+.uebungskopf .titel { font-weight: 700; }
+.uebungskopf .zaehler { color: var(--text-leise); margin-right: auto; }
+.balken { height: 8px; background: var(--linie); border-radius: 4px; margin: .6rem 0 1.25rem; overflow: hidden; }
+.balken-fuellung { height: 100%; width: 0; background: var(--primaer); transition: width .3s; }
+
+.aufgabe { background: var(--karte); border: 1px solid var(--linie); border-radius: var(--radius); padding: 1.25rem; }
+.anweisung { font-weight: 700; color: var(--text-leise); margin: 0 0 .5rem; }
+.spanisch, .deutsch { font-size: 1.4rem; font-weight: 700; margin: .25rem 0 1rem; display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.gross { font-size: 2rem; }
+.bild { font-size: 4.5rem; line-height: 1.1; margin: .25rem 0 .75rem; }
+img.bild { max-width: 100%; max-height: 220px; }
+.uebersetzung { color: var(--text-leise); margin: .25rem 0; }
+.luecken-satz { font-size: 1.35rem; margin: .5rem 0; }
+.luecke { font-family: ui-monospace, Menlo, monospace; letter-spacing: .12em; font-weight: 700; color: var(--primaer); white-space: pre; }
+.impuls { font-size: 1.2rem; margin: .25rem 0 .75rem; }
+.zielwort { margin: 0 0 .75rem; }
+mark { background: var(--mark); color: inherit; padding: 0 .15em; border-radius: 3px; }
+
+.lautsprecher {
+  font-size: 1.2rem; min-width: 44px; min-height: 44px; border-radius: 50%;
+  border: 1px solid var(--linie); background: var(--flaeche); cursor: pointer; margin-left: .25rem;
+}
+
+.eingabe-block { margin: .75rem 0; }
+.sonderzeichen { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .4rem; }
+.sonderzeichen button {
+  font: inherit; font-size: 1.1rem; min-width: 44px; min-height: 44px;
+  border-radius: 10px; border: 1px solid var(--linie); background: var(--flaeche); color: var(--text); cursor: pointer;
+}
+.eingabe {
+  width: 100%; font: inherit; font-size: 1.3rem; /* ≥ 16 px verhindert Zoom auf dem iPad */
+  padding: .7rem .9rem; border: 2px solid var(--linie); border-radius: var(--radius);
+  background: var(--karte); color: var(--text);
+}
+textarea.eingabe { resize: vertical; min-height: 6rem; }
+.eingabe[readonly] { background: var(--flaeche); }
+
+.optionen { display: grid; gap: .6rem; margin: .75rem 0; }
+.option {
+  font: inherit; font-size: 1.15rem; text-align: left;
+  min-height: var(--ziel); padding: .75rem 1rem; border-radius: var(--radius);
+  border: 2px solid var(--linie); background: var(--karte); color: var(--text); cursor: pointer;
+}
+.option[aria-checked="true"] { border-color: var(--primaer); background: var(--info-bg); }
+.option.ist-richtig { border-color: var(--richtig); background: var(--richtig-bg); }
+.option.ist-richtig::after { content: "  ✓ richtig"; color: var(--richtig); font-weight: 700; }
+.option.ist-falsch { border-color: var(--falsch); background: var(--falsch-bg); text-decoration: line-through; }
+.option.ist-falsch::after { content: "  ✗"; color: var(--falsch); }
+.option:disabled { cursor: default; opacity: 1; }
+
+/* Rückmeldungen: Farbe + Symbol + Text (nie nur Farbe) */
+.rueckmeldung { display: flex; gap: .75rem; align-items: flex-start; padding: .9rem 1rem; border-radius: var(--radius); border: 2px solid; margin: .75rem 0; }
+.rueckmeldung p { margin: .25rem 0; }
+.rueckmeldung .symbol { font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
+.rueckmeldung.richtig { border-color: var(--richtig); background: var(--richtig-bg); }
+.rueckmeldung.richtig .symbol, .rueckmeldung.richtig strong { color: var(--richtig); }
+.rueckmeldung.hinweis { border-color: var(--hinweis); background: var(--hinweis-bg); }
+.rueckmeldung.hinweis .symbol { color: var(--hinweis); }
+.rueckmeldung.falsch { border-color: var(--falsch); background: var(--falsch-bg); }
+.rueckmeldung.falsch .symbol { color: var(--falsch); }
+.rueckmeldung.info { border-color: var(--info); background: var(--info-bg); }
+.rueckmeldung.info .symbol { color: var(--info); }
+.rueckmeldung.betont { border-width: 4px; box-shadow: 0 0 0 4px var(--hinweis-bg); }
+.sicher-falsch { font-weight: 700; }
+.abtippen-ok { color: var(--richtig); font-weight: 700; margin: .25rem 0 0; min-height: 1.4em; }
+.rueckmeldung .eingabe-block { margin-bottom: 0; }
+
+.beispiel { margin-top: .5rem; }
+.beispiel p { margin: .15rem 0; display: flex; align-items: center; gap: .25rem; flex-wrap: wrap; }
+.einfuehrung .merkmale { display: flex; gap: .4rem; flex-wrap: wrap; }
+.etikett { font-size: .85rem; padding: .15rem .6rem; border-radius: 999px; background: var(--info-bg); color: var(--info); }
+.etikett.warnung { background: var(--hinweis-bg); color: var(--hinweis); font-weight: 700; }
+.bruecke { color: var(--text-leise); }
+
+.muster ul, .checkliste ul { margin: .4rem 0 .75rem; padding-left: 1.2rem; }
+.muster li { display: flex; align-items: center; gap: .25rem; }
+.checkliste li { list-style: none; margin-left: -1.2rem; }
+.checkliste label { display: flex; gap: .5rem; align-items: center; min-height: 44px; }
+.checkliste input { width: 24px; height: 24px; }
+.selbst-passt { border-color: var(--richtig); color: var(--richtig); }
+.selbst-teilweise { border-color: var(--hinweis); color: var(--hinweis); }
+.selbst-nochNicht { border-color: var(--falsch); color: var(--falsch); }
+
+.aktionen { margin-top: 1rem; }
+.weiter { min-width: 12rem; }
+.bilanz { font-size: 1.1rem; }
+
+/* Fortschritt */
+.unidad-fortschritt { background: var(--karte); border: 1px solid var(--linie); border-radius: var(--radius); padding: .75rem 1rem; margin: .75rem 0; }
+.unidad-fortschritt h2 { margin: .25rem 0 .5rem; }
+.gelernt { font-weight: 400; color: var(--text-leise); font-size: .95rem; }
+.faecher { display: flex; height: 36px; border-radius: 8px; overflow: hidden; }
+.fach { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .9rem; min-width: 1.6rem; }
+.fach-0 { background: var(--fach-0); }
+.fach-1 { background: var(--fach-1); }
+.fach-2 { background: var(--fach-2); }
+.fach-3 { background: var(--fach-3); }
+.fach-4 { background: var(--fach-4); color: #fff; }
+.fach-5 { background: var(--fach-5); color: #fff; }
+.legende { display: flex; flex-wrap: wrap; gap: .25rem 1rem; list-style: none; padding: 0; margin: .5rem 0 0; font-size: .85rem; color: var(--text-leise); }
+.punkt { display: inline-block; width: .8rem; height: .8rem; border-radius: 3px; margin-right: .3rem; vertical-align: -1px; }
+.einstellungen label { display: flex; align-items: center; gap: .6rem; min-height: 44px; }
+.einstellungen input[type="number"] { font: inherit; width: 4.5rem; min-height: 44px; padding: .3rem .5rem; border-radius: 10px; border: 2px solid var(--linie); }
+.einstellungen input[type="checkbox"] { width: 24px; height: 24px; }
+.meldung { color: var(--falsch); }
+
+/* Meine Sätze */
+.saetze { list-style: none; padding: 0; }
+.saetze li { display: grid; grid-template-columns: 1fr auto; gap: 0 .75rem; align-items: center; background: var(--karte); border: 1px solid var(--linie); border-radius: var(--radius); padding: .6rem 1rem; margin: .5rem 0; }
+.saetze .satz { font-size: 1.15rem; margin: 0; }
+.saetze .meta { grid-column: 1; margin: 0; color: var(--text-leise); font-size: .85rem; }
+.saetze .knopf { grid-row: 1 / span 2; grid-column: 2; }
+
+.fehler { color: var(--falsch); font-weight: 700; }
+.laden { color: var(--text-leise); }
+
+/* Beamermodus: sehr große Schrift */
+html.beamer { font-size: 28px; }
+html.beamer main { max-width: 1200px; }
+html.beamer .gross { font-size: 3rem; }
+html.beamer .bild { font-size: 6rem; }
+
+@media (prefers-reduced-motion: reduce) { .balken-fuellung { transition: none; } }

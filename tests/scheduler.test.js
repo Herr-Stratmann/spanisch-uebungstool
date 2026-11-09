@@ -111,6 +111,57 @@ describe('bewerte (§5 Bewertung)', () => {
   });
 });
 
+describe('bewerte – Entscheidung: Fach 4 → 5 nur über einen eigenen Satz', () => {
+  const fach4 = { fach: 4, faellig: HEUTE, richtig: 6, falsch: 0 };
+
+  test('richtige Stufe-3-Aufgabe in Fach 4 hält das Fach und verlangt als Nächstes einen Satz', () => {
+    const z = bewerte(fach4, 'richtig', HEUTE);
+    assert.equal(z.fach, 4);
+    assert.equal(z.satzFaellig, true);
+    assert.equal(z.faellig, addiereTage(HEUTE, INTERVALL[4]));
+  });
+
+  test('passt in Fach 4 → Fach 5 und gilt als gelernt', () => {
+    const z = bewerte({ ...fach4, satzFaellig: true }, 'passt', HEUTE);
+    assert.equal(z.fach, 5);
+    assert.equal(z.satzFaellig, false);
+    assert.equal(z.gelernt, true);
+  });
+
+  test('gelernt bleibt erhalten, auch wenn das Wort später zurückfällt', () => {
+    const z = bewerte({ fach: 5, faellig: HEUTE, richtig: 9, falsch: 0, gelernt: true }, 'falsch', HEUTE);
+    assert.equal(z.fach, 3);
+    assert.equal(z.gelernt, true);
+  });
+
+  test('stufeFuerFach liefert Stufe 4, wenn ein Satz fällig ist', () => {
+    assert.equal(stufeFuerFach(4, () => 0.1, { satzFaellig: true }), 4);
+  });
+});
+
+describe('bewerte – Entscheidung: nicht fällige Items („Unidad üben“) zählen nur bei Fehlern', () => {
+  const basis = { fach: 3, faellig: '2026-11-12', richtig: 2, falsch: 0 };
+
+  test('richtig bei nicht fälligem Item: Fach und Fälligkeit bleiben, Zähler steigt', () => {
+    const z = bewerte(basis, 'richtig', HEUTE, { nurFehlerZaehlen: true });
+    assert.equal(z.fach, 3);
+    assert.equal(z.faellig, '2026-11-12');
+    assert.equal(z.richtig, 3);
+    assert.equal(z.letzte, HEUTE);
+  });
+
+  test('passt bei nicht fälligem Item befördert nicht', () => {
+    const z = bewerte({ ...basis, fach: 4 }, 'passt', HEUTE, { nurFehlerZaehlen: true });
+    assert.equal(z.fach, 4);
+  });
+
+  test('falsch bei nicht fälligem Item stuft normal zurück', () => {
+    const z = bewerte(basis, 'falsch', HEUTE, { nurFehlerZaehlen: true });
+    assert.equal(z.fach, 1);
+    assert.equal(z.faellig, '2026-11-10');
+  });
+});
+
 describe('stufeFuerFach (§5 Fach → Stufe)', () => {
   test('feste Zuordnungen', () => {
     assert.equal(stufeFuerFach(0), 0);
@@ -239,6 +290,23 @@ describe('stelleSitzungZusammen (§5 Sitzung)', () => {
     });
     assert.ok(s.length > 0);
     assert.ok(s.every((a) => a.unidad === 2));
+  });
+
+  test('auffuellen („Unidad üben“): ergänzt nicht fällige Items, als solche markiert', () => {
+    const items = vieleItems(10, [2]);
+    const fortschritt = {};
+    items.forEach((it, i) => { fortschritt[it.id] = { fach: 3, faellig: addiereTage('2026-11-10', i) }; });
+    fortschritt['u02-001'].faellig = '2026-11-01';
+    const s = stelleSitzungZusammen({ items, fortschritt, heute: HEUTE, max: 5, rng: seeded(), auffuellen: true });
+    assert.equal(s.length, 5);
+    assert.equal(s.find((a) => a.id === 'u02-001').faellig, true);
+    assert.equal(s.filter((a) => a.faellig === false).length, 4);
+    assert.ok(!s.some((a) => a.id === 'u02-010'), 'zuerst die bald fälligen');
+  });
+
+  test('ohne auffuellen sind alle Aufgaben fällig oder neu', () => {
+    const s = stelleSitzungZusammen({ items: vieleItems(3), fortschritt: {}, heute: HEUTE, rng: seeded() });
+    assert.ok(s.every((a) => a.faellig === true));
   });
 
   test('neueMax aus den Einstellungen wird beachtet', () => {

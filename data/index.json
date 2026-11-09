@@ -1,0 +1,7 @@
+{
+  "lehrwerk": "¡Vamos! ¡Adelante! Curso intensivo 1 (Klett) – nur Wortliste, Beispielsätze selbst formuliert",
+  "unidades": [
+    { "nr": 1, "titel": "Unidad 1", "vocab": "vocab/unidad-01.json" }
+  ],
+  "grammar": []
+}

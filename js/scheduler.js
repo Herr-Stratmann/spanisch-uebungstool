@@ -32,18 +32,40 @@ export function istFaellig(zustand, heute) {
  * @param {'richtig'|'hinweis'|'falsch'|'passt'|'teilweise'|'nochNicht'} ergebnis
  * @param {string} heute – ISO-Datum
  */
-export function bewerte(zustand, ergebnis, heute) {
+export function bewerte(zustand, ergebnis, heute, optionen = {}) {
   const alt = { fach: 0, richtig: 0, falsch: 0, falschInFolge: 0, ...zustand };
   const neu = { ...alt, letzte: heute };
   const morgen = addiereTage(heute, 1);
+  const positiv = ['richtig', 'hinweis', 'passt', 'teilweise'].includes(ergebnis);
+
+  // „Unidad üben“ mit nicht fälligen Items: Erfolge befördern nicht (Abstände bleiben erhalten).
+  if (optionen.nurFehlerZaehlen && positiv) {
+    if (ergebnis !== 'teilweise') neu.richtig = alt.richtig + 1;
+    if (ergebnis === 'passt') neu.gelernt = true;
+    neu.falschInFolge = 0;
+    return neu;
+  }
 
   switch (ergebnis) {
     case 'richtig':
+      neu.richtig = alt.richtig + 1;
+      neu.falschInFolge = 0;
+      if (alt.fach === 4) {
+        // Fach 5 nur über einen eigenen Satz (Prämisse 3).
+        neu.satzFaellig = true;
+        neu.faellig = addiereTage(heute, INTERVALL[4]);
+        break;
+      }
+      neu.fach = Math.min(MAX_FACH, alt.fach + 1);
+      neu.faellig = addiereTage(heute, INTERVALL[neu.fach]);
+      break;
     case 'passt':
       neu.fach = Math.min(MAX_FACH, alt.fach + 1);
       neu.faellig = addiereTage(heute, INTERVALL[neu.fach]);
       neu.richtig = alt.richtig + 1;
       neu.falschInFolge = 0;
+      neu.satzFaellig = false;
+      neu.gelernt = true;
       break;
     case 'hinweis':
       neu.fach = Math.max(1, alt.fach);
@@ -79,13 +101,13 @@ export function bewerte(zustand, ergebnis, heute) {
 }
 
 /** Übungsstufe für ein Fach. 0 = Einführung (anschließend sofort Stufe 1). */
-export function stufeFuerFach(fach, rng = Math.random) {
+export function stufeFuerFach(fach, rng = Math.random, zustand = {}) {
   switch (fach) {
     case 0: return 0;
     case 1: return rng() < 0.5 ? 1 : 2;
     case 2: return 2;
     case 3: return 3;
-    case 4: return rng() < 0.5 ? 3 : 4;
+    case 4: return zustand?.satzFaellig || rng() >= 0.5 ? 4 : 3;
     default: return 4;
   }
 }
@@ -141,24 +163,32 @@ function waehleNeue(kandidaten, anzahl) {
  * @returns {{id, unidad, fach, stufe, neu}[]}
  */
 export function stelleSitzungZusammen({
-  items, fortschritt = {}, heute, max = 15, neueMax = 5, rng = Math.random, filter = () => true
+  items, fortschritt = {}, heute, max = 15, neueMax = 5, rng = Math.random,
+  filter = () => true, auffuellen = false
 }) {
   const pool = items.filter(filter);
+  const nachFaelligkeit = (a, b) => fortschritt[a.id].faellig.localeCompare(fortschritt[b.id].faellig);
 
-  const faellige = mische(pool.filter((it) => istFaellig(fortschritt[it.id], heute)), rng)
-    .sort((a, b) => fortschritt[a.id].faellig.localeCompare(fortschritt[b.id].faellig));
+  const faellige = mische(pool.filter((it) => istFaellig(fortschritt[it.id], heute)), rng).sort(nachFaelligkeit);
   const unbekannt = pool.filter((it) => !fortschritt[it.id]); // Datenreihenfolge = Lehrbuchreihenfolge
 
   const neuZiel = Math.min(neueMax, Math.round(max * ANTEIL_NEU));
   const neue = waehleNeue(unbekannt, Math.min(neuZiel, max));
   const wiederholungen = faellige.slice(0, max - neue.length);
+  const zusatz = auffuellen
+    ? mische(pool.filter((it) => fortschritt[it.id] && !istFaellig(fortschritt[it.id], heute)), rng)
+      .sort(nachFaelligkeit)
+      .slice(0, Math.max(0, max - neue.length - wiederholungen.length))
+    : [];
 
+  const alsAufgabe = (it, faellig) => {
+    const z = fortschritt[it.id];
+    return { id: it.id, unidad: it.unidad, fach: z.fach, stufe: stufeFuerFach(z.fach, rng, z), neu: false, faellig };
+  };
   const aufgaben = [
-    ...wiederholungen.map((it) => {
-      const fach = fortschritt[it.id].fach;
-      return { id: it.id, unidad: it.unidad, fach, stufe: stufeFuerFach(fach, rng), neu: false };
-    }),
-    ...neue.map((it) => ({ id: it.id, unidad: it.unidad, fach: 0, stufe: 0, neu: true }))
+    ...wiederholungen.map((it) => alsAufgabe(it, true)),
+    ...zusatz.map((it) => alsAufgabe(it, false)),
+    ...neue.map((it) => ({ id: it.id, unidad: it.unidad, fach: 0, stufe: 0, neu: true, faellig: true }))
   ];
   return verteileUnidades(aufgaben, rng);
 }
