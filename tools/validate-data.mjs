@@ -5,6 +5,7 @@
 import { readFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { findeTeil } from '../js/text.js';
 
 const DATA = join(dirname(fileURLToPath(import.meta.url)), '..', 'data');
 const fehler = [];
@@ -51,6 +52,9 @@ function pruefeItem(it, datei, unidadNr) {
     const o = `${ort} › beispiele[${i}]`;
     if (!istText(b.es) || !istText(b.de)) melde(o, 'es und de erforderlich');
     if (!istText(b.luecke) || !b.es?.includes(b.luecke)) melde(o, `luecke „${b.luecke}“ kommt im Satz nicht vor`);
+    else if (!new RegExp(`(?<![\\p{L}])${b.luecke.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}])`, 'u').test(b.es)) {
+      warne(o, `luecke „${b.luecke}“ ist kein ganzes Wort im Satz (Position ${findeTeil(b.es, b.luecke)})`);
+    }
     if (!istTextListe(b.luecke_akzeptiert)) melde(o, 'luecke_akzeptiert fehlt');
   }
   if (!istText(it.situation?.impuls) || !istTextListe(it.situation?.muster)) {

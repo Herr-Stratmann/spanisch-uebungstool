@@ -1,3 +1,5 @@
+import { findeTeil } from './text.js';
+
 // Kleine DOM-Helfer. Text wird immer als Text eingefügt (kein innerHTML mit Daten).
 
 export function h(tag, attrs = {}, ...kinder) {
@@ -34,7 +36,7 @@ export function leere(el) {
 
 /** Satz mit hervorgehobenem Teil (Zielform, Prämisse 6 „Bemerken“). */
 export function markiert(satz, teil) {
-  const i = teil ? satz.indexOf(teil) : -1;
+  const i = findeTeil(satz, teil);
   if (i < 0) return h('span', { lang: 'es' }, satz);
   return h('span', { lang: 'es' }, satz.slice(0, i), h('mark', {}, teil), satz.slice(i + teil.length));
 }

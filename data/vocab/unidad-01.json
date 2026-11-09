@@ -92,6 +92,53 @@
       ]
     },
     {
+      "id": "u01-034",
+      "es": "¿qué?",
+      "de": "was?",
+      "akzeptiert_es": [
+        "¿qué?",
+        "qué"
+      ],
+      "akzeptiert_de": [
+        "was?"
+      ],
+      "fehlantworten_es": {
+        "que": "Als Fragewort schreibt man qué mit Akzent."
+      },
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "preguntas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Qué es? —Es un móvil.",
+          "de": "– Was ist das? – Das ist ein Handy.",
+          "luecke": "Qué",
+          "luecke_akzeptiert": [
+            "qué"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Auf dem Tisch liegt etwas Seltsames. Frag, was das ist.",
+        "muster": [
+          "¿Qué es?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Mädchen",
+        "Wie lautet deine Telefonnummer?",
+        "du hast"
+      ]
+    },
+    {
       "id": "u01-003",
       "es": "¡Buenos días!",
       "de": "Guten Morgen!; Guten Tag!",
@@ -137,6 +184,137 @@
         "Wie geht es dir?",
         "Ich komme aus Spanien.",
         "So lala."
+      ]
+    },
+    {
+      "id": "u01-035",
+      "es": "yo",
+      "de": "ich",
+      "akzeptiert_es": [
+        "yo"
+      ],
+      "akzeptiert_de": [
+        "ich"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "presentarse",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Yo soy de Alemania. ¿Y tú?",
+          "de": "Ich komme aus Deutschland. Und du?",
+          "luecke": "Yo",
+          "luecke_akzeptiert": [
+            "yo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell dich kurz vor und beginne mit „yo“.",
+        "muster": [
+          "Yo soy Lena.",
+          "Yo soy de Versmold."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "was?",
+        "wo?",
+        "wie?"
+      ]
+    },
+    {
+      "id": "u01-036",
+      "es": "muy",
+      "de": "sehr",
+      "akzeptiert_es": [
+        "muy"
+      ],
+      "akzeptiert_de": [
+        "sehr"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "saludos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Muy bien, ¿y tú?",
+          "de": "Sehr gut, und dir?",
+          "luecke": "Muy",
+          "luecke_akzeptiert": [
+            "muy"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Jemand fragt: „¿Qué tal?“ Dir geht es sehr gut. Antworte.",
+        "muster": [
+          "Muy bien, ¿y tú?",
+          "¡Muy bien!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "auch",
+        "jetzt",
+        "später"
+      ]
+    },
+    {
+      "id": "u01-037",
+      "es": "bien",
+      "de": "gut",
+      "akzeptiert_es": [
+        "bien"
+      ],
+      "akzeptiert_de": [
+        "gut"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "saludos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "—¿Cómo estás? —Bien, ¿y tú?",
+          "de": "– Wie geht es dir? – Gut, und dir?",
+          "luecke": "Bien",
+          "luecke_akzeptiert": [
+            "bien"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Deine Freundin fragt: „¿Cómo estás?“ Dir geht es gut. Antworte und frag zurück.",
+        "muster": [
+          "Bien, ¿y tú?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. bene",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "später",
+        "auch",
+        "jetzt"
       ]
     },
     {
@@ -226,6 +404,136 @@
         "ich heiße",
         "ich habe",
         "du hast"
+      ]
+    },
+    {
+      "id": "u01-038",
+      "es": "de",
+      "de": "von; aus",
+      "akzeptiert_es": [
+        "de"
+      ],
+      "akzeptiert_de": [
+        "von",
+        "aus"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "presentarse",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Paco es de México.",
+          "de": "Paco kommt aus Mexiko.",
+          "luecke": "de",
+          "luecke_akzeptiert": [
+            "de"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, aus welcher Stadt dein bester Freund kommt.",
+        "muster": [
+          "Jonas es de Bielefeld."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "wie?",
+        "aber",
+        "der Tag"
+      ]
+    },
+    {
+      "id": "u01-039",
+      "es": "España",
+      "de": "Spanien",
+      "akzeptiert_es": [
+        "España"
+      ],
+      "akzeptiert_de": [
+        "Spanien"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "nombre_propio",
+      "genero": null,
+      "chunk": false,
+      "tema": "paises",
+      "bild": "🇪🇸",
+      "beispiele": [
+        {
+          "es": "Ana es de España.",
+          "de": "Ana kommt aus Spanien.",
+          "luecke": "España",
+          "luecke_akzeptiert": [
+            "españa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell eine Freundin aus Spanien vor.",
+        "muster": [
+          "Ana es de España."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. l’Espagne",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "jetzt",
+        "was?",
+        "die Party; das Fest"
+      ]
+    },
+    {
+      "id": "u01-040",
+      "es": "y",
+      "de": "und",
+      "akzeptiert_es": [
+        "y"
+      ],
+      "akzeptiert_de": [
+        "und"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "conjuncion",
+      "genero": null,
+      "chunk": false,
+      "tema": "conectores",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Soy de México y vivo en Alemania.",
+          "de": "Ich komme aus Mexiko und wohne in Deutschland.",
+          "luecke": "y",
+          "luecke_akzeptiert": [
+            "y"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag in einem Satz, woher du kommst und wo du wohnst.",
+        "muster": [
+          "Soy de Alemania y vivo en Versmold."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Mexiko",
+        "Guten Tag!; Guten Abend!",
+        "die Straße"
       ]
     },
     {
@@ -324,6 +632,92 @@
       ]
     },
     {
+      "id": "u01-041",
+      "es": "soy",
+      "de": "ich bin",
+      "akzeptiert_es": [
+        "soy"
+      ],
+      "akzeptiert_de": [
+        "ich bin"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "presentarse",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Soy Ana. ¿Y tú?",
+          "de": "Ich bin Ana. Und du?",
+          "luecke": "Soy",
+          "luecke_akzeptiert": [
+            "soy"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell dich mit „soy“ vor.",
+        "muster": [
+          "¡Hola! Soy Jonas."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das (Stadt)Zentrum",
+        "Bis später!",
+        "das Stadion"
+      ]
+    },
+    {
+      "id": "u01-042",
+      "es": "México",
+      "de": "Mexiko",
+      "akzeptiert_es": [
+        "México"
+      ],
+      "akzeptiert_de": [
+        "Mexiko"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "nombre_propio",
+      "genero": null,
+      "chunk": false,
+      "tema": "paises",
+      "bild": "🇲🇽",
+      "beispiele": [
+        {
+          "es": "Carlos es de México.",
+          "de": "Carlos kommt aus Mexiko.",
+          "luecke": "México",
+          "luecke_akzeptiert": [
+            "méxico"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Erzähl: Dein Brieffreund Carlos kommt aus Mexiko.",
+        "muster": [
+          "Carlos es de México."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Woher kommst du?",
+        "meine Telefonnummer",
+        "das Stadion"
+      ]
+    },
+    {
       "id": "u01-008",
       "es": "¿Cómo te llamas?",
       "de": "Wie heißt du?",
@@ -368,6 +762,53 @@
       ]
     },
     {
+      "id": "u01-043",
+      "es": "¿cómo?",
+      "de": "wie?",
+      "akzeptiert_es": [
+        "¿cómo?",
+        "cómo"
+      ],
+      "akzeptiert_de": [
+        "wie?"
+      ],
+      "fehlantworten_es": {
+        "como": "Als Fragewort schreibt man cómo mit Akzent."
+      },
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "preguntas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Cómo estás, Paco?",
+          "de": "Wie geht es dir, Paco?",
+          "luecke": "Cómo",
+          "luecke_akzeptiert": [
+            "cómo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deinen Freund, wie es ihm geht – mit „cómo“.",
+        "muster": [
+          "¿Cómo estás?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich lebe in; ich wohne in",
+        "das Tier",
+        "von; aus"
+      ]
+    },
+    {
       "id": "u01-009",
       "es": "¿De dónde eres?",
       "de": "Woher kommst du?",
@@ -409,6 +850,53 @@
         "Wie heißt du?",
         "Wie alt bist du?",
         "Wie geht es dir?"
+      ]
+    },
+    {
+      "id": "u01-044",
+      "es": "¿dónde?",
+      "de": "wo?",
+      "akzeptiert_es": [
+        "¿dónde?",
+        "dónde"
+      ],
+      "akzeptiert_de": [
+        "wo?"
+      ],
+      "fehlantworten_es": {
+        "donde": "Als Fragewort schreibt man dónde mit Akzent."
+      },
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "pronombre",
+      "genero": null,
+      "chunk": false,
+      "tema": "preguntas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ana, ¿dónde vives ahora?",
+          "de": "Ana, wo wohnst du jetzt?",
+          "luecke": "dónde",
+          "luecke_akzeptiert": [
+            "dónde"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du willst wissen, wo deine neue Freundin wohnt. Frag sie.",
+        "muster": [
+          "¿Dónde vives?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Nachname",
+        "ich komme aus",
+        "du hast"
       ]
     },
     {
@@ -459,6 +947,92 @@
       ]
     },
     {
+      "id": "u01-045",
+      "es": "hasta",
+      "de": "bis",
+      "akzeptiert_es": [
+        "hasta"
+      ],
+      "akzeptiert_de": [
+        "bis"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "saludos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Hasta pronto, Lucía!",
+          "de": "Bis bald, Lucía!",
+          "luecke": "Hasta",
+          "luecke_akzeptiert": [
+            "hasta"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Verabschiede dich von deiner Freundin. Ihr seht euch bald wieder.",
+        "muster": [
+          "¡Hasta pronto!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "auch",
+        "das Stadion",
+        "von; aus"
+      ]
+    },
+    {
+      "id": "u01-046",
+      "es": "luego",
+      "de": "später",
+      "akzeptiert_es": [
+        "luego"
+      ],
+      "akzeptiert_de": [
+        "später"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "adverbio",
+      "genero": null,
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¡Adiós, Ana! ¡Hasta luego!",
+          "de": "Tschüs, Ana! Bis später!",
+          "luecke": "luego",
+          "luecke_akzeptiert": [
+            "luego"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du gehst, siehst deine Freundin aber heute noch einmal. Verabschiede dich.",
+        "muster": [
+          "¡Hasta luego!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "auch",
+        "gut",
+        "sehr"
+      ]
+    },
+    {
       "id": "u01-011",
       "es": "vivo en",
       "de": "ich lebe in; ich wohne in",
@@ -501,6 +1075,51 @@
         "ich heiße",
         "ich habe",
         "du hast"
+      ]
+    },
+    {
+      "id": "u01-047",
+      "es": "en",
+      "de": "in; auf; an",
+      "akzeptiert_es": [
+        "en"
+      ],
+      "akzeptiert_de": [
+        "in",
+        "auf",
+        "an"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "preposicion",
+      "genero": null,
+      "chunk": false,
+      "tema": "lugares",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "La fiesta es en la casa de Ana.",
+          "de": "Die Party ist im Haus von Ana.",
+          "luecke": "en",
+          "luecke_akzeptiert": [
+            "en"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, in welcher Stadt du wohnst.",
+        "muster": [
+          "Vivo en Versmold."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Guten Tag!; Guten Abend!",
+        "der Nachmittag; der Abend",
+        "ich"
       ]
     },
     {
@@ -687,6 +1306,52 @@
       ]
     },
     {
+      "id": "u01-048",
+      "es": "la tarde",
+      "de": "der Nachmittag; der Abend",
+      "akzeptiert_es": [
+        "la tarde"
+      ],
+      "akzeptiert_de": [
+        "der Nachmittag",
+        "der Abend"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": "🌇",
+      "beispiele": [
+        {
+          "es": "¡Buenas tardes, Paco!",
+          "de": "Guten Tag, Paco!",
+          "luecke": "tardes",
+          "luecke_akzeptiert": [
+            "tardes"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Es ist 17 Uhr. Begrüße deine Lehrerin.",
+        "muster": [
+          "¡Buenas tardes, profesora!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [
+        "u01-049"
+      ],
+      "distraktoren_de": [
+        "die Party; das Fest",
+        "das Taxi",
+        "die Straße"
+      ]
+    },
+    {
       "id": "u01-015",
       "es": "¡Buenas noches!",
       "de": "Guten Abend!; Gute Nacht!",
@@ -732,6 +1397,49 @@
         "Wie geht's?",
         "So lala.",
         "Wie heißt du?"
+      ]
+    },
+    {
+      "id": "u01-049",
+      "es": "la noche",
+      "de": "die Nacht",
+      "akzeptiert_es": [
+        "la noche"
+      ],
+      "akzeptiert_de": [
+        "die Nacht"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": "🌃",
+      "beispiele": [
+        {
+          "es": "¡Buenas noches, Ana!",
+          "de": "Gute Nacht, Ana!",
+          "luecke": "noches",
+          "luecke_akzeptiert": [
+            "noches"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du gehst ins Bett. Sag deiner Familie gute Nacht.",
+        "muster": [
+          "¡Buenas noches!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. nox",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Nummer; die Zahl",
+        "die Sache; das Ding",
+        "das Stadion"
       ]
     },
     {
@@ -916,6 +1624,49 @@
       ]
     },
     {
+      "id": "u01-050",
+      "es": "tengo",
+      "de": "ich habe",
+      "akzeptiert_es": [
+        "tengo"
+      ],
+      "akzeptiert_de": [
+        "ich habe"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "datos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Tengo un móvil.",
+          "de": "Ich habe ein Handy.",
+          "luecke": "Tengo",
+          "luecke_akzeptiert": [
+            "tengo"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag, wie alt du bist.",
+        "muster": [
+          "Tengo quince años."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich bin",
+        "ich lebe in; ich wohne in",
+        "ich komme aus"
+      ]
+    },
+    {
       "id": "u01-022",
       "es": "el año",
       "de": "das Jahr",
@@ -957,6 +1708,92 @@
         "die Sache",
         "das Handy",
         "die Party"
+      ]
+    },
+    {
+      "id": "u01-051",
+      "es": "mi número de teléfono",
+      "de": "meine Telefonnummer",
+      "akzeptiert_es": [
+        "mi número de teléfono"
+      ],
+      "akzeptiert_de": [
+        "meine Telefonnummer"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "datos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Mi número de teléfono es el 674 35 18 92.",
+          "de": "Meine Telefonnummer ist 674 35 18 92.",
+          "luecke": "Mi número de teléfono",
+          "luecke_akzeptiert": [
+            "mi número de teléfono"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Gib einer neuen Freundin deine Telefonnummer (erfinde eine).",
+        "muster": [
+          "Mi número de teléfono es el 612 34 56 78."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Wie heißt du?",
+        "Guten Morgen!; Guten Tag!",
+        "so lala; es geht"
+      ]
+    },
+    {
+      "id": "u01-052",
+      "es": "el teléfono",
+      "de": "das Telefon",
+      "akzeptiert_es": [
+        "el teléfono"
+      ],
+      "akzeptiert_de": [
+        "das Telefon"
+      ],
+      "unidad": 1,
+      "seite": 186,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "datos",
+      "bild": "☎️",
+      "beispiele": [
+        {
+          "es": "Paco, ¿es tu teléfono?",
+          "de": "Paco, ist das dein Telefon?",
+          "luecke": "teléfono",
+          "luecke_akzeptiert": [
+            "teléfono"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Auf dem Tisch liegt ein Telefon. Frag Ana, ob es ihr Telefon ist.",
+        "muster": [
+          "Ana, ¿es tu teléfono?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. telephone",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Tag",
+        "die Straße",
+        "das (Stadt)Zentrum"
       ]
     },
     {
@@ -1046,6 +1883,92 @@
         "Woher kommst du?",
         "Wie heißt du?",
         "Wo lebst du?"
+      ]
+    },
+    {
+      "id": "u01-053",
+      "es": "tienes",
+      "de": "du hast",
+      "akzeptiert_es": [
+        "tienes"
+      ],
+      "akzeptiert_de": [
+        "du hast"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "verbo",
+      "genero": null,
+      "chunk": false,
+      "tema": "datos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Tienes móvil?",
+          "de": "Hast du ein Handy?",
+          "luecke": "Tienes",
+          "luecke_akzeptiert": [
+            "tienes"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag deine Freundin, ob sie ein Handy hat.",
+        "muster": [
+          "¿Tienes móvil?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "ich heiße",
+        "ich komme aus",
+        "ich lebe in; ich wohne in"
+      ]
+    },
+    {
+      "id": "u01-054",
+      "es": "¿Cuál es tu número de teléfono?",
+      "de": "Wie lautet deine Telefonnummer?",
+      "akzeptiert_es": [
+        "¿Cuál es tu número de teléfono?"
+      ],
+      "akzeptiert_de": [
+        "Wie lautet deine Telefonnummer?"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "expresion",
+      "genero": null,
+      "chunk": true,
+      "tema": "datos",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Ana, ¿cuál es tu número de teléfono?",
+          "de": "Ana, wie lautet deine Telefonnummer?",
+          "luecke": "cuál es tu número de teléfono",
+          "luecke_akzeptiert": [
+            "cuál es tu número de teléfono"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Frag einen neuen Mitschüler nach seiner Telefonnummer.",
+        "muster": [
+          "¿Cuál es tu número de teléfono?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "Wie heißt du?",
+        "Wie geht's?",
+        "Woher kommst du?"
       ]
     },
     {
@@ -1273,6 +2196,49 @@
       ]
     },
     {
+      "id": "u01-055",
+      "es": "el centro",
+      "de": "das (Stadt)Zentrum",
+      "akzeptiert_es": [
+        "el centro"
+      ],
+      "akzeptiert_de": [
+        "das (Stadt)Zentrum"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "Vivo en el centro.",
+          "de": "Ich wohne im Zentrum.",
+          "luecke": "centro",
+          "luecke_akzeptiert": [
+            "centro"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Sag deinen Freunden, dass die Party im Zentrum ist.",
+        "muster": [
+          "La fiesta es en el centro."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. centre",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Tag",
+        "der Nachmittag; der Abend",
+        "das Stadion"
+      ]
+    },
+    {
       "id": "u01-017",
       "es": "la chica",
       "de": "das Mädchen",
@@ -1315,6 +2281,312 @@
         "die Straße",
         "das Haus",
         "die Party"
+      ]
+    },
+    {
+      "id": "u01-056",
+      "es": "el monumento",
+      "de": "die Sehenswürdigkeit",
+      "akzeptiert_es": [
+        "el monumento"
+      ],
+      "akzeptiert_de": [
+        "die Sehenswürdigkeit"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🏛️",
+      "beispiele": [
+        {
+          "es": "Es un monumento de México.",
+          "de": "Das ist eine Sehenswürdigkeit in Mexiko.",
+          "luecke": "monumento",
+          "luecke_akzeptiert": [
+            "monumento"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du stehst mit deinem Austauschpartner vor einem berühmten Gebäude. Sag, dass es eine Sehenswürdigkeit ist.",
+        "muster": [
+          "Es un monumento."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. monument, frz. le monument",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Lehrer",
+        "das Tier",
+        "der Nachname"
+      ]
+    },
+    {
+      "id": "u01-057",
+      "es": "la costa",
+      "de": "die Küste",
+      "akzeptiert_es": [
+        "la costa"
+      ],
+      "akzeptiert_de": [
+        "die Küste"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "🌊",
+      "beispiele": [
+        {
+          "es": "Vivo en la costa, en Andalucía.",
+          "de": "Ich wohne an der Küste, in Andalusien.",
+          "luecke": "costa",
+          "luecke_akzeptiert": [
+            "costa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell dir vor, du lebst in Spanien am Meer. Sag, wo du wohnst.",
+        "muster": [
+          "Vivo en la costa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. coast, frz. la côte",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Sache; das Ding",
+        "das Tor",
+        "das Stadion"
+      ]
+    },
+    {
+      "id": "u01-058",
+      "es": "el gol",
+      "de": "das Tor",
+      "akzeptiert_es": [
+        "el gol"
+      ],
+      "akzeptiert_de": [
+        "das Tor"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "deporte",
+      "bild": "⚽",
+      "beispiele": [
+        {
+          "es": "¡Un gol de Ana!",
+          "de": "Ein Tor von Ana!",
+          "luecke": "gol",
+          "luecke_akzeptiert": [
+            "gol"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Beim Fußball schießt deine Freundin Lucía ein Tor. Ruf es laut!",
+        "muster": [
+          "¡Gol de Lucía!",
+          "¡Es un gol de Lucía!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "engl. goal",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Nachmittag; der Abend",
+        "die Party; das Fest",
+        "das Jahr"
+      ]
+    },
+    {
+      "id": "u01-059",
+      "es": "el estadio",
+      "de": "das Stadion",
+      "akzeptiert_es": [
+        "el estadio"
+      ],
+      "akzeptiert_de": [
+        "das Stadion"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "deporte",
+      "bild": "🏟️",
+      "beispiele": [
+        {
+          "es": "Es el estadio de Madrid.",
+          "de": "Das ist das Stadion von Madrid.",
+          "luecke": "estadio",
+          "luecke_akzeptiert": [
+            "estadio"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du zeigst auf ein Stadion. Sag, dass es das Stadion von Barcelona ist.",
+        "muster": [
+          "Es el estadio de Barcelona."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Küste",
+        "die Kneipe; das Lokal",
+        "der Platz"
+      ]
+    },
+    {
+      "id": "u01-060",
+      "es": "el día",
+      "de": "der Tag",
+      "akzeptiert_es": [
+        "el día"
+      ],
+      "akzeptiert_de": [
+        "der Tag"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "tiempo",
+      "bild": "☀️",
+      "beispiele": [
+        {
+          "es": "¡Buenos días, Ana!",
+          "de": "Guten Morgen, Ana!",
+          "luecke": "días",
+          "luecke_akzeptiert": [
+            "días"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Es ist Morgen. Begrüße deinen Lehrer.",
+        "muster": [
+          "¡Buenos días, profesor!"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "lat. dies",
+      "nicht_zusammen_mit": [
+        "u01-049",
+        "u01-048"
+      ],
+      "distraktoren_de": [
+        "das Stadion",
+        "die Party; das Fest",
+        "die Straße"
+      ]
+    },
+    {
+      "id": "u01-061",
+      "es": "la cosa",
+      "de": "die Sache; das Ding",
+      "akzeptiert_es": [
+        "la cosa"
+      ],
+      "akzeptiert_de": [
+        "die Sache",
+        "das Ding"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "cosas",
+      "bild": null,
+      "beispiele": [
+        {
+          "es": "¿Qué cosa es?",
+          "de": "Was ist das für ein Ding?",
+          "luecke": "cosa",
+          "luecke_akzeptiert": [
+            "cosa"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Du findest einen seltsamen Gegenstand. Frag, was das für ein Ding ist.",
+        "muster": [
+          "¿Qué cosa es?"
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Taxi",
+        "der Tag",
+        "die Sehenswürdigkeit"
+      ]
+    },
+    {
+      "id": "u01-062",
+      "es": "la plaza",
+      "de": "der Platz",
+      "akzeptiert_es": [
+        "la plaza"
+      ],
+      "akzeptiert_de": [
+        "der Platz"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "f",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "⛲",
+      "beispiele": [
+        {
+          "es": "La fiesta es en la plaza.",
+          "de": "Die Party ist auf dem Platz.",
+          "luecke": "plaza",
+          "luecke_akzeptiert": [
+            "plaza"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Alle treffen sich zur Party auf dem Platz im Zentrum. Schreib es deinen Freunden.",
+        "muster": [
+          "La fiesta es en la plaza."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "frz. la place",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "die Party; das Fest",
+        "das Telefon",
+        "das Handy"
       ]
     },
     {
@@ -1450,6 +2722,93 @@
         "das Haus",
         "die Party",
         "die Straße"
+      ]
+    },
+    {
+      "id": "u01-063",
+      "es": "el bar",
+      "de": "die Kneipe; das Lokal",
+      "akzeptiert_es": [
+        "el bar"
+      ],
+      "akzeptiert_de": [
+        "die Kneipe",
+        "das Lokal"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "lugares",
+      "bild": "☕",
+      "beispiele": [
+        {
+          "es": "El Sol es un bar de Madrid.",
+          "de": "Das „Sol“ ist eine Kneipe in Madrid.",
+          "luecke": "bar",
+          "luecke_akzeptiert": [
+            "bar"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Stell dir vor, du hast ein Lokal am Strand. Sag es.",
+        "muster": [
+          "Tengo un bar en la playa."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "der Lehrer",
+        "die Nummer; die Zahl",
+        "die Nacht"
+      ]
+    },
+    {
+      "id": "u01-064",
+      "es": "el taxi",
+      "de": "das Taxi",
+      "akzeptiert_es": [
+        "el taxi"
+      ],
+      "akzeptiert_de": [
+        "das Taxi"
+      ],
+      "unidad": 1,
+      "seite": 187,
+      "bloque": null,
+      "wortart": "sustantivo",
+      "genero": "m",
+      "chunk": false,
+      "tema": "transporte",
+      "bild": "🚕",
+      "beispiele": [
+        {
+          "es": "Es el taxi de Paco.",
+          "de": "Das ist das Taxi von Paco.",
+          "luecke": "taxi",
+          "luecke_akzeptiert": [
+            "taxi"
+          ]
+        }
+      ],
+      "situation": {
+        "impuls": "Vor der Tür steht ein Taxi. Sag: Das ist das Taxi von Ana.",
+        "muster": [
+          "Es el taxi de Ana."
+        ]
+      },
+      "falso_amigo": false,
+      "bruecke": "—",
+      "nicht_zusammen_mit": [],
+      "distraktoren_de": [
+        "das Telefon",
+        "der Platz",
+        "die Sehenswürdigkeit"
       ]
     },
     {

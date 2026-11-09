@@ -3,6 +3,7 @@
 
 import { h, leere, anfuegen } from '../dom.js';
 import { normalisiere } from '../check.js';
+import { findeTeil } from '../text.js';
 import { pruefeAntwort } from '../check.js';
 import { ergebnisAusVersuchen } from '../ablauf.js';
 import { lautsprecher } from '../audio.js';
@@ -211,7 +212,7 @@ export function beispielInfo(item, markieren = true) {
   const b = item.beispiele?.[0];
   if (!b) return null;
   const satz = h('span', { lang: 'es' });
-  const i = markieren ? b.es.indexOf(b.luecke) : -1;
+  const i = markieren ? findeTeil(b.es, b.luecke) : -1;
   if (i >= 0) satz.append(b.es.slice(0, i), h('mark', {}, b.es.slice(i, i + b.luecke.length)), b.es.slice(i + b.luecke.length));
   else satz.append(b.es);
   return h('div', { class: 'beispiel' },
